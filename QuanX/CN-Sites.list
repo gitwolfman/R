@@ -97,8 +97,6 @@ domain-suffix,sogo.com,direct
 domain-suffix,sogou.com,direct
 domain-suffix,sogoucdn.com,direct
 # QQ
-user-agent,micromessenger%20client,direct
-user-agent,wechat*,direct
 domain-suffix,gtimg.com,direct
 domain-suffix,idqqimg.com,direct
 domain-suffix,igamecj.com,direct
@@ -107,8 +105,9 @@ domain-suffix,myqcloud.com,direct
 domain-suffix,qq.com,direct
 domain-suffix,tencent.com,direct
 domain-suffix,tencent-cloud.net,direct
+user-agent,micromessenger%20client,direct
+user-agent,wechat*,direct
 # yyets
-user-agent,yyets*,direct
 domain-suffix,jstucdn.com,direct
 domain-suffix,zimuzu.io,direct
 domain-suffix,zimuzu.tv,direct
@@ -116,6 +115,7 @@ domain-suffix,zmz2019.com,direct
 domain-suffix,zmzapi.com,direct
 domain-suffix,zmzapi.net,direct
 domain-suffix,zmzfile.com,direct
+user-agent,yyets*,direct
 # other
 domain-suffix,ctrip.com,direct
 domain-suffix,douban.com,direct
