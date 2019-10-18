@@ -1,3 +1,11 @@
+# Ads-UA
+user-agent,com.yandex.mobile.metrica.sdk*,reject
+user-agent,FBiOSSDK*,reject
+user-agent,GoogleAnalytics*,reject
+user-agent,iOSWJLoginSDK*,reject
+user-agent,MTOPSDK*,reject
+user-agent,Vungle*,reject
+
 # Ads-Keyword
 domain-keyword,adsence,reject
 domain-keyword,adsensor,reject
