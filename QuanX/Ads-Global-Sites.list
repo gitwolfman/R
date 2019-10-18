@@ -1,0 +1,66 @@
+# Google
+domain-suffix,ads.gmodules.com,reject
+domain-suffix,ads.google.com,reject
+domain-suffix,adservice.google.com,reject
+domain-suffix,adservice.google.com.hk,reject
+domain-suffix,afd.l.google.com,reject
+domain-suffix,badad.googleplex.com,reject
+domain-suffix,csi.gstatic.com,reject
+domain-suffix,mobileads.google.com,reject
+domain-suffix,pagead-tpc.l.google.com,reject
+domain-suffix,pagead.google.com,reject
+domain-suffix,pagead.l.google.com,reject
+# Google 2
+domain-suffix,googleadservices.com,reject
+domain-suffix,googleadsserving.cn,reject
+domain-suffix,google-analytics.com,reject
+domain-suffix,googlesyndication.com,reject
+domain-suffix,googletagmanager.com,reject
+domain-suffix,googletagservices.com,reject
+
+# Twitter
+domain-suffix,ads.twitter.com,reject
+domain-suffix,syndication.twitter.com,reject
+domain-suffix,syndication-o.twitter.com,reject
+domain-suffix,analytics.twitter.com,reject
+domain-suffix,scribe.twitter.com,reject
+domain-suffix,p.twitter.com,reject
+domain-suffix,ads-twitter.com,reject
+domain-suffix,tellapart.com,reject
+domain-suffix,urls.api.twitter.com,reject
+
+# Yahoo
+domain-suffix,ad.wretch.cc,reject
+domain-suffix,ads.yahoo.com,reject
+domain-suffix,adserver.yahoo.com,reject
+domain-suffix,adss.yahoo.com,reject
+domain-suffix,analytics.query.yahoo.com,reject
+domain-suffix,analytics.yahoo.com,reject
+domain-suffix,beap-bc.yahoo.com,reject
+domain-suffix,clicks.beap.bc.yahoo.com,reject
+domain-suffix,comet.yahoo.com,reject
+domain-suffix,doubleplay-conf-yql.media.yahoo.com,reject
+domain-suffix,gemini.yahoo.com,reject
+domain-suffix,geo.yahoo.com,reject
+domain-suffix,js-apac-ss.ysm.yahoo.com,reject
+domain-suffix,locdrop.query.yahoo.com,reject
+domain-suffix,m.yap.yahoo.com,reject
+domain-suffix,onepush.query.yahoo.com,reject
+domain-suffix,p3p.yahoo.com,reject
+domain-suffix,partnerads.ysm.yahoo.com,reject
+domain-suffix,uservoice.com,reject
+domain-suffix,ws.progrss.yahoo.com,reject
+domain-suffix,ybp.yahoo.com,reject
+
+# Yahoo JP
+domain-suffix,ane.yahoo.co.jp,reject
+domain-suffix,ard.yahoo.co.jp,reject
+domain-suffix,yads.yahoo.co.jp,reject
+
+# Russia
+domain-suffix,ad.mail.ru,reject
+domain-suffix,an.yandex.ru,reject
+domain-suffix,mc.yandex.ru,reject
+domain-suffix,report.appmetrica.yandex.net,reject
+domain-suffix,top-fwz1.mail.ru,reject
+domain-suffix,yandex-sync.rutarget.ru,reject
