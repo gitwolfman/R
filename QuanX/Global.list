@@ -154,10 +154,15 @@ domain-keyword,youtube,proxy
 
 # Countries
 domain-suffix,ca,proxy
+domain-suffix,de,proxy
+domain-suffix,fr,proxy
 domain-suffix,hk,proxy
+domain-suffix,id,proxy
+domain-suffix,in,proxy
 domain-suffix,jp,proxy
 domain-suffix,kr,proxy
 domain-suffix,ml,proxy
+domain-suffix,my,proxy
 domain-suffix,ph,proxy
 domain-suffix,ru,proxy
 domain-suffix,th,proxy
