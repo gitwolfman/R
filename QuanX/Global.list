@@ -14,7 +14,7 @@ domain-suffix,oculuscdn.com,proxy
 domain-suffix,rocksdb.org,proxy
 domain-suffix,whatsapp.com,proxy
 domain-suffix,whatsapp.net,proxy
-domain-keyword,facebook
+domain-keyword,facebook,proxy
 
 # Github
 domain-suffix,github.com,proxy
