@@ -73,6 +73,7 @@ domain-suffix,msedge.net,proxy
 domain-suffix,nflxvideo.net,proxy
 domain-suffix,nyt.com,proxy
 domain-suffix,nytimes.com,proxy
+domain-suffix,office.com,proxy
 domain-suffix,onedrive.com,proxy
 domain-suffix,onenote.com,proxy
 domain-suffix,outlook.com,proxy
