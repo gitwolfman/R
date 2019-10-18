@@ -1,3 +1,4 @@
 # Spotify
-domain-suffix,scdn.co,Spotify
-domain-suffix,spotify.com,Spotify
+domain-suffix,scdn.co,proxy
+domain-suffix,spoti.fi,proxy
+domain-suffix,spotify.com,proxy
