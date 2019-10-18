@@ -151,3 +151,18 @@ domain-keyword,tumblr,proxy
 domain-keyword,twitter,proxy
 domain-keyword,wikipedia,proxy
 domain-keyword,youtube,proxy
+
+# Countries
+domain-suffix,ca,proxy
+domain-suffix,hk,proxy
+domain-suffix,jp,proxy
+domain-suffix,kr,proxy
+domain-suffix,ml,proxy
+domain-suffix,ph,proxy
+domain-suffix,ru,proxy
+domain-suffix,th,proxy
+domain-suffix,tw,proxy
+domain-suffix,tk,proxy
+domain-suffix,uk,proxy
+domain-suffix,us,proxy
+domain-suffix,vn,proxy
