@@ -6,6 +6,7 @@ domain-suffix,adservice.google.com.hk,reject
 domain-suffix,afd.l.google.com,reject
 domain-suffix,badad.googleplex.com,reject
 domain-suffix,csi.gstatic.com,reject
+domain-suffix,firebaselogging.googleapis.com,reject
 domain-suffix,mobileads.google.com,reject
 domain-suffix,pagead-tpc.l.google.com,reject
 domain-suffix,pagead.google.com,reject
