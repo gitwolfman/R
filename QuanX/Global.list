@@ -189,6 +189,15 @@ domain-suffix,yahoo.co.jp,proxy
 domain-suffix,yahooapis.jp,proxy
 domain-suffix,yimg.jp,proxy
 
+# Digital Certification
+domain-suffix,digicert.com,proxy
+domain-suffix,letsencrypt.org,proxy
+domain-suffix,digitalcertvalidation.com,proxy
+domain-suffix,ocsp.identrust.com,proxy
+domain-suffix,ocsp.pki.goog,proxy
+domain-suffix,ocsp.sectigo.com,proxy
+domain-suffix,ocsp.usertrust.com,proxy
+
 # Global-Others
 domain-suffix,0rz.tw,proxy
 domain-suffix,akamai.net,proxy
@@ -207,8 +216,8 @@ domain-suffix,bitbucket.org,proxy
 domain-suffix,bitcointalk.org,proxy
 domain-suffix,bloomberg.com,proxy
 domain-suffix,cl.ly,proxy
+domain-suffix,cloudflare.com,proxy
 domain-suffix,deezer.com,proxy
-domain-suffix,digicert.com,proxy
 domain-suffix,dropbox.com,proxy
 domain-suffix,duckduckgo.com,proxy
 domain-suffix,dzcdn.net,proxy
@@ -220,6 +229,7 @@ domain-suffix,imgur.com,proxy
 domain-suffix,instapaper.com,proxy
 domain-suffix,jsdelivr.net,proxy
 domain-suffix,livefilestore.com,proxy
+domain-suffix,jquery.com,proxy
 domain-suffix,mail.com,proxy
 domain-suffix,medium.com,proxy
 domain-suffix,mobile01.com,proxy
