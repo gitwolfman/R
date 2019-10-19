@@ -200,6 +200,7 @@ domain-suffix,ocsp.identrust.com,proxy
 domain-suffix,ocsp.pki.goog,proxy
 domain-suffix,ocsp.sectigo.com,proxy
 domain-suffix,ocsp.usertrust.com,proxy
+domain-suffix,ocsp.trustasiassl.com,proxy
 
 # Global-Others
 domain-suffix,0rz.tw,proxy
@@ -243,7 +244,6 @@ domain-suffix,pandora.com,proxy
 domain-suffix,periscope.tv,proxy
 domain-suffix,pinterest.com,proxy
 domain-suffix,pixiv.net,proxy
-domain-suffix,pscdn.co,proxy
 domain-suffix,pscp.tv,proxy
 domain-suffix,recaptcha.net,proxy
 domain-suffix,sfx.ms,proxy
@@ -256,9 +256,7 @@ domain-suffix,theverge.com,proxy
 domain-suffix,tidal.com,proxy
 domain-suffix,time.com,proxy
 domain-suffix,timeinc.net,proxy
-domain-suffix,trustasiassl.com,proxy
 domain-suffix,twitch.tv,proxy
-domain-suffix,usertrust.com,proxy
 domain-suffix,vimeo.com,proxy
 domain-suffix,vimeocdn.com,proxy
 domain-suffix,w3schools.com,proxy
