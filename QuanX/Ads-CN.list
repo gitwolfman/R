@@ -10,6 +10,7 @@ domain-suffix,als.baidu.com,reject
 domain-suffix,anquan.baidu.com,reject
 domain-suffix,antivirus.baidu.com,reject
 domain-suffix,api.cpu.baidu.com,reject
+domain-suffix,api.map.baidu.com,reject
 domain-suffix,api.mobula.sdk.duapps.com,reject
 domain-suffix,appc.baidu.com,reject
 domain-suffix,as.baidu.com,reject
@@ -204,6 +205,7 @@ domain-suffix,pgdt.ugdtimg.com,reject
 domain-suffix,pingma.qq.com,reject
 domain-suffix,pingtcss.qq.com,reject
 domain-suffix,splashqqlive.gtimg.com,reject
+domain-suffix,ssp.qq.com,reject
 domain-suffix,tajs.qq.com,reject
 domain-suffix,wxsnsdy.wxs.qq.com,reject
 domain-suffix,wxsnsdythumb.wxs.qq.com,reject
@@ -307,6 +309,7 @@ domain-suffix,img1.126.net,reject
 domain-suffix,img2.126.net,reject
 domain-suffix,ir.mail.126.com,reject
 domain-suffix,ir.mail.yeah.net,reject
+domain-suffix,ip.ws.126.net,reject
 domain-suffix,mimg.126.net,reject
 domain-suffix,nc004x.corp.youdao.com,reject
 domain-suffix,nc045x.corp.youdao.com,reject
