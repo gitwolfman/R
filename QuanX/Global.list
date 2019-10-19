@@ -143,10 +143,11 @@ domain-suffix,yandex.ru,proxy
 domain-suffix,yastat.net,proxy
 
 # Spotify
+domain-suffix,pscdn.co,proxy
 domain-suffix,scdn.co,proxy
 domain-suffix,spoti.fi,proxy
 domain-suffix,spotify.com,proxy
-domain-keyword, spotify,proxy
+domain-keyword,spotify,proxy
 
 # Telegram
 domain-suffix,t.me,proxy
