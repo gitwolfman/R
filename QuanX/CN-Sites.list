@@ -84,6 +84,7 @@ domain-suffix,netease.im,direct
 domain-suffix,ydstatic.com,direct
 # sina
 domain-suffix,sina.com,direct
+domain-suffix,sinaimg.cn,direct
 domain-suffix,weibo.cn,direct
 domain-suffix,weibo.com,direct
 domain-suffix,weibocdn.com,direct
