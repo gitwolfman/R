@@ -168,6 +168,7 @@ domain-suffix,t.co,proxy
 domain-suffix,twimg.co,proxy
 domain-suffix,twimg.com,proxy
 domain-suffix,twitpic.com,proxy
+domain-suffix,twitter.com,proxy
 domain-suffix,vine.co,proxy
 domain-keyword,twitter,proxy
 
