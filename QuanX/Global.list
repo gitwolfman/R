@@ -55,6 +55,7 @@ domain-suffix,google.com,proxy
 domain-suffix,google.com.hk,proxy
 domain-suffix,googleapis.com,proxy
 domain-suffix,googlevideo.com,proxy
+domain-suffix,googleusercontent.com,proxy
 domain-suffix,gstatic.com,proxy
 domain-suffix,gv.com,proxy
 domain-suffix,gwtproject.org,proxy
