@@ -1,6 +1,7 @@
 # Telegram
 domain-suffix,t.me,Telegram
 domain-suffix,tdesktop.com,Telegram
+domain-suffix, tele.me, Telegram
 domain-suffix,telegra.ph,Telegram
 domain-suffix,telegram.me,Telegram
 domain-suffix,telegram.org,Telegram
