@@ -325,6 +325,7 @@ domain-suffix,tb060x.corp.youdao.com,reject
 domain-suffix,tb104x.corp.youdao.com,reject
 domain-suffix,union.youdao.com,reject
 domain-suffix,wanproxy.127.net,reject
+domain-suffix,yanxuan.nosdn.127.net,reject
 domain-suffix,ydpushserver.youdao.com,reject
 
 # 360
@@ -645,6 +646,8 @@ domain-suffix,api.newad.ifeng.com,reject
 domain-suffix,app-ad.variflight.com,reject
 domain-suffix,applog.mobike.com,reject
 domain-suffix,deliver.ifeng.com,reject
+domain-suffix,at4.doubanio.com,reject
+domain-suffix,at3.doubanio.com,reject
 domain-suffix,erebor.douban.com,reject
 domain-suffix,etl.xlmc.sandai.net,reject
 domain-suffix,fengbuy.com,reject
