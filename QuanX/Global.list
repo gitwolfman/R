@@ -17,6 +17,7 @@ domain-suffix,whatsapp.net,proxy
 domain-keyword,facebook,proxy
 
 # Github
+domain-suffix,git.io,proxy
 domain-suffix,github.com,proxy
 domain-suffix,github.io,proxy
 domain-suffix,githubassets.com,proxy
@@ -92,17 +93,22 @@ domain-suffix,megaupload.com,proxy
 
 # Microsoft
 domain-suffix,bing.com,proxy
+domain-suffix,gfx.ms,proxy
+domain-suffix,live.com,proxy
 domain-suffix,microsoft.com,proxy
 domain-suffix,microsoftonline.com,proxy
 domain-suffix,microsofttranslator.com,proxy
+domain-suffix,msauth.net,proxy
 domain-suffix,msecnd.net,proxy
 domain-suffix,msedge.net,proxy
+domain-suffix,msocdn.com,proxy
 domain-suffix,office.com,proxy
 domain-suffix,office365.com,proxy
 domain-suffix,onenote.com,proxy
+domain-suffix,onestore.ms,proxy
 domain-suffix,outlook.com,proxy
-domain-suffix,s-microsoft.com,proxy
 domain-suffix,skype.com,proxy
+domain-suffix,s-microsoft.com,proxy
 domain-suffix,visualstudio.com,proxy
 domain-suffix,windows.com,proxy
 domain-suffix,windows.net,proxy
@@ -110,6 +116,7 @@ domain-suffix,windowsupdate.com,proxy
 # Microsoft Azure
 domain-suffix,azureedge.net,proxy
 domain-suffix,azurewebsites.net,proxy
+domain-suffix,azure-api.net,proxy
 domain-suffix,azure.com,proxy
 domain-suffix,azure.net,proxy
 domain-suffix,msecnd.net,proxy
@@ -123,6 +130,7 @@ domain-suffix,1drv.ms,proxy
 domain-suffix,blob.core.windows.net,proxy
 domain-suffix,livefilestore.com,proxy
 domain-suffix,onedrive.com,proxy
+domain-suffix,sharepoint.com,proxy
 domain-suffix,storage.live.com,proxy
 domain-suffix,storage.msn.com,proxy
 domain-suffix,onedrive.live.com,proxy
