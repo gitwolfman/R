@@ -1,15 +1,15 @@
 # GPorn
 
 # Official Sites
-host-suffix, hunk-ch.com, GPorn
-host-suffix, ko-video.com, GPorn
+domain-suffix, hunk-ch.com, GPorn
+domain-suffix, ko-video.com, GPorn
 
 # Gayhd.pro
-host-suffix, jwpltx.com, reject
-host-suffix, gayhd.pro, GPorn
-host-suffix, hqq.tv, GPorn
-host-suffix, njhzmxx.com, GPorn
-host-suffix, qpvod.com, GPorn
-host-suffix, sexgayhd.com, GPorn
-host-suffix, iamcdn.net, GPorn
-host-suffix, idocdn.com, GPorn
+domain-suffix, jwpltx.com, reject
+domain-suffix, gayhd.pro, GPorn
+domain-suffix, hqq.tv, GPorn
+domain-suffix, njhzmxx.com, GPorn
+domain-suffix, qpvod.com, GPorn
+domain-suffix, sexgayhd.com, GPorn
+domain-suffix, iamcdn.net, GPorn
+domain-suffix, idocdn.com, GPorn
