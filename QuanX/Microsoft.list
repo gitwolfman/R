@@ -1,4 +1,5 @@
 #Microsoft
+domain-suffix,microsoftstore.com.cn,reject
 domain-suffix,adobedtm.com,MS
 domain-suffix,aspnetcdn.com,MS
 domain-suffix,bing.com,MS
