@@ -277,6 +277,7 @@ domain-suffix, wsj.net, proxy
 domain-suffix, xda-developers.com, proxy
 
 # Global-country
+domain-suffix, au, proxy
 domain-suffix, ca, proxy
 domain-suffix, de, proxy
 domain-suffix, fr, proxy
@@ -286,6 +287,8 @@ domain-suffix, in, proxy
 domain-suffix, jp, proxy
 domain-suffix, kr, proxy
 domain-suffix, my, proxy
+domain-suffix, ng, proxy
+domain-suffix, nz, proxy
 domain-suffix, ph, proxy
 domain-suffix, ru, proxy
 domain-suffix, th, proxy
