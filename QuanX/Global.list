@@ -219,6 +219,7 @@ domain-suffix, amazonaws.com, proxy
 domain-suffix, angularjs.org, proxy
 domain-suffix, aolcdn.com, proxy
 domain-suffix, apkpure.com, proxy
+domain-suffix, appledaily.com, proxy
 domain-suffix, appshopper.com, proxy
 domain-suffix, appspot.com, proxy
 domain-suffix, awsstatic.com, proxy
