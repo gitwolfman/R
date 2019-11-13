@@ -1,10 +1,10 @@
 # Twitter
-domain-suffix,pscp.tv,Twitter
-domain-suffix,periscope.tv,Twitter
-domain-suffix,t.co,Twitter
-domain-suffix,twimg.co,Twitter
-domain-suffix,twimg.com,Twitter
-domain-suffix,twitpic.com,Twitter
-domain-suffix,twitter.com,Twitter
-domain-suffix,vine.co,Twitter
-domain-keyword,twitter,Twitter
+domain-suffix, pscp.tv, Twitter
+domain-suffix, periscope.tv, Twitter
+domain-suffix, t.co, Twitter
+domain-suffix, twimg.co, Twitter
+domain-suffix, twimg.com, Twitter
+domain-suffix, twitpic.com, Twitter
+domain-suffix, twitter.com, Twitter
+domain-suffix, vine.co, Twitter
+domain-keyword, twitter, Twitter
