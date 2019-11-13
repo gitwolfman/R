@@ -1,295 +1,295 @@
 # Facebook
-domain-suffix,cdninstagram.com,proxy
-domain-suffix,fb.com,proxy
-domain-suffix,fb.me,proxy
-domain-suffix,fbaddins.com,proxy
-domain-suffix,fbcdn.net,proxy
-domain-suffix,fbsbx.com,proxy
-domain-suffix,fbworkmail.com,proxy
-domain-suffix,instagram.com,proxy
-domain-suffix,m.me,proxy
-domain-suffix,messenger.com,proxy
-domain-suffix,oculus.com,proxy
-domain-suffix,oculuscdn.com,proxy
-domain-suffix,rocksdb.org,proxy
-domain-suffix,whatsapp.com,proxy
-domain-suffix,whatsapp.net,proxy
-domain-keyword,facebook,proxy
+domain-suffix, cdninstagram.com, proxy
+domain-suffix, fb.com, proxy
+domain-suffix, fb.me, proxy
+domain-suffix, fbaddins.com, proxy
+domain-suffix, fbcdn.net, proxy
+domain-suffix, fbsbx.com, proxy
+domain-suffix, fbworkmail.com, proxy
+domain-suffix, instagram.com, proxy
+domain-suffix, m.me, proxy
+domain-suffix, messenger.com, proxy
+domain-suffix, oculus.com, proxy
+domain-suffix, oculuscdn.com, proxy
+domain-suffix, rocksdb.org, proxy
+domain-suffix, whatsapp.com, proxy
+domain-suffix, whatsapp.net, proxy
+domain-keyword, facebook, proxy
 
 # Github
-domain-suffix,git.io,proxy
-domain-suffix,github.com,proxy
-domain-suffix,github.io,proxy
-domain-suffix,githubassets.com,proxy
-domain-suffix,githubusercontent.com,proxy
-domain-keyword,github,proxy
+domain-suffix, git.io, proxy
+domain-suffix, github.com, proxy
+domain-suffix, github.io, proxy
+domain-suffix, githubassets.com, proxy
+domain-suffix, githubusercontent.com, proxy
+domain-keyword, github, proxy
 
 # Google
-domain-suffix,abc.xyz,proxy
-domain-suffix,admin.recaptcha.net,proxy
-domain-suffix,ampproject.org,proxy
-domain-suffix,android.com,proxy
-domain-suffix,androidify.com,proxy
-domain-suffix,autodraw.com,proxy
-domain-suffix,blogger.com,proxy
-domain-suffix,blogspot.com,proxy
-domain-suffix,capitalg.com,proxy
-domain-suffix,certificate-transparency.org,proxy
-domain-suffix,chrome.com,proxy
-domain-suffix,chromeexperiments.com,proxy
-domain-suffix,chromestatus.com,proxy
-domain-suffix,chromium.org,proxy
-domain-suffix,creativelab5.com,proxy
-domain-suffix,debug.com,proxy
-domain-suffix,deepmind.com,proxy
-domain-suffix,dialogflow.com,proxy
-domain-suffix,g.co,proxy
-domain-suffix,getmdl.io,proxy
-domain-suffix,getoutline.org,proxy
-domain-suffix,ggpht.com,proxy
-domain-suffix,gmail.com,proxy
-domain-suffix,gmodules.com,proxy
-domain-suffix,godoc.org,proxy
-domain-suffix,golang.org,proxy
-domain-suffix,goo.gl,proxy
-domain-suffix,google.com,proxy
-domain-suffix,google.com.hk,proxy
-domain-suffix,googleapis.com,proxy
-domain-suffix,googlevideo.com,proxy
-domain-suffix,googleusercontent.com,proxy
-domain-suffix,gstatic.com,proxy
-domain-suffix,gv.com,proxy
-domain-suffix,gwtproject.org,proxy
-domain-suffix,itasoftware.com,proxy
-domain-suffix,madewithcode.com,proxy
-domain-suffix,material.io,proxy
-domain-suffix,polymer-project.org,proxy
-domain-suffix,recaptcha.net,proxy
-domain-suffix,shattered.io,proxy
-domain-suffix,synergyse.com,proxy
-domain-suffix,tensorflow.org,proxy
-domain-suffix,tfhub.dev,proxy
-domain-suffix,tiltbrush.com,proxy
-domain-suffix,waveprotocol.org,proxy
-domain-suffix,waymo.com,proxy
-domain-suffix,webmproject.org,proxy
-domain-suffix,webrtc.org,proxy
-domain-suffix,whatbrowser.org,proxy
-domain-suffix,widevine.com,proxy
-domain-suffix,x.company,proxy
-domain-suffix,youtu.be,proxy
-domain-suffix,youtube.com,proxy
-domain-suffix,yt.be,proxy
-domain-suffix,ytimg.com,proxy
-domain-keyword,google,proxy
-domain-keyword,gmail,proxy
-domain-keyword,youtube,proxy
-domain-keyword,blogspot,proxy
+domain-suffix, abc.xyz, proxy
+domain-suffix, admin.recaptcha.net, proxy
+domain-suffix, ampproject.org, proxy
+domain-suffix, android.com, proxy
+domain-suffix, androidify.com, proxy
+domain-suffix, autodraw.com, proxy
+domain-suffix, blogger.com, proxy
+domain-suffix, blogspot.com, proxy
+domain-suffix, capitalg.com, proxy
+domain-suffix, certificate-transparency.org, proxy
+domain-suffix, chrome.com, proxy
+domain-suffix, chromeexperiments.com, proxy
+domain-suffix, chromestatus.com, proxy
+domain-suffix, chromium.org, proxy
+domain-suffix, creativelab5.com, proxy
+domain-suffix, debug.com, proxy
+domain-suffix, deepmind.com, proxy
+domain-suffix, dialogflow.com, proxy
+domain-suffix, g.co, proxy
+domain-suffix, getmdl.io, proxy
+domain-suffix, getoutline.org, proxy
+domain-suffix, ggpht.com, proxy
+domain-suffix, gmail.com, proxy
+domain-suffix, gmodules.com, proxy
+domain-suffix, godoc.org, proxy
+domain-suffix, golang.org, proxy
+domain-suffix, goo.gl, proxy
+domain-suffix, google.com, proxy
+domain-suffix, google.com.hk, proxy
+domain-suffix, googleapis.com, proxy
+domain-suffix, googlevideo.com, proxy
+domain-suffix, googleusercontent.com, proxy
+domain-suffix, gstatic.com, proxy
+domain-suffix, gv.com, proxy
+domain-suffix, gwtproject.org, proxy
+domain-suffix, itasoftware.com, proxy
+domain-suffix, madewithcode.com, proxy
+domain-suffix, material.io, proxy
+domain-suffix, polymer-project.org, proxy
+domain-suffix, recaptcha.net, proxy
+domain-suffix, shattered.io, proxy
+domain-suffix, synergyse.com, proxy
+domain-suffix, tensorflow.org, proxy
+domain-suffix, tfhub.dev, proxy
+domain-suffix, tiltbrush.com, proxy
+domain-suffix, waveprotocol.org, proxy
+domain-suffix, waymo.com, proxy
+domain-suffix, webmproject.org, proxy
+domain-suffix, webrtc.org, proxy
+domain-suffix, whatbrowser.org, proxy
+domain-suffix, widevine.com, proxy
+domain-suffix, x.company, proxy
+domain-suffix, youtu.be, proxy
+domain-suffix, youtube.com, proxy
+domain-suffix, yt.be, proxy
+domain-suffix, ytimg.com, proxy
+domain-keyword, google, proxy
+domain-keyword, gmail, proxy
+domain-keyword, youtube, proxy
+domain-keyword, blogspot, proxy
 
 # Mega
-domain-suffix,mega.co.nz,proxy
-domain-suffix,mega.nz,proxy
-domain-suffix,megaupload.com,proxy
+domain-suffix, mega.co.nz, proxy
+domain-suffix, mega.nz, proxy
+domain-suffix, megaupload.com, proxy
 
 # Microsoft
-domain-suffix,bing.com,proxy
-domain-suffix,gfx.ms,proxy
-domain-suffix,live.com,proxy
-domain-suffix,microsoft.com,proxy
-domain-suffix,microsoftonline.com,proxy
-domain-suffix,microsofttranslator.com,proxy
-domain-suffix,msauth.net,proxy
-domain-suffix,msecnd.net,proxy
-domain-suffix,msedge.net,proxy
-domain-suffix,msocdn.com,proxy
-domain-suffix,office.com,proxy
-domain-suffix,office365.com,proxy
-domain-suffix,onenote.com,proxy
-domain-suffix,onestore.ms,proxy
-domain-suffix,outlook.com,proxy
-domain-suffix,skype.com,proxy
-domain-suffix,s-microsoft.com,proxy
-domain-suffix,visualstudio.com,proxy
-domain-suffix,windows.com,proxy
-domain-suffix,windows.net,proxy
-domain-suffix,windowsupdate.com,proxy
+domain-suffix, bing.com, proxy
+domain-suffix, gfx.ms, proxy
+domain-suffix, live.com, proxy
+domain-suffix, microsoft.com, proxy
+domain-suffix, microsoftonline.com, proxy
+domain-suffix, microsofttranslator.com, proxy
+domain-suffix, msauth.net, proxy
+domain-suffix, msecnd.net, proxy
+domain-suffix, msedge.net, proxy
+domain-suffix, msocdn.com, proxy
+domain-suffix, office.com, proxy
+domain-suffix, office365.com, proxy
+domain-suffix, onenote.com, proxy
+domain-suffix, onestore.ms, proxy
+domain-suffix, outlook.com, proxy
+domain-suffix, skype.com, proxy
+domain-suffix, s-microsoft.com, proxy
+domain-suffix, visualstudio.com, proxy
+domain-suffix, windows.com, proxy
+domain-suffix, windows.net, proxy
+domain-suffix, windowsupdate.com, proxy
 # Microsoft Azure
-domain-suffix,azureedge.net,proxy
-domain-suffix,azurewebsites.net,proxy
-domain-suffix,azure-api.net,proxy
-domain-suffix,azure.com,proxy
-domain-suffix,azure.net,proxy
-domain-suffix,msecnd.net,proxy
-domain-suffix,liveperson.net,proxy
-domain-suffix,lpsnmedia.net,proxy
-domain-suffix,microsoftonline.com,proxy
-domain-suffix,xboxlive.com,proxy
+domain-suffix, azureedge.net, proxy
+domain-suffix, azurewebsites.net, proxy
+domain-suffix, azure-api.net, proxy
+domain-suffix, azure.com, proxy
+domain-suffix, azure.net, proxy
+domain-suffix, msecnd.net, proxy
+domain-suffix, liveperson.net, proxy
+domain-suffix, lpsnmedia.net, proxy
+domain-suffix, microsoftonline.com, proxy
+domain-suffix, xboxlive.com, proxy
 # Microsoft Onedrive
-domain-suffix,1drv.com,proxy
-domain-suffix,1drv.ms,proxy
-domain-suffix,blob.core.windows.net,proxy
-domain-suffix,livefilestore.com,proxy
-domain-suffix,onedrive.com,proxy
-domain-suffix,sharepoint.com,proxy
-domain-suffix,storage.live.com,proxy
-domain-suffix,storage.msn.com,proxy
-domain-suffix,onedrive.live.com,proxy
-domain-suffix,oneclient.sfx.ms,proxy
+domain-suffix, 1drv.com, proxy
+domain-suffix, 1drv.ms, proxy
+domain-suffix, blob.core.windows.net, proxy
+domain-suffix, livefilestore.com, proxy
+domain-suffix, onedrive.com, proxy
+domain-suffix, sharepoint.com, proxy
+domain-suffix, storage.live.com, proxy
+domain-suffix, storage.msn.com, proxy
+domain-suffix, onedrive.live.com, proxy
+domain-suffix, oneclient.sfx.ms, proxy
 
 # Reddit
-domain-suffix,redd.it,proxy
-domain-suffix,reddit.com,proxy
-domain-suffix,redditmedia.com,proxy
-domain-suffix,redditstatic.com,proxy
+domain-suffix, redd.it, proxy
+domain-suffix, reddit.com, proxy
+domain-suffix, redditmedia.com, proxy
+domain-suffix, redditstatic.com, proxy
 
 # Russia
-domain-suffix,imgsmail.ru,proxy
-domain-suffix,mail.ru,proxy
-domain-suffix,yandex.com,proxy
-domain-suffix,yandex.net,proxy
-domain-suffix,yandex.ru,proxy
-domain-suffix,yastat.net,proxy
+domain-suffix, imgsmail.ru, proxy
+domain-suffix, mail.ru, proxy
+domain-suffix, yandex.com, proxy
+domain-suffix, yandex.net, proxy
+domain-suffix, yandex.ru, proxy
+domain-suffix, yastat.net, proxy
 
 # Spotify
-domain-suffix,pscdn.co,proxy
-domain-suffix,scdn.co,proxy
-domain-suffix,spoti.fi,proxy
-domain-suffix,spotify.com,proxy
-domain-keyword,spotify,proxy
+domain-suffix, pscdn.co, proxy
+domain-suffix, scdn.co, proxy
+domain-suffix, spoti.fi, proxy
+domain-suffix, spotify.com, proxy
+domain-keyword, spotify, proxy
 
 # Telegram
-domain-suffix,t.me,proxy
-domain-suffix,tdesktop.com,proxy
-domain-suffix,telegra.ph,proxy
-domain-suffix,telegram.me,proxy
-domain-suffix,telegram.org,proxy
-ip-cidr,91.108.4.0/22,proxy
-ip-cidr,91.108.8.0/22,proxy
-ip-cidr,91.108.12.0/22,proxy
-ip-cidr,91.108.16.0/22,proxy
-ip-cidr,91.108.56.0/22,proxy
-ip-cidr,149.154.160.0/20,proxy
+domain-suffix, t.me, proxy
+domain-suffix, tdesktop.com, proxy
+domain-suffix, telegra.ph, proxy
+domain-suffix, telegram.me, proxy
+domain-suffix, telegram.org, proxy
+ip-cidr, 91.108.4.0/22, proxy
+ip-cidr, 91.108.8.0/22, proxy
+ip-cidr, 91.108.12.0/22, proxy
+ip-cidr, 91.108.16.0/22, proxy
+ip-cidr, 91.108.56.0/22, proxy
+ip-cidr, 149.154.160.0/20, proxy
 
 # Twitter
-domain-suffix,pscp.tv,proxy
-domain-suffix,periscope.tv,proxy
-domain-suffix,t.co,proxy
-domain-suffix,twimg.co,proxy
-domain-suffix,twimg.com,proxy
-domain-suffix,twitpic.com,proxy
-domain-suffix,twitter.com,proxy
-domain-suffix,vine.co,proxy
-domain-keyword,twitter,proxy
+domain-suffix, pscp.tv, proxy
+domain-suffix, periscope.tv, proxy
+domain-suffix, t.co, proxy
+domain-suffix, twimg.co, proxy
+domain-suffix, twimg.com, proxy
+domain-suffix, twitpic.com, proxy
+domain-suffix, twitter.com, proxy
+domain-suffix, vine.co, proxy
+domain-keyword, twitter, proxy
 
 # Wiki
-domain-suffix,wikileaks.org,proxy
-domain-suffix,wikimedia.org,proxy
-domain-suffix,wikipedia.com,proxy
-domain-suffix,wikipedia.org,proxy
-domain-suffix,wikiwand.com,proxy
+domain-suffix, wikileaks.org, proxy
+domain-suffix, wikimedia.org, proxy
+domain-suffix, wikipedia.com, proxy
+domain-suffix, wikipedia.org, proxy
+domain-suffix, wikiwand.com, proxy
 
 # Yahoo
-domain-suffix,oath.com,proxy
-domain-suffix,yahoo.com,proxy
-domain-suffix,yahoo.net,proxy
-domain-suffix,yimg.com,proxy
-domain-suffix,ying.com,proxy
+domain-suffix, oath.com, proxy
+domain-suffix, yahoo.com, proxy
+domain-suffix, yahoo.net, proxy
+domain-suffix, yimg.com, proxy
+domain-suffix, ying.com, proxy
 # Yahoo JP
-domain-suffix,storage-yahoo.jp,proxy
-domain-suffix,yahoo.co.jp,proxy
-domain-suffix,yahooapis.jp,proxy
-domain-suffix,yimg.jp,proxy
+domain-suffix, storage-yahoo.jp, proxy
+domain-suffix, yahoo.co.jp, proxy
+domain-suffix, yahooapis.jp, proxy
+domain-suffix, yimg.jp, proxy
 
 # Digital Certification
-domain-suffix,digicert.com,proxy
-domain-suffix,letsencrypt.org,proxy
-domain-suffix,digitalcertvalidation.com,proxy
-domain-suffix,ocsp.identrust.com,proxy
-domain-suffix,ocsp.pki.goog,proxy
-domain-suffix,ocsp.sectigo.com,proxy
-domain-suffix,ocsp.usertrust.com,proxy
-domain-suffix,ocsp.trustasiassl.com,proxy
+domain-suffix, digicert.com, proxy
+domain-suffix, letsencrypt.org, proxy
+domain-suffix, digitalcertvalidation.com, proxy
+domain-suffix, ocsp.identrust.com, proxy
+domain-suffix, ocsp.pki.goog, proxy
+domain-suffix, ocsp.sectigo.com, proxy
+domain-suffix, ocsp.usertrust.com, proxy
+domain-suffix, ocsp.trustasiassl.com, proxy
 
 # Global-Others
-domain-suffix,0rz.tw,proxy
-domain-suffix,akamai.net,proxy
-domain-suffix,akamaihd.net,proxy
-domain-suffix,amazon.com,proxy
-domain-suffix,amazonaws.com,proxy
-domain-suffix,angularjs.org,proxy
-domain-suffix,aolcdn.com,proxy
-domain-suffix,apkpure.com,proxy
-domain-suffix,appshopper.com,proxy
-domain-suffix,appspot.com,proxy
-domain-suffix,awsstatic.com,proxy
-domain-suffix,bbc.com,proxy
-domain-suffix,bit.ly,proxy
-domain-suffix,bitbucket.org,proxy
-domain-suffix,bitcointalk.org,proxy
-domain-suffix,bloomberg.com,proxy
-domain-suffix,cl.ly,proxy
-domain-suffix,cloudflare.com,proxy
-domain-suffix,deezer.com,proxy
-domain-suffix,dropbox.com,proxy
-domain-suffix,duckduckgo.com,proxy
-domain-suffix,dzcdn.net,proxy
-domain-suffix,evernote.com,proxy
-domain-suffix,gravatar.com,proxy
-domain-suffix,hockeyapp.net,proxy
-domain-suffix,img.ly,proxy
-domain-suffix,imgur.com,proxy
-domain-suffix,instapaper.com,proxy
-domain-suffix,jsdelivr.net,proxy
-domain-suffix,livefilestore.com,proxy
-domain-suffix,jquery.com,proxy
-domain-suffix,mail.com,proxy
-domain-suffix,medium.com,proxy
-domain-suffix,mobile01.com,proxy
-domain-suffix,nflxvideo.net,proxy
-domain-suffix,nyt.com,proxy
-domain-suffix,nytimes.com,proxy
-domain-suffix,pandora.com,proxy
-domain-suffix,periscope.tv,proxy
-domain-suffix,pinterest.com,proxy
-domain-suffix,pixiv.net,proxy
-domain-suffix,pscp.tv,proxy
-domain-suffix,recaptcha.net,proxy
-domain-suffix,sfx.ms,proxy
-domain-suffix,sharethis.com,proxy
-domain-suffix,shazam.com,proxy
-domain-suffix,ssl-images-amazon.com,proxy
-domain-suffix,stackoverflow.com,proxy
-domain-suffix,thepiratebay.org,proxy
-domain-suffix,theverge.com,proxy
-domain-suffix,tidal.com,proxy
-domain-suffix,time.com,proxy
-domain-suffix,timeinc.net,proxy
-domain-suffix,twitch.tv,proxy
-domain-suffix,vimeo.com,proxy
-domain-suffix,vimeocdn.com,proxy
-domain-suffix,w3schools.com,proxy
-domain-suffix,whoer.net,proxy
-domain-suffix,whrq.net,proxy
-domain-suffix,wordpress.com,proxy
-domain-suffix,wp.com,proxy
-domain-suffix,wsj.com,proxy
-domain-suffix,wsj.net,proxy
-domain-suffix,xda-developers.com,proxy
+domain-suffix, 0rz.tw, proxy
+domain-suffix, akamai.net, proxy
+domain-suffix, akamaihd.net, proxy
+domain-suffix, amazon.com, proxy
+domain-suffix, amazonaws.com, proxy
+domain-suffix, angularjs.org, proxy
+domain-suffix, aolcdn.com, proxy
+domain-suffix, apkpure.com, proxy
+domain-suffix, appshopper.com, proxy
+domain-suffix, appspot.com, proxy
+domain-suffix, awsstatic.com, proxy
+domain-suffix, bbc.com, proxy
+domain-suffix, bit.ly, proxy
+domain-suffix, bitbucket.org, proxy
+domain-suffix, bitcointalk.org, proxy
+domain-suffix, bloomberg.com, proxy
+domain-suffix, cl.ly, proxy
+domain-suffix, cloudflare.com, proxy
+domain-suffix, deezer.com, proxy
+domain-suffix, dropbox.com, proxy
+domain-suffix, duckduckgo.com, proxy
+domain-suffix, dzcdn.net, proxy
+domain-suffix, evernote.com, proxy
+domain-suffix, gravatar.com, proxy
+domain-suffix, hockeyapp.net, proxy
+domain-suffix, img.ly, proxy
+domain-suffix, imgur.com, proxy
+domain-suffix, instapaper.com, proxy
+domain-suffix, jsdelivr.net, proxy
+domain-suffix, livefilestore.com, proxy
+domain-suffix, jquery.com, proxy
+domain-suffix, mail.com, proxy
+domain-suffix, medium.com, proxy
+domain-suffix, mobile01.com, proxy
+domain-suffix, nflxvideo.net, proxy
+domain-suffix, nyt.com, proxy
+domain-suffix, nytimes.com, proxy
+domain-suffix, pandora.com, proxy
+domain-suffix, periscope.tv, proxy
+domain-suffix, pinterest.com, proxy
+domain-suffix, pixiv.net, proxy
+domain-suffix, pscp.tv, proxy
+domain-suffix, recaptcha.net, proxy
+domain-suffix, sfx.ms, proxy
+domain-suffix, sharethis.com, proxy
+domain-suffix, shazam.com, proxy
+domain-suffix, ssl-images-amazon.com, proxy
+domain-suffix, stackoverflow.com, proxy
+domain-suffix, thepiratebay.org, proxy
+domain-suffix, theverge.com, proxy
+domain-suffix, tidal.com, proxy
+domain-suffix, time.com, proxy
+domain-suffix, timeinc.net, proxy
+domain-suffix, twitch.tv, proxy
+domain-suffix, vimeo.com, proxy
+domain-suffix, vimeocdn.com, proxy
+domain-suffix, w3schools.com, proxy
+domain-suffix, whoer.net, proxy
+domain-suffix, whrq.net, proxy
+domain-suffix, wordpress.com, proxy
+domain-suffix, wp.com, proxy
+domain-suffix, wsj.com, proxy
+domain-suffix, wsj.net, proxy
+domain-suffix, xda-developers.com, proxy
 
 # Global-country
-domain-suffix,ca,proxy
-domain-suffix,de,proxy
-domain-suffix,fr,proxy
-domain-suffix,hk,proxy
-domain-suffix,id,proxy
-domain-suffix,in,proxy
-domain-suffix,jp,proxy
-domain-suffix,kr,proxy
-domain-suffix,my,proxy
-domain-suffix,ph,proxy
-domain-suffix,ru,proxy
-domain-suffix,th,proxy
-domain-suffix,tw,proxy
-domain-suffix,uk,proxy
-domain-suffix,us,proxy
-domain-suffix,vn,proxy
+domain-suffix, ca, proxy
+domain-suffix, de, proxy
+domain-suffix, fr, proxy
+domain-suffix, hk, proxy
+domain-suffix, id, proxy
+domain-suffix, in, proxy
+domain-suffix, jp, proxy
+domain-suffix, kr, proxy
+domain-suffix, my, proxy
+domain-suffix, ph, proxy
+domain-suffix, ru, proxy
+domain-suffix, th, proxy
+domain-suffix, tw, proxy
+domain-suffix, uk, proxy
+domain-suffix, us, proxy
+domain-suffix, vn, proxy
