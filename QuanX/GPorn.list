@@ -1,9 +1,24 @@
 # GPorn
 
 # Official Sites
+# JP
+domain-suffix, bravo-japan.com, GPorn
+domain-suffix, g-men.co.jp, GPorn
+domain-suffix, bpro.tv, GPorn
+domain-suffix, supermediamall.com, GPorn
+domain-suffix, games-video.co.jp, GPorn
 domain-suffix, hunk-ch.com, GPorn
 domain-suffix, ko-video.com, GPorn
 domain-suffix, mannhouse.com, GPorn
+domain-suffix, trance-video.com, GPorn
+domain-suffix, vfactory-web.jp, GPorn
+# Whites
+domain-suffix, all-americanheroes.net, GPorn
+domain-suffix, belamionline.com, GPorn
+domain-suffix, coltstudiogroup.com, GPorn
+domain-suffix, falconstudios.com, GPorn
+domain-suffix, kristenbjorn.com, GPorn
+domain-suffix, lucaskazan.com, GPorn
 
 # Gayhd.pro
 domain-suffix, jwpltx.com, reject
