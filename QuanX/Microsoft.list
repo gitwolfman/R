@@ -1,4 +1,6 @@
 #Microsoft
+domain-suffix, microsoftstore.com.cn, reject
+domain-suffix, statics-marketingsites-eus-ms-com.akamaized.net, reject
 domain-suffix, adobedtm.com, MS
 domain-suffix, aspnetcdn.com, MS
 domain-suffix, bing.com, MS
