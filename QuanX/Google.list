@@ -1,4 +1,5 @@
 # Google
+domain-suffix, ocsp.pki.goog, Google
 domain-suffix, abc.xyz, Google
 domain-suffix, admin.recaptcha.net, Google
 domain-suffix, ampproject.org, Google
