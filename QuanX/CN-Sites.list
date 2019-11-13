@@ -1,165 +1,165 @@
 # 360
-domain-suffix,qhres.com,direct
-domain-suffix,qhimg.com,direct
+domain-suffix, qhres.com, direct
+domain-suffix, qhimg.com, direct
 # alibaba
-domain-suffix,alibaba.com,direct
-domain-suffix,alicdn.com,direct
-domain-suffix,alikunlun.com,direct
-domain-suffix,alipay.com,direct
-domain-suffix,amap.com,direct
-domain-suffix,autonavi.com,direct
-domain-suffix,dingtalk.com,direct
-domain-suffix,mxhichina.com,direct
-domain-suffix,soku.com,direct
-domain-suffix,taobao.com,direct
-domain-suffix,tmall.com,direct
-domain-suffix,tmall.hk,direct
-domain-suffix,ykimg.com,direct
-domain-suffix,youku.com,direct
-domain-suffix,xiami.com,direct
-domain-suffix,xiami.net,direct
+domain-suffix, alibaba.com, direct
+domain-suffix, alicdn.com, direct
+domain-suffix, alikunlun.com, direct
+domain-suffix, alipay.com, direct
+domain-suffix, amap.com, direct
+domain-suffix, autonavi.com, direct
+domain-suffix, dingtalk.com, direct
+domain-suffix, mxhichina.com, direct
+domain-suffix, soku.com, direct
+domain-suffix, taobao.com, direct
+domain-suffix, tmall.com, direct
+domain-suffix, tmall.hk, direct
+domain-suffix, ykimg.com, direct
+domain-suffix, youku.com, direct
+domain-suffix, xiami.com, direct
+domain-suffix, xiami.net, direct
 # baidu
-domain-suffix,baidu.cn,direct
-domain-suffix,baidu.com,direct
-domain-suffix,baidubcr.com,direct
-domain-suffix,bdstatic.com,direct
-domain-suffix,yunjiasu-cdn.net,direct
+domain-suffix, baidu.cn, direct
+domain-suffix, baidu.com, direct
+domain-suffix, baidubcr.com, direct
+domain-suffix, bdstatic.com, direct
+domain-suffix, yunjiasu-cdn.net, direct
 # bilibili
-domain-suffix,acgvideo.com,direct
-domain-suffix,biliapi.com,direct
-domain-suffix,biliapi.net,direct
-domain-suffix,bilibili.com,direct
-domain-suffix,bilibili.tv,direct
-domain-suffix,hdslb.com,direct
+domain-suffix, acgvideo.com, direct
+domain-suffix, biliapi.com, direct
+domain-suffix, biliapi.net, direct
+domain-suffix, bilibili.com, direct
+domain-suffix, bilibili.tv, direct
+domain-suffix, hdslb.com, direct
 # bytedance
-domain-suffix,feiliao.com,direct
-domain-suffix,pstatp.com,direct
-domain-suffix,snssdk.com,direct
-domain-suffix,iesdouyin.com,direct
-domain-suffix,toutiao.com,direct
+domain-suffix, feiliao.com, direct
+domain-suffix, pstatp.com, direct
+domain-suffix, snssdk.com, direct
+domain-suffix, iesdouyin.com, direct
+domain-suffix, toutiao.com, direct
 # cctv
-domain-suffix,cctv.com,direct
-domain-suffix,cctvpic.com,direct
-domain-suffix,livechina.com,direct
+domain-suffix, cctv.com, direct
+domain-suffix, cctvpic.com, direct
+domain-suffix, livechina.com, direct
 # didi
-domain-suffix,didialift.com,direct
-domain-suffix,didiglobal.com,direct
-domain-suffix,udache.com,direct
+domain-suffix, didialift.com, direct
+domain-suffix, didiglobal.com, direct
+domain-suffix, udache.com, direct
 # chinanet
-domain-suffix,21cn.com,direct
+domain-suffix, 21cn.com, direct
 # hunantv
-domain-suffix,hitv.com,direct
-domain-suffix,mgtv.com,direct
+domain-suffix, hitv.com, direct
+domain-suffix, mgtv.com, direct
 # iqiyi
-domain-suffix,iqiyi.com,direct
-domain-suffix,iqiyipic.com,direct
-domain-suffix,71.am.com,direct
+domain-suffix, iqiyi.com, direct
+domain-suffix, iqiyipic.com, direct
+domain-suffix, 71.am.com, direct
 # jd
-domain-suffix,jd.com,direct
-domain-suffix,jd.hk,direct
-domain-suffix,jdpay.com,direct
-domain-suffix,360buyimg.com,direct
+domain-suffix, jd.com, direct
+domain-suffix, jd.hk, direct
+domain-suffix, jdpay.com, direct
+domain-suffix, 360buyimg.com, direct
 # kingsoft
-domain-suffix,iciba.com,direct
-domain-suffix,ksosoft.com,direct
+domain-suffix, iciba.com, direct
+domain-suffix, ksosoft.com, direct
 # meitu
-domain-suffix,meitu.com,direct
-domain-suffix,meitudata.com,direct
-domain-suffix,meitustat.com,direct
-domain-suffix,meipai.com,direct
+domain-suffix, meitu.com, direct
+domain-suffix, meitudata.com, direct
+domain-suffix, meitustat.com, direct
+domain-suffix, meipai.com, direct
 # mi
-domain-suffix,duokan.com,direct
-domain-suffix,mi-img.com,direct
-domain-suffix,miui.com,direct
-domain-suffix,miwifi.com,direct
-domain-suffix,xiaomi.com,direct
+domain-suffix, duokan.com, direct
+domain-suffix, mi-img.com, direct
+domain-suffix, miui.com, direct
+domain-suffix, miwifi.com, direct
+domain-suffix, xiaomi.com, direct
 # netease
-domain-suffix,163.com,direct
-domain-suffix,126.net,direct
-domain-suffix,127.net,direct
-domain-suffix,163yun.com,direct
-domain-suffix,lofter.com,direct
-domain-suffix,netease.com,direct
-domain-suffix,netease.im,direct
-domain-suffix,ydstatic.com,direct
+domain-suffix, 163.com, direct
+domain-suffix, 126.net, direct
+domain-suffix, 127.net, direct
+domain-suffix, 163yun.com, direct
+domain-suffix, lofter.com, direct
+domain-suffix, netease.com, direct
+domain-suffix, netease.im, direct
+domain-suffix, ydstatic.com, direct
 # sina
-domain-suffix,sina.com,direct
-domain-suffix,sinaimg.cn,direct
-domain-suffix,weibo.cn,direct
-domain-suffix,weibo.com,direct
-domain-suffix,weibocdn.com,direct
+domain-suffix, sina.com, direct
+domain-suffix, sinaimg.cn, direct
+domain-suffix, weibo.cn, direct
+domain-suffix, weibo.com, direct
+domain-suffix, weibocdn.com, direct
 # sohu
-domain-suffix,sohu.com,direct
-domain-suffix,sohucs.com,direct
-domain-suffix,sohu-inc.com,direct
-domain-suffix,v-56.com,direct
+domain-suffix, sohu.com, direct
+domain-suffix, sohucs.com, direct
+domain-suffix, sohu-inc.com, direct
+domain-suffix, v-56.com, direct
 # sogou
-domain-suffix,sogo.com,direct
-domain-suffix,sogou.com,direct
-domain-suffix,sogoucdn.com,direct
+domain-suffix, sogo.com, direct
+domain-suffix, sogou.com, direct
+domain-suffix, sogoucdn.com, direct
 # QQ
-domain-suffix,gtimg.com,direct
-domain-suffix,idqqimg.com,direct
-domain-suffix,igamecj.com,direct
-domain-suffix,myapp.com,direct
-domain-suffix,myqcloud.com,direct
-domain-suffix,qq.com,direct
-domain-suffix,tencent.com,direct
-domain-suffix,tencent-cloud.net,direct
-user-agent,micromessenger%20client,direct
-user-agent,wechat*,direct
+domain-suffix, gtimg.com, direct
+domain-suffix, idqqimg.com, direct
+domain-suffix, igamecj.com, direct
+domain-suffix, myapp.com, direct
+domain-suffix, myqcloud.com, direct
+domain-suffix, qq.com, direct
+domain-suffix, tencent.com, direct
+domain-suffix, tencent-cloud.net, direct
+user-agent, micromessenger%20client, direct
+user-agent, wechat*, direct
 # yyets
-domain-suffix,jstucdn.com,direct
-domain-suffix,zimuzu.io,direct
-domain-suffix,zimuzu.tv,direct
-domain-suffix,zmz2019.com,direct
-domain-suffix,zmzapi.com,direct
-domain-suffix,zmzapi.net,direct
-domain-suffix,zmzfile.com,direct
-user-agent,yyets*,direct
+domain-suffix, jstucdn.com, direct
+domain-suffix, zimuzu.io, direct
+domain-suffix, zimuzu.tv, direct
+domain-suffix, zmz2019.com, direct
+domain-suffix, zmzapi.com, direct
+domain-suffix, zmzapi.net, direct
+domain-suffix, zmzfile.com, direct
+user-agent, yyets*, direct
 # other
-domain-suffix,ctrip.com,direct
-domain-suffix,douban.com,direct
-domain-suffix,doubanio.com,direct
-domain-suffix,douyu.com,direct
-domain-suffix,eastmoney.com,direct
-domain-suffix,eudic.net,direct
-domain-suffix,feng.com,direct
-domain-suffix,fengkongcloud.com,direct
-domain-suffix,getpricetag.com,direct
-domain-suffix,hongxiu.com,direct
-domain-suffix,huxiucdn.com,direct
-domain-suffix,huya.com,direct
-domain-suffix,ithome.com,direct
-domain-suffix,maoyan.com,direct
-domain-suffix,maoyun.tv,direct
-domain-suffix,meituan.com,direct
-domain-suffix,meituan.net,direct
-domain-suffix,mobike.com,direct
-domain-suffix,mubu.com,direct
-domain-suffix,myzaker.com,direct
-domain-suffix,qdaily.com,direct
-domain-suffix,qidian.com,direct
-domain-suffix,qyer.com,direct
-domain-suffix,qyerstatic.com,direct
-domain-suffix,raychase.net,direct
-domain-suffix,smzdm.com,direct
-domain-suffix,snwx.com,direct
-domain-suffix,sspai.com,direct
-domain-suffix,tianyancha.com,direct
-domain-suffix,suning.com,direct
-domain-suffix,weico.cc,direct
-domain-suffix,weidian.com,direct
-domain-suffix,xiachufang.com,direct
-domain-suffix,ximalaya.com,direct
-domain-suffix,xinhuanet.com,direct
-domain-suffix,xmcdn.com,direct
-domain-suffix,zhihu.com,direct
-domain-suffix,zhimg.com,direct
-domain-suffix,zhuihd.com,direct
+domain-suffix, ctrip.com, direct
+domain-suffix, douban.com, direct
+domain-suffix, doubanio.com, direct
+domain-suffix, douyu.com, direct
+domain-suffix, eastmoney.com, direct
+domain-suffix, eudic.net, direct
+domain-suffix, feng.com, direct
+domain-suffix, fengkongcloud.com, direct
+domain-suffix, getpricetag.com, direct
+domain-suffix, hongxiu.com, direct
+domain-suffix, huxiucdn.com, direct
+domain-suffix, huya.com, direct
+domain-suffix, ithome.com, direct
+domain-suffix, maoyan.com, direct
+domain-suffix, maoyun.tv, direct
+domain-suffix, meituan.com, direct
+domain-suffix, meituan.net, direct
+domain-suffix, mobike.com, direct
+domain-suffix, mubu.com, direct
+domain-suffix, myzaker.com, direct
+domain-suffix, qdaily.com, direct
+domain-suffix, qidian.com, direct
+domain-suffix, qyer.com, direct
+domain-suffix, qyerstatic.com, direct
+domain-suffix, raychase.net, direct
+domain-suffix, smzdm.com, direct
+domain-suffix, snwx.com, direct
+domain-suffix, sspai.com, direct
+domain-suffix, tianyancha.com, direct
+domain-suffix, suning.com, direct
+domain-suffix, weico.cc, direct
+domain-suffix, weidian.com, direct
+domain-suffix, xiachufang.com, direct
+domain-suffix, ximalaya.com, direct
+domain-suffix, xinhuanet.com, direct
+domain-suffix, xmcdn.com, direct
+domain-suffix, zhihu.com, direct
+domain-suffix, zhimg.com, direct
+domain-suffix, zhuihd.com, direct
 
 # Coutry CN
-domain-suffix,cn,direct
+domain-suffix, cn, direct
 
 # Geoip CN
-geoip,cn,direct
+geoip, cn, direct
