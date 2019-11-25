@@ -2,39 +2,39 @@
 
 # Official Sites
 # JP
-DOMAIN-SUFFIX, bravo-japan.com, GPorn
-DOMAIN-SUFFIX, g-men.co.jp, GPorn
-DOMAIN-SUFFIX, bpro.tv, GPorn
-DOMAIN-SUFFIX, supermediamall.com, GPorn
-DOMAIN-SUFFIX, games-video.co.jp, GPorn
-DOMAIN-SUFFIX, hunk-ch.com, GPorn
-DOMAIN-SUFFIX, ko-video.com, GPorn
-DOMAIN-SUFFIX, mannhouse.com, GPorn
-DOMAIN-SUFFIX, trance-video.com, GPorn
-DOMAIN-SUFFIX, vfactory-web.jp, GPorn
+DOMAIN-SUFFIX, bravo-japan.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, g-men.co.jp, GPorn, force-remote-dns
+DOMAIN-SUFFIX, bpro.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, supermediamall.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, games-video.co.jp, GPorn, force-remote-dns
+DOMAIN-SUFFIX, hunk-ch.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, ko-video.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, mannhouse.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, trance-video.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, vfactory-web.jp, GPorn, force-remote-dns
 # Whites
-DOMAIN-SUFFIX, all-americanheroes.net, GPorn
-DOMAIN-SUFFIX, belamionline.com, GPorn
-DOMAIN-SUFFIX, coltstudiogroup.com, GPorn
-DOMAIN-SUFFIX, falconstudios.com, GPorn
-DOMAIN-SUFFIX, kristenbjorn.com, GPorn
-DOMAIN-SUFFIX, lucaskazan.com, GPorn
+DOMAIN-SUFFIX, all-americanheroes.net, GPorn, force-remote-dns
+DOMAIN-SUFFIX, belamionline.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, coltstudiogroup.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, falconstudios.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, kristenbjorn.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, lucaskazan.com, GPorn, force-remote-dns
 
 # Gayhd.pro
 DOMAIN-SUFFIX, jwpltx.com, reject
-DOMAIN-SUFFIX, gayhd.pro, GPorn
-DOMAIN-SUFFIX, hqq.tv, GPorn
-DOMAIN-SUFFIX, njhzmxx.com, GPorn
-DOMAIN-SUFFIX, qpvod.com, GPorn
-DOMAIN-SUFFIX, sexgayhd.com, GPorn
-DOMAIN-SUFFIX, iamcdn.net, GPorn
-DOMAIN-SUFFIX, idocdn.com, GPorn
+DOMAIN-SUFFIX, gayhd.pro, GPorn, force-remote-dns
+DOMAIN-SUFFIX, hqq.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, njhzmxx.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, qpvod.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, sexgayhd.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, iamcdn.net, GPorn, force-remote-dns
+DOMAIN-SUFFIX, idocdn.com, GPorn, force-remote-dns
 
 # Others
-DOMAIN-SUFFIX, gaymaletube.com, GPorn
-DOMAIN-SUFFIX, gayporn.fm, GPorn
-DOMAIN-SUFFIX, kepler-37b.com, GPorn
-DOMAIN-SUFFIX, icegay.tv, GPorn
-DOMAIN-SUFFIX, machotube.tv, GPorn
-DOMAIN-SUFFIX, boyfriendtv.com, GPorn
-DOMAIN-SUFFIX, gaybb.net, GPorn
+DOMAIN-SUFFIX, gaymaletube.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, gayporn.fm, GPorn, force-remote-dns
+DOMAIN-SUFFIX, kepler-37b.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, icegay.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, machotube.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, boyfriendtv.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, gaybb.net, GPorn, force-remote-dns
