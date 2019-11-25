@@ -1515,6 +1515,18 @@ DOMAIN-SUFFIX, twitter.com, Twitter, force-remote-dns
 DOMAIN-SUFFIX, vine.co, Twitter, force-remote-dns
 DOMAIN-KEYWORD, twitter, Twitter, force-remote-dns
 
+# PROXY - Yahoo
+DOMAIN-SUFFIX, oath.com, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahoo.com, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahoo.net, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yimg.com, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, ying.com, Yahoo, force-remote-dns
+# PROXY - Yahoo JP
+DOMAIN-SUFFIX, storage-yahoo.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahoo.co.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahooapis.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yimg.jp, Yahoo, force-remote-dns
+
 # PROXY - GPorn JP
 DOMAIN-SUFFIX, bravo-japan.com, GPorn, force-remote-dns
 DOMAIN-SUFFIX, g-men.co.jp, GPorn, force-remote-dns
@@ -1615,6 +1627,156 @@ DOMAIN-SUFFIX, storage.live.com, MS, force-remote-dns
 DOMAIN-SUFFIX, storage.msn.com, MS, force-remote-dns
 DOMAIN-SUFFIX, onedrive.live.com, MS, force-remote-dns
 DOMAIN-SUFFIX, oneclient.sfx.ms, MS, force-remote-dns
+
+# PROXY- Digital Cert
+DOMAIN-SUFFIX, digicert.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, letsencrypt.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, digitalcertvalidation.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ocsp.identrust.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ocsp.pki.goog, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ocsp.sectigo.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ocsp.usertrust.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ocsp.trustasiassl.com, Proxy, force-remote-dns
+
+# PROXY- Facebook
+DOMAIN-SUFFIX, cdninstagram.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fb.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fb.me, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fbaddins.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fbcdn.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fbsbx.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fbworkmail.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, instagram.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, m.me, Proxy, force-remote-dns
+DOMAIN-SUFFIX, messenger.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, oculus.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, oculuscdn.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, rocksdb.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, whatsapp.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, whatsapp.net, Proxy, force-remote-dns
+DOMAIN-KWEYWORD, facebook, reject
+
+# PROXY- Github
+DOMAIN-SUFFIX, git.io, Proxy, force-remote-dns
+DOMAIN-SUFFIX, github.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, github.io, Proxy, force-remote-dns
+DOMAIN-SUFFIX, githubassets.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, githubusercontent.com, Proxy, force-remote-dns
+DOMAIN-KWEYWORD, github, Proxy, force-remote-dns
+
+# PROXY- Mega
+DOMAIN-SUFFIX, mega.co.nz, Proxy, force-remote-dns
+DOMAIN-SUFFIX, mega.nz, Proxy, force-remote-dns
+DOMAIN-SUFFIX, megaupload.com, Proxy, force-remote-dns
+
+# PROXY- Reddit
+DOMAIN-SUFFIX, redd.it, Proxy, force-remote-dns
+DOMAIN-SUFFIX, reddit.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, redditmedia.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, redditstatic.com, Proxy, force-remote-dns
+
+# PROXY- Russia
+DOMAIN-SUFFIX, imgsmail.ru, Proxy, force-remote-dns
+DOMAIN-SUFFIX, mail.ru, Proxy, force-remote-dns
+DOMAIN-SUFFIX, yandex.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, yandex.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, yandex.ru, Proxy, force-remote-dns
+DOMAIN-SUFFIX, yastat.net, Proxy, force-remote-dns
+
+# PROXY- Wiki
+DOMAIN-SUFFIX, wikileaks.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wikimedia.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wikipedia.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wikipedia.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wikiwand.com, Proxy, force-remote-dns
+
+# PROXY- Global Others
+DOMAIN-SUFFIX, 0rz.tw, Proxy, force-remote-dns
+DOMAIN-SUFFIX, akamai.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, akamaihd.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, amazon.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, amazonaws.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, angularjs.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, aolcdn.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, apkpure.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, appledaily.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, appshopper.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, appspot.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, awsstatic.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, bbc.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, bit.ly, Proxy, force-remote-dns
+DOMAIN-SUFFIX, bitbucket.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, bitcointalk.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, bloomberg.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, cl.ly, Proxy, force-remote-dns
+DOMAIN-SUFFIX, cloudflare.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, deezer.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, dropbox.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, duckduckgo.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, dzcdn.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, evernote.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, gravatar.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, hockeyapp.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, img.ly, Proxy, force-remote-dns
+DOMAIN-SUFFIX, imgur.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, instapaper.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, jsdelivr.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, livefilestore.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, jquery.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, mail.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, medium.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, mobile01.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, nflxvideo.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, nyt.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, nytimes.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, pandora.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, periscope.tv, Proxy, force-remote-dns
+DOMAIN-SUFFIX, pinterest.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, pixiv.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, pscp.tv, Proxy, force-remote-dns
+DOMAIN-SUFFIX, recaptcha.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, sfx.ms, Proxy, force-remote-dns
+DOMAIN-SUFFIX, sharethis.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, shazam.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ssl-images-amazon.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, stackoverflow.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, thepiratebay.org, Proxy, force-remote-dns
+DOMAIN-SUFFIX, theverge.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, tidal.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, time.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, timeinc.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, twitch.tv, Proxy, force-remote-dns
+DOMAIN-SUFFIX, vimeo.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, vimeocdn.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, w3schools.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, whoer.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, whrq.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wordpress.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wp.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wsj.com, Proxy, force-remote-dns
+DOMAIN-SUFFIX, wsj.net, Proxy, force-remote-dns
+DOMAIN-SUFFIX, xda-developers.com, Proxy, force-remote-dns
+
+# PROXY- Global country
+DOMAIN-SUFFIX, au, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ca, Proxy, force-remote-dns
+DOMAIN-SUFFIX, de, Proxy, force-remote-dns
+DOMAIN-SUFFIX, fr, Proxy, force-remote-dns
+DOMAIN-SUFFIX, hk, Proxy, force-remote-dns
+DOMAIN-SUFFIX, id, Proxy, force-remote-dns
+DOMAIN-SUFFIX, in, Proxy, force-remote-dns
+DOMAIN-SUFFIX, jp, Proxy, force-remote-dns
+DOMAIN-SUFFIX, kr, Proxy, force-remote-dns
+DOMAIN-SUFFIX, my, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ng, Proxy, force-remote-dns
+DOMAIN-SUFFIX, nz, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ph, Proxy, force-remote-dns
+DOMAIN-SUFFIX, ru, Proxy, force-remote-dns
+DOMAIN-SUFFIX, th, Proxy, force-remote-dns
+DOMAIN-SUFFIX, tw, Proxy, force-remote-dns
+DOMAIN-SUFFIX, uk, Proxy, force-remote-dns
+DOMAIN-SUFFIX, us, Proxy, force-remote-dns
+DOMAIN-SUFFIX, vn, Proxy, force-remote-dns
 
 # DIRECT
 # DIRECT - 360
