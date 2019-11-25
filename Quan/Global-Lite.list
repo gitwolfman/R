@@ -24,7 +24,7 @@ DOMAIN-SUFFIX, oculuscdn.com, Proxy, force-remote-dns
 DOMAIN-SUFFIX, rocksdb.org, Proxy, force-remote-dns
 DOMAIN-SUFFIX, whatsapp.com, Proxy, force-remote-dns
 DOMAIN-SUFFIX, whatsapp.net, Proxy, force-remote-dns
-domain-keyword, facebook, reject
+DOMAIN-KWEYWORD, facebook, reject
 
 # Github
 DOMAIN-SUFFIX, git.io, Proxy, force-remote-dns
@@ -32,7 +32,7 @@ DOMAIN-SUFFIX, github.com, Proxy, force-remote-dns
 DOMAIN-SUFFIX, github.io, Proxy, force-remote-dns
 DOMAIN-SUFFIX, githubassets.com, Proxy, force-remote-dns
 DOMAIN-SUFFIX, githubusercontent.com, Proxy, force-remote-dns
-domain-keyword, github, Proxy, force-remote-dns
+DOMAIN-KWEYWORD, github, Proxy, force-remote-dns
 
 # Mega
 DOMAIN-SUFFIX, mega.co.nz, Proxy, force-remote-dns
