@@ -1,9 +1,9 @@
 # FRss
-DOMAIN-SUFFIX, bbsah.com, FRss
-DOMAIN-SUFFIX, binwiki.com, FRss
-DOMAIN-SUFFIX, hostloc.com, FRss
-DOMAIN-SUFFIX, ijjyy.net, FRss
-DOMAIN-SUFFIX, liyuans.com, FRss
-DOMAIN-SUFFIX, moren.de, FRss
-DOMAIN-SUFFIX, v2ex.com, FRss
-DOMAIN-SUFFIX, yiyult.com, FRss
+DOMAIN-SUFFIX, bbsah.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, binwiki.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, hostloc.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, ijjyy.net, FRss, force-remote-dns
+DOMAIN-SUFFIX, liyuans.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, moren.de, FRss, force-remote-dns
+DOMAIN-SUFFIX, v2ex.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, yiyult.com, FRss, force-remote-dns
