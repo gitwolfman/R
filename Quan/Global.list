@@ -1,0 +1,303 @@
+# Facebook
+DOMAIN-SUFFIX, cdninstagram.com, PROXY
+DOMAIN-SUFFIX, fb.com, PROXY
+DOMAIN-SUFFIX, fb.me, PROXY
+DOMAIN-SUFFIX, fbaddins.com, PROXY
+DOMAIN-SUFFIX, fbcdn.net, PROXY
+DOMAIN-SUFFIX, fbsbx.com, PROXY
+DOMAIN-SUFFIX, fbworkmail.com, PROXY
+DOMAIN-SUFFIX, instagram.com, PROXY
+DOMAIN-SUFFIX, m.me, PROXY
+DOMAIN-SUFFIX, messenger.com, PROXY
+DOMAIN-SUFFIX, oculus.com, PROXY
+DOMAIN-SUFFIX, oculuscdn.com, PROXY
+DOMAIN-SUFFIX, rocksdb.org, PROXY
+DOMAIN-SUFFIX, whatsapp.com, PROXY
+DOMAIN-SUFFIX, whatsapp.net, PROXY
+domain-keyword, facebook, PROXY
+
+# Github
+DOMAIN-SUFFIX, git.io, PROXY
+DOMAIN-SUFFIX, github.com, PROXY
+DOMAIN-SUFFIX, github.io, PROXY
+DOMAIN-SUFFIX, githubassets.com, PROXY
+DOMAIN-SUFFIX, githubusercontent.com, PROXY
+domain-keyword, github, PROXY
+
+# Google
+DOMAIN-SUFFIX, abc.xyz, PROXY
+DOMAIN-SUFFIX, admin.recaptcha.net, PROXY
+DOMAIN-SUFFIX, ampproject.org, PROXY
+DOMAIN-SUFFIX, android.com, PROXY
+DOMAIN-SUFFIX, androidify.com, PROXY
+DOMAIN-SUFFIX, autodraw.com, PROXY
+DOMAIN-SUFFIX, blogger.com, PROXY
+DOMAIN-SUFFIX, blogspot.com, PROXY
+DOMAIN-SUFFIX, capitalg.com, PROXY
+DOMAIN-SUFFIX, certificate-transparency.org, PROXY
+DOMAIN-SUFFIX, chrome.com, PROXY
+DOMAIN-SUFFIX, chromeexperiments.com, PROXY
+DOMAIN-SUFFIX, chromestatus.com, PROXY
+DOMAIN-SUFFIX, chromium.org, PROXY
+DOMAIN-SUFFIX, creativelab5.com, PROXY
+DOMAIN-SUFFIX, debug.com, PROXY
+DOMAIN-SUFFIX, deepmind.com, PROXY
+DOMAIN-SUFFIX, dialogflow.com, PROXY
+DOMAIN-SUFFIX, g.co, PROXY
+DOMAIN-SUFFIX, getmdl.io, PROXY
+DOMAIN-SUFFIX, getoutline.org, PROXY
+DOMAIN-SUFFIX, ggpht.com, PROXY
+DOMAIN-SUFFIX, gmail.com, PROXY
+DOMAIN-SUFFIX, gmodules.com, PROXY
+DOMAIN-SUFFIX, godoc.org, PROXY
+DOMAIN-SUFFIX, golang.org, PROXY
+DOMAIN-SUFFIX, goo.gl, PROXY
+DOMAIN-SUFFIX, google.com, PROXY
+DOMAIN-SUFFIX, google.com.hk, PROXY
+DOMAIN-SUFFIX, googleapis.com, PROXY
+DOMAIN-SUFFIX, googlevideo.com, PROXY
+DOMAIN-SUFFIX, googleusercontent.com, PROXY
+DOMAIN-SUFFIX, gstatic.com, PROXY
+DOMAIN-SUFFIX, gv.com, PROXY
+DOMAIN-SUFFIX, gwtproject.org, PROXY
+DOMAIN-SUFFIX, itasoftware.com, PROXY
+DOMAIN-SUFFIX, madewithcode.com, PROXY
+DOMAIN-SUFFIX, material.io, PROXY
+DOMAIN-SUFFIX, polymer-project.org, PROXY
+DOMAIN-SUFFIX, recaptcha.net, PROXY
+DOMAIN-SUFFIX, shattered.io, PROXY
+DOMAIN-SUFFIX, synergyse.com, PROXY
+DOMAIN-SUFFIX, tensorflow.org, PROXY
+DOMAIN-SUFFIX, tfhub.dev, PROXY
+DOMAIN-SUFFIX, tiltbrush.com, PROXY
+DOMAIN-SUFFIX, waveprotocol.org, PROXY
+DOMAIN-SUFFIX, waymo.com, PROXY
+DOMAIN-SUFFIX, webmproject.org, PROXY
+DOMAIN-SUFFIX, webrtc.org, PROXY
+DOMAIN-SUFFIX, whatbrowser.org, PROXY
+DOMAIN-SUFFIX, widevine.com, PROXY
+DOMAIN-SUFFIX, x.company, PROXY
+DOMAIN-SUFFIX, youtu.be, PROXY
+DOMAIN-SUFFIX, youtube.com, PROXY
+DOMAIN-SUFFIX, yt.be, PROXY
+DOMAIN-SUFFIX, ytimg.com, PROXY
+domain-keyword, google, PROXY
+domain-keyword, gmail, PROXY
+domain-keyword, youtube, PROXY
+domain-keyword, blogspot, PROXY
+
+# Mega
+DOMAIN-SUFFIX, mega.co.nz, PROXY
+DOMAIN-SUFFIX, mega.nz, PROXY
+DOMAIN-SUFFIX, megaupload.com, PROXY
+
+#Microsoft
+DOMAIN-SUFFIX, adobedtm.com, PROXY
+DOMAIN-SUFFIX, aspnetcdn.com, PROXY
+DOMAIN-SUFFIX, bing.com, PROXY
+DOMAIN-SUFFIX, gfx.ms, PROXY
+DOMAIN-SUFFIX, live.com, PROXY
+DOMAIN-SUFFIX, microsoft.com, PROXY
+DOMAIN-SUFFIX, microsoftonline.com, PROXY
+DOMAIN-SUFFIX, microsoftonline-p.com, PROXY
+DOMAIN-SUFFIX, microsofttranslator.com, PROXY
+DOMAIN-SUFFIX, msauth.net, PROXY
+DOMAIN-SUFFIX, msecnd.net, PROXY
+DOMAIN-SUFFIX, msedge.net, PROXY
+DOMAIN-SUFFIX, msftauth.net, PROXY
+DOMAIN-SUFFIX, msocdn.com, PROXY
+DOMAIN-SUFFIX, office.com, PROXY
+DOMAIN-SUFFIX, office365.com, PROXY
+DOMAIN-SUFFIX, onenote.com, PROXY
+DOMAIN-SUFFIX, onestore.ms, PROXY
+DOMAIN-SUFFIX, outlook.com, PROXY
+DOMAIN-SUFFIX, skype.com, PROXY
+DOMAIN-SUFFIX, s-microsoft.com, PROXY
+DOMAIN-SUFFIX, svc.ms, PROXY
+DOMAIN-SUFFIX, visualstudio.com, PROXY
+DOMAIN-SUFFIX, windows.com, PROXY
+DOMAIN-SUFFIX, windows.net, PROXY
+DOMAIN-SUFFIX, windowsupdate.com, PROXY
+#Microsoft Azure
+DOMAIN-SUFFIX, azureedge.net, PROXY
+DOMAIN-SUFFIX, azurewebsites.net, PROXY
+DOMAIN-SUFFIX, azure-api.net, PROXY
+DOMAIN-SUFFIX, azure.com, PROXY
+DOMAIN-SUFFIX, azure.net, PROXY
+DOMAIN-SUFFIX, msecnd.net, PROXY
+DOMAIN-SUFFIX, liveperson.net, PROXY
+DOMAIN-SUFFIX, lpsnmedia.net, PROXY
+DOMAIN-SUFFIX, xboxlive.com, PROXY
+#Microsoft Onedrive
+DOMAIN-SUFFIX, 1drv.com, PROXY
+DOMAIN-SUFFIX, 1drv.ms, PROXY
+DOMAIN-SUFFIX, blob.core.windows.net, PROXY
+DOMAIN-SUFFIX, livefilestore.com, PROXY
+DOMAIN-SUFFIX, onedrive.com, PROXY
+DOMAIN-SUFFIX, sharepoint.com, PROXY
+DOMAIN-SUFFIX, storage.live.com, PROXY
+DOMAIN-SUFFIX, storage.msn.com, PROXY
+DOMAIN-SUFFIX, onedrive.live.com, PROXY
+DOMAIN-SUFFIX, oneclient.sfx.ms, PROXY
+
+# Reddit
+DOMAIN-SUFFIX, redd.it, PROXY
+DOMAIN-SUFFIX, reddit.com, PROXY
+DOMAIN-SUFFIX, redditmedia.com, PROXY
+DOMAIN-SUFFIX, redditstatic.com, PROXY
+
+# Russia
+DOMAIN-SUFFIX, imgsmail.ru, PROXY
+DOMAIN-SUFFIX, mail.ru, PROXY
+DOMAIN-SUFFIX, yandex.com, PROXY
+DOMAIN-SUFFIX, yandex.net, PROXY
+DOMAIN-SUFFIX, yandex.ru, PROXY
+DOMAIN-SUFFIX, yastat.net, PROXY
+
+# Spotify
+DOMAIN-SUFFIX, pscdn.co, PROXY
+DOMAIN-SUFFIX, scdn.co, PROXY
+DOMAIN-SUFFIX, spoti.fi, PROXY
+DOMAIN-SUFFIX, spotify.com, PROXY
+domain-keyword, spotify, PROXY
+
+# Telegram
+DOMAIN-SUFFIX, t.me, PROXY
+DOMAIN-SUFFIX, tdesktop.com, PROXY
+DOMAIN-SUFFIX, telegra.ph, PROXY
+DOMAIN-SUFFIX, telegram.me, PROXY
+DOMAIN-SUFFIX, telegram.org, PROXY
+ip-cidr, 91.108.4.0/22, PROXY
+ip-cidr, 91.108.8.0/22, PROXY
+ip-cidr, 91.108.12.0/22, PROXY
+ip-cidr, 91.108.16.0/22, PROXY
+ip-cidr, 91.108.56.0/22, PROXY
+ip-cidr, 149.154.160.0/20, PROXY
+
+# Twitter
+DOMAIN-SUFFIX, pscp.tv, PROXY
+DOMAIN-SUFFIX, periscope.tv, PROXY
+DOMAIN-SUFFIX, t.co, PROXY
+DOMAIN-SUFFIX, twimg.co, PROXY
+DOMAIN-SUFFIX, twimg.com, PROXY
+DOMAIN-SUFFIX, twitpic.com, PROXY
+DOMAIN-SUFFIX, twitter.com, PROXY
+DOMAIN-SUFFIX, vine.co, PROXY
+domain-keyword, twitter, PROXY
+
+# Wiki
+DOMAIN-SUFFIX, wikileaks.org, PROXY
+DOMAIN-SUFFIX, wikimedia.org, PROXY
+DOMAIN-SUFFIX, wikipedia.com, PROXY
+DOMAIN-SUFFIX, wikipedia.org, PROXY
+DOMAIN-SUFFIX, wikiwand.com, PROXY
+
+# Yahoo
+DOMAIN-SUFFIX, oath.com, PROXY
+DOMAIN-SUFFIX, yahoo.com, PROXY
+DOMAIN-SUFFIX, yahoo.net, PROXY
+DOMAIN-SUFFIX, yimg.com, PROXY
+DOMAIN-SUFFIX, ying.com, PROXY
+# Yahoo JP
+DOMAIN-SUFFIX, storage-yahoo.jp, PROXY
+DOMAIN-SUFFIX, yahoo.co.jp, PROXY
+DOMAIN-SUFFIX, yahooapis.jp, PROXY
+DOMAIN-SUFFIX, yimg.jp, PROXY
+
+# Digital Certification
+DOMAIN-SUFFIX, digicert.com, PROXY
+DOMAIN-SUFFIX, letsencrypt.org, PROXY
+DOMAIN-SUFFIX, digitalcertvalidation.com, PROXY
+DOMAIN-SUFFIX, ocsp.identrust.com, PROXY
+DOMAIN-SUFFIX, ocsp.pki.goog, PROXY
+DOMAIN-SUFFIX, ocsp.sectigo.com, PROXY
+DOMAIN-SUFFIX, ocsp.usertrust.com, PROXY
+DOMAIN-SUFFIX, ocsp.trustasiassl.com, PROXY
+
+# Global-Others
+DOMAIN-SUFFIX, 0rz.tw, PROXY
+DOMAIN-SUFFIX, akamai.net, PROXY
+DOMAIN-SUFFIX, akamaihd.net, PROXY
+DOMAIN-SUFFIX, amazon.com, PROXY
+DOMAIN-SUFFIX, amazonaws.com, PROXY
+DOMAIN-SUFFIX, angularjs.org, PROXY
+DOMAIN-SUFFIX, aolcdn.com, PROXY
+DOMAIN-SUFFIX, apkpure.com, PROXY
+DOMAIN-SUFFIX, appledaily.com, PROXY
+DOMAIN-SUFFIX, appshopper.com, PROXY
+DOMAIN-SUFFIX, appspot.com, PROXY
+DOMAIN-SUFFIX, awsstatic.com, PROXY
+DOMAIN-SUFFIX, bbc.com, PROXY
+DOMAIN-SUFFIX, bit.ly, PROXY
+DOMAIN-SUFFIX, bitbucket.org, PROXY
+DOMAIN-SUFFIX, bitcointalk.org, PROXY
+DOMAIN-SUFFIX, bloomberg.com, PROXY
+DOMAIN-SUFFIX, cl.ly, PROXY
+DOMAIN-SUFFIX, cloudflare.com, PROXY
+DOMAIN-SUFFIX, deezer.com, PROXY
+DOMAIN-SUFFIX, dropbox.com, PROXY
+DOMAIN-SUFFIX, duckduckgo.com, PROXY
+DOMAIN-SUFFIX, dzcdn.net, PROXY
+DOMAIN-SUFFIX, evernote.com, PROXY
+DOMAIN-SUFFIX, gravatar.com, PROXY
+DOMAIN-SUFFIX, hockeyapp.net, PROXY
+DOMAIN-SUFFIX, img.ly, PROXY
+DOMAIN-SUFFIX, imgur.com, PROXY
+DOMAIN-SUFFIX, instapaper.com, PROXY
+DOMAIN-SUFFIX, jsdelivr.net, PROXY
+DOMAIN-SUFFIX, livefilestore.com, PROXY
+DOMAIN-SUFFIX, jquery.com, PROXY
+DOMAIN-SUFFIX, mail.com, PROXY
+DOMAIN-SUFFIX, medium.com, PROXY
+DOMAIN-SUFFIX, mobile01.com, PROXY
+DOMAIN-SUFFIX, nflxvideo.net, PROXY
+DOMAIN-SUFFIX, nyt.com, PROXY
+DOMAIN-SUFFIX, nytimes.com, PROXY
+DOMAIN-SUFFIX, pandora.com, PROXY
+DOMAIN-SUFFIX, periscope.tv, PROXY
+DOMAIN-SUFFIX, pinterest.com, PROXY
+DOMAIN-SUFFIX, pixiv.net, PROXY
+DOMAIN-SUFFIX, pscp.tv, PROXY
+DOMAIN-SUFFIX, recaptcha.net, PROXY
+DOMAIN-SUFFIX, sfx.ms, PROXY
+DOMAIN-SUFFIX, sharethis.com, PROXY
+DOMAIN-SUFFIX, shazam.com, PROXY
+DOMAIN-SUFFIX, ssl-images-amazon.com, PROXY
+DOMAIN-SUFFIX, stackoverflow.com, PROXY
+DOMAIN-SUFFIX, thepiratebay.org, PROXY
+DOMAIN-SUFFIX, theverge.com, PROXY
+DOMAIN-SUFFIX, tidal.com, PROXY
+DOMAIN-SUFFIX, time.com, PROXY
+DOMAIN-SUFFIX, timeinc.net, PROXY
+DOMAIN-SUFFIX, twitch.tv, PROXY
+DOMAIN-SUFFIX, vimeo.com, PROXY
+DOMAIN-SUFFIX, vimeocdn.com, PROXY
+DOMAIN-SUFFIX, w3schools.com, PROXY
+DOMAIN-SUFFIX, whoer.net, PROXY
+DOMAIN-SUFFIX, whrq.net, PROXY
+DOMAIN-SUFFIX, wordpress.com, PROXY
+DOMAIN-SUFFIX, wp.com, PROXY
+DOMAIN-SUFFIX, wsj.com, PROXY
+DOMAIN-SUFFIX, wsj.net, PROXY
+DOMAIN-SUFFIX, xda-developers.com, PROXY
+
+# Global-country
+DOMAIN-SUFFIX, au, PROXY
+DOMAIN-SUFFIX, ca, PROXY
+DOMAIN-SUFFIX, de, PROXY
+DOMAIN-SUFFIX, fr, PROXY
+DOMAIN-SUFFIX, hk, PROXY
+DOMAIN-SUFFIX, id, PROXY
+DOMAIN-SUFFIX, in, PROXY
+DOMAIN-SUFFIX, jp, PROXY
+DOMAIN-SUFFIX, kr, PROXY
+DOMAIN-SUFFIX, my, PROXY
+DOMAIN-SUFFIX, ng, PROXY
+DOMAIN-SUFFIX, nz, PROXY
+DOMAIN-SUFFIX, ph, PROXY
+DOMAIN-SUFFIX, ru, PROXY
+DOMAIN-SUFFIX, th, PROXY
+DOMAIN-SUFFIX, tw, PROXY
+DOMAIN-SUFFIX, uk, PROXY
+DOMAIN-SUFFIX, us, PROXY
+DOMAIN-SUFFIX, vn, PROXY
