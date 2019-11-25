@@ -56,7 +56,7 @@ DOMAIN-SUFFIX, youtu.be, Google
 DOMAIN-SUFFIX, youtube.com, Google
 DOMAIN-SUFFIX, yt.be, Google
 DOMAIN-SUFFIX, ytimg.com, Google
-domain-keyword, google, Google
-domain-keyword, gmail, Google
-domain-keyword, youtube, Google
-domain-keyword, blogspot, Google
+DOMAIN-KEYWORD, google, Google
+DOMAIN-KEYWORD, gmail, Google
+DOMAIN-KEYWORD, youtube, Google
+DOMAIN-KEYWORD, blogspot, Google
