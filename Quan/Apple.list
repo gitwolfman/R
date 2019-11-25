@@ -1,0 +1,17 @@
+# Apple
+DOMAIN-SUFFIX, aaplimg.com, Apple
+DOMAIN-SUFFIX, apple.co, Apple
+DOMAIN-SUFFIX, apple.com, Apple
+DOMAIN-SUFFIX, appstore.com, Apple
+DOMAIN-SUFFIX, cdn-apple.com, Apple
+DOMAIN-SUFFIX, icloud.com, Apple
+DOMAIN-SUFFIX, icloud-content.com, Apple
+DOMAIN-SUFFIX, itunes.com, Apple
+DOMAIN-SUFFIX, me.com, Apple
+DOMAIN-SUFFIX, mzstatic.com, Apple
+# Weather
+DOMAIN-SUFFIX, weather.com, Apple
+# AppleKeywords
+DOMAIN-KEYWORD, apple, Apple
+DOMAIN-KEYWORD, icloud, Apple
+DOMAIN-KEYWORD, itunes, Apple
