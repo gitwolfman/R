@@ -1,0 +1,165 @@
+# 360
+DOMAIN-SUFFIX, qhres.com, DIRECT
+DOMAIN-SUFFIX, qhimg.com, DIRECT
+# alibaba
+DOMAIN-SUFFIX, alibaba.com, DIRECT
+DOMAIN-SUFFIX, alicdn.com, DIRECT
+DOMAIN-SUFFIX, alikunlun.com, DIRECT
+DOMAIN-SUFFIX, alipay.com, DIRECT
+DOMAIN-SUFFIX, amap.com, DIRECT
+DOMAIN-SUFFIX, autonavi.com, DIRECT
+DOMAIN-SUFFIX, dingtalk.com, DIRECT
+DOMAIN-SUFFIX, mxhichina.com, DIRECT
+DOMAIN-SUFFIX, soku.com, DIRECT
+DOMAIN-SUFFIX, taobao.com, DIRECT
+DOMAIN-SUFFIX, tmall.com, DIRECT
+DOMAIN-SUFFIX, tmall.hk, DIRECT
+DOMAIN-SUFFIX, ykimg.com, DIRECT
+DOMAIN-SUFFIX, youku.com, DIRECT
+DOMAIN-SUFFIX, xiami.com, DIRECT
+DOMAIN-SUFFIX, xiami.net, DIRECT
+# baidu
+DOMAIN-SUFFIX, baidu.cn, DIRECT
+DOMAIN-SUFFIX, baidu.com, DIRECT
+DOMAIN-SUFFIX, baidubcr.com, DIRECT
+DOMAIN-SUFFIX, bdstatic.com, DIRECT
+DOMAIN-SUFFIX, yunjiasu-cdn.net, DIRECT
+# bilibili
+DOMAIN-SUFFIX, acgvideo.com, DIRECT
+DOMAIN-SUFFIX, biliapi.com, DIRECT
+DOMAIN-SUFFIX, biliapi.net, DIRECT
+DOMAIN-SUFFIX, bilibili.com, DIRECT
+DOMAIN-SUFFIX, bilibili.tv, DIRECT
+DOMAIN-SUFFIX, hdslb.com, DIRECT
+# bytedance
+DOMAIN-SUFFIX, feiliao.com, DIRECT
+DOMAIN-SUFFIX, pstatp.com, DIRECT
+DOMAIN-SUFFIX, snssdk.com, DIRECT
+DOMAIN-SUFFIX, iesdouyin.com, DIRECT
+DOMAIN-SUFFIX, toutiao.com, DIRECT
+# cctv
+DOMAIN-SUFFIX, cctv.com, DIRECT
+DOMAIN-SUFFIX, cctvpic.com, DIRECT
+DOMAIN-SUFFIX, livechina.com, DIRECT
+# didi
+DOMAIN-SUFFIX, didialift.com, DIRECT
+DOMAIN-SUFFIX, didiglobal.com, DIRECT
+DOMAIN-SUFFIX, udache.com, DIRECT
+# chinanet
+DOMAIN-SUFFIX, 21cn.com, DIRECT
+# hunantv
+DOMAIN-SUFFIX, hitv.com, DIRECT
+DOMAIN-SUFFIX, mgtv.com, DIRECT
+# iqiyi
+DOMAIN-SUFFIX, iqiyi.com, DIRECT
+DOMAIN-SUFFIX, iqiyipic.com, DIRECT
+DOMAIN-SUFFIX, 71.am.com, DIRECT
+# jd
+DOMAIN-SUFFIX, jd.com, DIRECT
+DOMAIN-SUFFIX, jd.hk, DIRECT
+DOMAIN-SUFFIX, jdpay.com, DIRECT
+DOMAIN-SUFFIX, 360buyimg.com, DIRECT
+# kingsoft
+DOMAIN-SUFFIX, iciba.com, DIRECT
+DOMAIN-SUFFIX, ksosoft.com, DIRECT
+# meitu
+DOMAIN-SUFFIX, meitu.com, DIRECT
+DOMAIN-SUFFIX, meitudata.com, DIRECT
+DOMAIN-SUFFIX, meitustat.com, DIRECT
+DOMAIN-SUFFIX, meipai.com, DIRECT
+# mi
+DOMAIN-SUFFIX, duokan.com, DIRECT
+DOMAIN-SUFFIX, mi-img.com, DIRECT
+DOMAIN-SUFFIX, miui.com, DIRECT
+DOMAIN-SUFFIX, miwifi.com, DIRECT
+DOMAIN-SUFFIX, xiaomi.com, DIRECT
+# netease
+DOMAIN-SUFFIX, 163.com, DIRECT
+DOMAIN-SUFFIX, 126.net, DIRECT
+DOMAIN-SUFFIX, 127.net, DIRECT
+DOMAIN-SUFFIX, 163yun.com, DIRECT
+DOMAIN-SUFFIX, lofter.com, DIRECT
+DOMAIN-SUFFIX, netease.com, DIRECT
+DOMAIN-SUFFIX, netease.im, DIRECT
+DOMAIN-SUFFIX, ydstatic.com, DIRECT
+# sina
+DOMAIN-SUFFIX, sina.com, DIRECT
+DOMAIN-SUFFIX, sinaimg.cn, DIRECT
+DOMAIN-SUFFIX, weibo.cn, DIRECT
+DOMAIN-SUFFIX, weibo.com, DIRECT
+DOMAIN-SUFFIX, weibocdn.com, DIRECT
+# sohu
+DOMAIN-SUFFIX, sohu.com, DIRECT
+DOMAIN-SUFFIX, sohucs.com, DIRECT
+DOMAIN-SUFFIX, sohu-inc.com, DIRECT
+DOMAIN-SUFFIX, v-56.com, DIRECT
+# sogou
+DOMAIN-SUFFIX, sogo.com, DIRECT
+DOMAIN-SUFFIX, sogou.com, DIRECT
+DOMAIN-SUFFIX, sogoucdn.com, DIRECT
+# QQ
+DOMAIN-SUFFIX, gtimg.com, DIRECT
+DOMAIN-SUFFIX, idqqimg.com, DIRECT
+DOMAIN-SUFFIX, igamecj.com, DIRECT
+DOMAIN-SUFFIX, myapp.com, DIRECT
+DOMAIN-SUFFIX, myqcloud.com, DIRECT
+DOMAIN-SUFFIX, qq.com, DIRECT
+DOMAIN-SUFFIX, tencent.com, DIRECT
+DOMAIN-SUFFIX, tencent-cloud.net, DIRECT
+user-agent, micromessenger%20client, DIRECT
+user-agent, wechat*, DIRECT
+# yyets
+DOMAIN-SUFFIX, jstucdn.com, DIRECT
+DOMAIN-SUFFIX, zimuzu.io, DIRECT
+DOMAIN-SUFFIX, zimuzu.tv, DIRECT
+DOMAIN-SUFFIX, zmz2019.com, DIRECT
+DOMAIN-SUFFIX, zmzapi.com, DIRECT
+DOMAIN-SUFFIX, zmzapi.net, DIRECT
+DOMAIN-SUFFIX, zmzfile.com, DIRECT
+user-agent, yyets*, DIRECT
+# other
+DOMAIN-SUFFIX, ctrip.com, DIRECT
+DOMAIN-SUFFIX, douban.com, DIRECT
+DOMAIN-SUFFIX, doubanio.com, DIRECT
+DOMAIN-SUFFIX, douyu.com, DIRECT
+DOMAIN-SUFFIX, eastmoney.com, DIRECT
+DOMAIN-SUFFIX, eudic.net, DIRECT
+DOMAIN-SUFFIX, feng.com, DIRECT
+DOMAIN-SUFFIX, fengkongcloud.com, DIRECT
+DOMAIN-SUFFIX, getpricetag.com, DIRECT
+DOMAIN-SUFFIX, hongxiu.com, DIRECT
+DOMAIN-SUFFIX, huxiucdn.com, DIRECT
+DOMAIN-SUFFIX, huya.com, DIRECT
+DOMAIN-SUFFIX, ithome.com, DIRECT
+DOMAIN-SUFFIX, maoyan.com, DIRECT
+DOMAIN-SUFFIX, maoyun.tv, DIRECT
+DOMAIN-SUFFIX, meituan.com, DIRECT
+DOMAIN-SUFFIX, meituan.net, DIRECT
+DOMAIN-SUFFIX, mobike.com, DIRECT
+DOMAIN-SUFFIX, mubu.com, DIRECT
+DOMAIN-SUFFIX, myzaker.com, DIRECT
+DOMAIN-SUFFIX, qdaily.com, DIRECT
+DOMAIN-SUFFIX, qidian.com, DIRECT
+DOMAIN-SUFFIX, qyer.com, DIRECT
+DOMAIN-SUFFIX, qyerstatic.com, DIRECT
+DOMAIN-SUFFIX, raychase.net, DIRECT
+DOMAIN-SUFFIX, smzdm.com, DIRECT
+DOMAIN-SUFFIX, snwx.com, DIRECT
+DOMAIN-SUFFIX, sspai.com, DIRECT
+DOMAIN-SUFFIX, tianyancha.com, DIRECT
+DOMAIN-SUFFIX, suning.com, DIRECT
+DOMAIN-SUFFIX, weico.cc, DIRECT
+DOMAIN-SUFFIX, weidian.com, DIRECT
+DOMAIN-SUFFIX, xiachufang.com, DIRECT
+DOMAIN-SUFFIX, ximalaya.com, DIRECT
+DOMAIN-SUFFIX, xinhuanet.com, DIRECT
+DOMAIN-SUFFIX, xmcdn.com, DIRECT
+DOMAIN-SUFFIX, zhihu.com, DIRECT
+DOMAIN-SUFFIX, zhimg.com, DIRECT
+DOMAIN-SUFFIX, zhuihd.com, DIRECT
+
+# Coutry CN
+DOMAIN-SUFFIX, cn, DIRECT
+
+# Geoip CN
+GEOIP, cn, DIRECT
