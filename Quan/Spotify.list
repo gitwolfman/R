@@ -1,0 +1,5 @@
+# Spotify
+DOMAIN-SUFFIX, pscdn.co, Spotify, force-remote-dns
+DOMAIN-SUFFIX, scdn.co, Spotify, force-remote-dns
+DOMAIN-SUFFIX, spoti.fi, Spotify, force-remote-dns
+DOMAIN-SUFFIX, spotify.com, Spotify, force-remote-dns
