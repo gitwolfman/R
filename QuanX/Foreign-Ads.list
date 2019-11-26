@@ -1,4 +1,4 @@
-# Google
+# Ads-Google
 DOMAIN-SUFFIX, ads.gmodules.com, REJECT
 DOMAIN-SUFFIX, ads.google.com, REJECT
 DOMAIN-SUFFIX, adservice.google.com, REJECT
@@ -11,7 +11,7 @@ DOMAIN-SUFFIX, mobileads.google.com, REJECT
 DOMAIN-SUFFIX, pagead-tpc.l.google.com, REJECT
 DOMAIN-SUFFIX, pagead.google.com, REJECT
 DOMAIN-SUFFIX, pagead.l.google.com, REJECT
-# Google 2
+# Ads-Google 2
 DOMAIN-SUFFIX, googleadservices.com, REJECT
 DOMAIN-SUFFIX, googleadsserving.cn, REJECT
 DOMAIN-SUFFIX, google-analytics.com, REJECT
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX, googlesyndication.com, REJECT
 DOMAIN-SUFFIX, googletagmanager.com, REJECT
 DOMAIN-SUFFIX, googletagservices.com, REJECT
 
-# Twitter
+# Ads-Twitter
 DOMAIN-SUFFIX, ads.twitter.com, REJECT
 DOMAIN-SUFFIX, syndication.twitter.com, REJECT
 DOMAIN-SUFFIX, syndication-o.twitter.com, REJECT
@@ -30,7 +30,7 @@ DOMAIN-SUFFIX, ads-twitter.com, REJECT
 DOMAIN-SUFFIX, tellapart.com, REJECT
 DOMAIN-SUFFIX, urls.api.twitter.com, REJECT
 
-# Yahoo
+# Ads-Yahoo
 DOMAIN-SUFFIX, ad.wretch.cc, REJECT
 DOMAIN-SUFFIX, ads.yahoo.com, REJECT
 DOMAIN-SUFFIX, adserver.yahoo.com, REJECT
@@ -53,12 +53,12 @@ DOMAIN-SUFFIX, uservoice.com, REJECT
 DOMAIN-SUFFIX, ws.progrss.yahoo.com, REJECT
 DOMAIN-SUFFIX, ybp.yahoo.com, REJECT
 
-# Yahoo JP
+# Ads-Yahoo JP
 DOMAIN-SUFFIX, ane.yahoo.co.jp, REJECT
 DOMAIN-SUFFIX, ard.yahoo.co.jp, REJECT
 DOMAIN-SUFFIX, yads.yahoo.co.jp, REJECT
 
-# Russia
+# Ads-Russia
 DOMAIN-SUFFIX, ad.mail.ru, REJECT
 DOMAIN-SUFFIX, an.yandex.ru, REJECT
 DOMAIN-SUFFIX, mc.yandex.ru, REJECT
