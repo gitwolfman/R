@@ -1,16 +1,16 @@
 # Apple
-DOMAIN-DUFFIX, aaplimg.com, Apple
-DOMAIN-DUFFIX, apple.co, Apple
-DOMAIN-DUFFIX, apple.com, Apple
-DOMAIN-DUFFIX, appstore.com, Apple
-DOMAIN-DUFFIX, cdn-apple.com, Apple
-DOMAIN-DUFFIX, icloud.com, Apple
-DOMAIN-DUFFIX, icloud-content.com, Apple
-DOMAIN-DUFFIX, itunes.com, Apple
-DOMAIN-DUFFIX, me.com, Apple
-DOMAIN-DUFFIX, mzstatic.com, Apple
+DOMAIN-SUFFIX, aaplimg.com, Apple
+DOMAIN-SUFFIX, apple.co, Apple
+DOMAIN-SUFFIX, apple.com, Apple
+DOMAIN-SUFFIX, appstore.com, Apple
+DOMAIN-SUFFIX, cdn-apple.com, Apple
+DOMAIN-SUFFIX, icloud.com, Apple
+DOMAIN-SUFFIX, icloud-content.com, Apple
+DOMAIN-SUFFIX, itunes.com, Apple
+DOMAIN-SUFFIX, me.com, Apple
+DOMAIN-SUFFIX, mzstatic.com, Apple
 # Weather
-DOMAIN-DUFFIX, weather.com, Apple
+DOMAIN-SUFFIX, weather.com, Apple
 # Apple Keywords
 DOMAIN-KEYWORD, apple, Apple
 DOMAIN-KEYWORD, icloud, Apple
