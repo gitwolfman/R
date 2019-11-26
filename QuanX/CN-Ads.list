@@ -1,44 +1,3 @@
-# 163
-DOMAIN-DUFFIX, a.youdao.com, REJECT
-DOMAIN-DUFFIX, adgeo.163.com, REJECT
-DOMAIN-DUFFIX, analytics.126.net, REJECT
-DOMAIN-DUFFIX, bobo.163.com, REJECT
-DOMAIN-DUFFIX, c.youdao.com, REJECT
-DOMAIN-DUFFIX, clkservice.youdao.com, REJECT
-DOMAIN-DUFFIX, conv.youdao.com, REJECT
-DOMAIN-DUFFIX, dsp.youdao.com, REJECT
-DOMAIN-DUFFIX, dsp-impr2.youdao.com, REJECT
-DOMAIN-DUFFIX, fa.163.com, REJECT
-DOMAIN-DUFFIX, g.163.com, REJECT
-DOMAIN-DUFFIX, g1.163.com, REJECT
-DOMAIN-DUFFIX, gb.163.com, REJECT
-DOMAIN-DUFFIX, gorgon.youdao.com, REJECT
-DOMAIN-DUFFIX, haitaoad.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, iadmat.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, iadmatvideo.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, img1.126.net, REJECT
-DOMAIN-DUFFIX, img2.126.net, REJECT
-DOMAIN-DUFFIX, ir.mail.126.com, REJECT
-DOMAIN-DUFFIX, ir.mail.yeah.net, REJECT
-DOMAIN-DUFFIX, ip.ws.126.net, REJECT
-DOMAIN-DUFFIX, mimg.126.net, REJECT
-DOMAIN-DUFFIX, nc004x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, nc045x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, nex.163.com, REJECT
-DOMAIN-DUFFIX, oimagea2.ydstatic.com, REJECT
-DOMAIN-DUFFIX, pagechoice.net, REJECT
-DOMAIN-DUFFIX, prom.gome.com.cn, REJECT
-DOMAIN-DUFFIX, push.126.net, REJECT
-DOMAIN-DUFFIX, qt002x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, rlogs.youdao.com, REJECT
-DOMAIN-DUFFIX, static.flv.uuzuonline.com, REJECT
-DOMAIN-DUFFIX, tb060x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, tb104x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, union.youdao.com, REJECT
-DOMAIN-DUFFIX, wanproxy.127.net, REJECT
-DOMAIN-DUFFIX, yanxuan.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, ydpushserver.youdao.com, REJECT
-
 # 360
 DOMAIN-DUFFIX, 3600.com, REJECT
 DOMAIN-DUFFIX, gamebox.360.cn, REJECT
@@ -340,6 +299,47 @@ DOMAIN-DUFFIX, ad.api.moji.com, REJECT
 DOMAIN-DUFFIX, adlaunch.moji.com, REJECT
 DOMAIN-DUFFIX, ads.mojicdn.com, REJECT
 DOMAIN-DUFFIX, v1.log.moji.com, REJECT
+
+# NetEase
+DOMAIN-DUFFIX, a.youdao.com, REJECT
+DOMAIN-DUFFIX, adgeo.163.com, REJECT
+DOMAIN-DUFFIX, analytics.126.net, REJECT
+DOMAIN-DUFFIX, bobo.163.com, REJECT
+DOMAIN-DUFFIX, c.youdao.com, REJECT
+DOMAIN-DUFFIX, clkservice.youdao.com, REJECT
+DOMAIN-DUFFIX, conv.youdao.com, REJECT
+DOMAIN-DUFFIX, dsp.youdao.com, REJECT
+DOMAIN-DUFFIX, dsp-impr2.youdao.com, REJECT
+DOMAIN-DUFFIX, fa.163.com, REJECT
+DOMAIN-DUFFIX, g.163.com, REJECT
+DOMAIN-DUFFIX, g1.163.com, REJECT
+DOMAIN-DUFFIX, gb.163.com, REJECT
+DOMAIN-DUFFIX, gorgon.youdao.com, REJECT
+DOMAIN-DUFFIX, haitaoad.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, iadmat.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, iadmatvideo.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, img1.126.net, REJECT
+DOMAIN-DUFFIX, img2.126.net, REJECT
+DOMAIN-DUFFIX, ir.mail.126.com, REJECT
+DOMAIN-DUFFIX, ir.mail.yeah.net, REJECT
+DOMAIN-DUFFIX, ip.ws.126.net, REJECT
+DOMAIN-DUFFIX, mimg.126.net, REJECT
+DOMAIN-DUFFIX, nc004x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, nc045x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, nex.163.com, REJECT
+DOMAIN-DUFFIX, oimagea2.ydstatic.com, REJECT
+DOMAIN-DUFFIX, pagechoice.net, REJECT
+DOMAIN-DUFFIX, prom.gome.com.cn, REJECT
+DOMAIN-DUFFIX, push.126.net, REJECT
+DOMAIN-DUFFIX, qt002x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, rlogs.youdao.com, REJECT
+DOMAIN-DUFFIX, static.flv.uuzuonline.com, REJECT
+DOMAIN-DUFFIX, tb060x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, tb104x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, union.youdao.com, REJECT
+DOMAIN-DUFFIX, wanproxy.127.net, REJECT
+DOMAIN-DUFFIX, yanxuan.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, ydpushserver.youdao.com, REJECT
 
 # PConline
 DOMAIN-DUFFIX, ad-analysis.pconline.com.cn, REJECT
