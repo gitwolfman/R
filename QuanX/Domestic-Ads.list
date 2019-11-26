@@ -1,4 +1,4 @@
-# 360
+# Ads-360
 DOMAIN-SUFFIX, 3600.com, REJECT
 DOMAIN-SUFFIX, gamebox.360.cn, REJECT
 DOMAIN-SUFFIX, jiagu.360.cn, REJECT
@@ -14,7 +14,7 @@ DOMAIN-SUFFIX, stat.m.360.cn, REJECT
 DOMAIN-SUFFIX, update.360safe.com, REJECT
 DOMAIN-SUFFIX, wan.360.cn, REJECT
 
-# Ali
+# Ads-Ali
 DOMAIN-SUFFIX, acjs.aliyun.com, REJECT
 DOMAIN-SUFFIX, adash-c.m.taobao.com, REJECT
 DOMAIN-SUFFIX, adash-c.ut.taobao.com, REJECT
@@ -48,11 +48,11 @@ DOMAIN-SUFFIX, tns.simba.taobao.com, REJECT
 DOMAIN-SUFFIX, tyh.taobao.com, REJECT
 IP-CIDR, 106.14.0.0/15, REJECT
 
-# Aloha
+# Ads-Aloha
 DOMAIN, sensor-data.mrbanana.com, reject
 DOMAIN, aloha-log.enjoymeet.com, reject
 
-# Baidu
+# Ads-Baidu
 DOMAIN-SUFFIX, a.baidu.com, REJECT
 DOMAIN-SUFFIX, ad.duapps.com, REJECT
 DOMAIN-SUFFIX, ad.player.baidu.com, REJECT
@@ -219,23 +219,24 @@ DOMAIN-SUFFIX, wn.pos.baidu.com, REJECT
 DOMAIN-SUFFIX, xiongzhang.baidu.com, REJECT
 DOMAIN-SUFFIX, znsv.baidu.com, REJECT
 DOMAIN-SUFFIX, zz.bdstatic.com, REJECT
-# baidu 2
+
+# Ads-baidu 2
 DOMAIN-SUFFIX, ashifen.com, REJECT
 DOMAIN-SUFFIX, shifen.com, REJECT
 
-# Eleme
+# Ads-Eleme
 DOMAIN-SUFFIX, app-monitor.ele.me, REJECT
 DOMAIN-SUFFIX, client-api.ele.me, REJECT
 DOMAIN-SUFFIX, grand.ele.me, REJECT
 DOMAIN-SUFFIX, mobile-pubt.ele.me, REJECT
 DOMAIN-SUFFIX, newton-api.ele.me, REJECT
 
-# iFeng
+# Ads-iFeng
 DOMAIN-SUFFIX, deliver.ifeng.com, REJECT
 DOMAIN-SUFFIX, api.newad.ifeng.com, REJECT
 DOMAIN-SUFFIX, ifengad.3g.ifeng.com, REJECT
 
-# iQiyi & PPS
+# Ads-iQiyi & PPS
 DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
 DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
 DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
@@ -259,7 +260,7 @@ IP-CIDR, 101.227.200.11/32, REJECT
 IP-CIDR, 101.227.200.28/32, REJECT
 IP-CIDR, 124.192.153.42/32, REJECT
 
-# JD
+# Ads-JD
 DOMAIN-SUFFIX, ads.union.jd.com, REJECT
 DOMAIN-SUFFIX, c-nfa.jd.com, REJECT
 DOMAIN-SUFFIX, cps.360buy.com, REJECT
@@ -269,7 +270,7 @@ DOMAIN-SUFFIX, jzt.jd.com, REJECT
 DOMAIN-SUFFIX, policy.jd.com, REJECT
 DOMAIN-SUFFIX, stat.m.jd.com, REJECT
 
-# Kugou & Kuwo
+# Ads-Kugou & Kuwo
 DOMAIN-SUFFIX, adserviceretry.kugou.com, REJECT
 DOMAIN-SUFFIX, ads.service.kugou.com, REJECT
 DOMAIN-SUFFIX, adsfile.bssdlbig.kugou.com, REJECT
@@ -284,7 +285,7 @@ DOMAIN-SUFFIX, log.stat.kugou.com, REJECT
 DOMAIN-SUFFIX, log.web.kugou.com, REJECT
 DOMAIN-SUFFIX, g.koowo.com, REJECT
 
-# Mi
+# Ads-Mi
 DOMAIN-SUFFIX, ad.intl.xiaomi.com, REJECT
 DOMAIN-SUFFIX, ad.xiaomi.com, REJECT
 DOMAIN-SUFFIX, admob.xiaomi.com, REJECT
@@ -294,13 +295,13 @@ DOMAIN-SUFFIX, adv.sec.miui.com, REJECT
 DOMAIN-SUFFIX, data.mistat.xiaomi.com, REJECT
 DOMAIN-SUFFIX, tracking.intl.miui.com, REJECT
 
-# Moji Tianqi
+# Ads-Moji Tianqi
 DOMAIN-SUFFIX, ad.api.moji.com, REJECT
 DOMAIN-SUFFIX, adlaunch.moji.com, REJECT
 DOMAIN-SUFFIX, ads.mojicdn.com, REJECT
 DOMAIN-SUFFIX, v1.log.moji.com, REJECT
 
-# NetEase
+# Ads-NetEase
 DOMAIN-SUFFIX, a.youdao.com, REJECT
 DOMAIN-SUFFIX, adgeo.163.com, REJECT
 DOMAIN-SUFFIX, analytics.126.net, REJECT
@@ -341,12 +342,12 @@ DOMAIN-SUFFIX, wanproxy.127.net, REJECT
 DOMAIN-SUFFIX, yanxuan.nosdn.127.net, REJECT
 DOMAIN-SUFFIX, ydpushserver.youdao.com, REJECT
 
-# PConline
+# Ads-PConline
 DOMAIN-SUFFIX, ad-analysis.pconline.com.cn, REJECT
 DOMAIN-SUFFIX, iad0ssl.pconline.com.cn, REJECT
 DOMAIN-SUFFIX, imgad0.pconline.com.cn, REJECT
 
-# QQ
+# Ads-QQ
 DOMAIN-SUFFIX, act.qq.com, REJECT
 DOMAIN-SUFFIX, apis.map.qq.com, REJECT
 DOMAIN-SUFFIX, adsfile.qq.com, REJECT
@@ -384,7 +385,7 @@ DOMAIN-SUFFIX, tajs.qq.com, REJECT
 DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT
 DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT
 
-# QQ Live
+# Ads-QQ Live
 DOMAIN-SUFFIX, aiseet.aa.atianqi.com, REJECT
 DOMAIN-SUFFIX, aiseet.atianqi.com, REJECT
 DOMAIN-SUFFIX, c.l.qq.com, REJECT
@@ -410,7 +411,7 @@ DOMAIN-SUFFIX, u.l.qq.com, REJECT
 DOMAIN-SUFFIX, vmindhls.tc.qq.com, REJECT
 DOMAIN-SUFFIX, vv.play.aiseet.atianqi.com, REJECT
 
-# Sina
+# Ads-Sina
 DOMAIN-SUFFIX, ad.sina.com.cn, REJECT
 DOMAIN-SUFFIX, adbox.sina.com.cn, REJECT
 DOMAIN-SUFFIX, adimg.mobile.sina.cn, REJECT
@@ -443,7 +444,7 @@ DOMAIN-SUFFIX, wbclick.mobile.sina.cn, REJECT
 DOMAIN-SUFFIX, wbpctips.mobile.sina.cn, REJECT
 DOMAIN-SUFFIX, zymo.mps.weibo.com, REJECT
 
-# Sohu
+# Ads-Sohu
 DOMAIN-SUFFIX, 123.sogou.com, REJECT
 DOMAIN-SUFFIX, 123.sogoucdn.com, REJECT
 DOMAIN-SUFFIX, 888.tv.sohu.com, REJECT
@@ -499,7 +500,7 @@ DOMAIN-SUFFIX, wangmeng.sogou.com, REJECT
 DOMAIN-SUFFIX, wl.hd.sohu.com, REJECT
 DOMAIN-SUFFIX, yule.sohu.com, REJECT
 
-# Tianya
+# Ads-Tianya
 DOMAIN-SUFFIX, 801.tianya.cn, REJECT
 DOMAIN-SUFFIX, 803.tianya.cn, REJECT
 DOMAIN-SUFFIX, 806.tianya.cn, REJECT
@@ -508,14 +509,14 @@ DOMAIN-SUFFIX, bdj.tianya.cn, REJECT
 DOMAIN-SUFFIX, dol.tianya.cn, REJECT
 DOMAIN-SUFFIX, click.tianya.cn, REJECT
 
-# Toutiao
+# Ads-Toutiao
 DOMAIN-SUFFIX, ad.toutiao.com, REJECT
 DOMAIN-SUFFIX, sm.toutiao.com, REJECT
 DOMAIN-SUFFIX, dsp.toutiao.com, REJECT
 DOMAIN-SUFFIX, nativeapp.toutiao.com, REJECT
 DOMAIN-SUFFIX, partner.toutiao.com, REJECT
 
-# UC
+# Ads-UC
 DOMAIN-SUFFIX, adslot.uc.cn, REJECT
 DOMAIN-SUFFIX, api.mp.uc.cn, REJECT
 DOMAIN-SUFFIX, applog.uc.cn, REJECT
@@ -535,8 +536,7 @@ DOMAIN-SUFFIX, uc.ucweb.com, REJECT
 DOMAIN-SUFFIX, ucsec.ucweb.com, REJECT
 DOMAIN-SUFFIX, ucsec1.ucweb.com, REJECT
 
-
-# WPS
+# Ads-WPS
 DOMAIN-SUFFIX, ad.docer.wps.cn, REJECT
 DOMAIN-SUFFIX, adm.zookingsoft.com, REJECT
 DOMAIN-SUFFIX, bannera.kingsoft-office-service.com, REJECT
@@ -565,7 +565,7 @@ DOMAIN-SUFFIX, rating6.kingsoft-office-service.com, REJECT
 DOMAIN-SUFFIX, up.wps.kingsoft.com, REJECT
 DOMAIN-SUFFIX, wpsweb-dc.wps.cn, REJECT
 
-# Ximalaya
+# Ads-Ximalaya
 DOMAIN-SUFFIX, ad.ximalaya.com, REJECT
 DOMAIN-SUFFIX, adbs.ximalaya.com, REJECT
 DOMAIN-SUFFIX, adse.ximalaya.com, REJECT
@@ -573,7 +573,7 @@ DOMAIN-SUFFIX, adse.wsa.ximalaya.com, REJECT
 DOMAIN-SUFFIX, adbehavior.wsa.ximalaya.com, REJECT
 DOMAIN-SUFFIX, adsebs.ximalaya.com, REJECT
 
-# Youku & Tudou
+# Ads-Youku & Tudou
 DOMAIN-SUFFIX, actives.youku.com, REJECT
 DOMAIN-SUFFIX, ad.api.3g.tudou.com, REJECT
 DOMAIN-SUFFIX, ad.api.3g.youku.com, REJECT
@@ -624,15 +624,15 @@ DOMAIN-SUFFIX, ykatr.youku.com, REJECT
 DOMAIN-SUFFIX, ykrec.youku.com, REJECT
 DOMAIN-SUFFIX, ykrectab).youku.com, REJECT
 
-# Zhihu
+# Ads-Zhihu
 DOMAIN-SUFFIX, sugar.zhihu.com, REJECT
 DOMAIN-SUFFIX, zhihu-web-analytics.zhihu.com, REJECT
 
-# Zol
+# Ads-Zol
 DOMAIN-SUFFIX, apppv.zol.com.cn, REJECT
 DOMAIN-SUFFIX, pvnapp.zol.com.cn, REJECT
 
-# Others
+# Ads-Domestic-Others
 DOMAIN-SUFFIX, ad.caiyunapp.com, REJECT
 DOMAIN-SUFFIX, ad.huajiao.com, REJECT
 DOMAIN-SUFFIX, ad.hzyoka.com, REJECT
