@@ -9,7 +9,7 @@ DOMAIN-SUFFIX, icloud-content.com, Apple
 DOMAIN-SUFFIX, itunes.com, Apple
 DOMAIN-SUFFIX, me.com, Apple
 DOMAIN-SUFFIX, mzstatic.com, Apple
-# Weather
+# Apple Weather
 DOMAIN-SUFFIX, weather.com, Apple
 # Apple Keywords
 DOMAIN-KEYWORD, apple, Apple
