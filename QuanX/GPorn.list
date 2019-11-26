@@ -1,39 +1,39 @@
-# GPorn
-# Official Sites JP
-domain-suffix, bravo-japan.com, GPorn
-domain-suffix, g-men.co.jp, GPorn
-domain-suffix, bpro.tv, GPorn
-domain-suffix, supermediamall.com, GPorn
-domain-suffix, games-video.co.jp, GPorn
-domain-suffix, hunk-ch.com, GPorn
-domain-suffix, ko-video.com, GPorn
-domain-suffix, mannhouse.com, GPorn
-domain-suffix, trance-video.com, GPorn
-domain-suffix, vfactory-web.jp, GPorn
-# Official Sites Whites
-domain-suffix, all-americanheroes.net, GPorn
-domain-suffix, belamionline.com, GPorn
-domain-suffix, coltstudiogroup.com, GPorn
-domain-suffix, falconstudios.com, GPorn
-domain-suffix, kristenbjorn.com, GPorn
-domain-suffix, lucaskazan.com, GPorn
+# GPorn Official-JP
+DOMAIN-DUFFIX, bravo-japan.com, GPorn
+DOMAIN-DUFFIX, g-men.co.jp, GPorn
+DOMAIN-DUFFIX, bpro.tv, GPorn
+DOMAIN-DUFFIX, supermediamall.com, GPorn
+DOMAIN-DUFFIX, games-video.co.jp, GPorn
+DOMAIN-DUFFIX, hunk-ch.com, GPorn
+DOMAIN-DUFFIX, ko-video.com, GPorn
+DOMAIN-DUFFIX, mannhouse.com, GPorn
+DOMAIN-DUFFIX, trance-video.com, GPorn
+DOMAIN-DUFFIX, vfactory-web.jp, GPorn
 
-# Gayhd.pro
-domain-suffix, jwpltx.com, reject
-domain-suffix, gayhd.pro, GPorn
-domain-suffix, hqq.tv, GPorn
-domain-suffix, njhzmxx.com, GPorn
-domain-suffix, qpvod.com, GPorn
-domain-suffix, sexgayhd.com, GPorn
-domain-suffix, iamcdn.net, GPorn
-domain-suffix, idocdn.com, GPorn
+# GPorn Official-Whites
+DOMAIN-DUFFIX, all-americanheroes.net, GPorn
+DOMAIN-DUFFIX, belamionline.com, GPorn
+DOMAIN-DUFFIX, coltstudiogroup.com, GPorn
+DOMAIN-DUFFIX, falconstudios.com, GPorn
+DOMAIN-DUFFIX, kristenbjorn.com, GPorn
+DOMAIN-DUFFIX, lucaskazan.com, GPorn
 
-# Others
-domain-suffix, gaymaletube.com, GPorn
-domain-suffix, gayporn.fm, GPorn
-domain-suffix, kepler-37b.com, GPorn
-domain-suffix, icegay.tv, GPorn
-domain-suffix, machotube.tv, GPorn
-domain-suffix, boyfriendtv.com, GPorn
-domain-suffix, gaybb.net, GPorn
-domain-keyword, gay, GPorn
+# GPorn Gayhd.pro
+DOMAIN-DUFFIX, jwpltx.com, reject
+DOMAIN-DUFFIX, gayhd.pro, GPorn
+DOMAIN-DUFFIX, hqq.tv, GPorn
+DOMAIN-DUFFIX, njhzmxx.com, GPorn
+DOMAIN-DUFFIX, qpvod.com, GPorn
+DOMAIN-DUFFIX, sexgayhd.com, GPorn
+DOMAIN-DUFFIX, iamcdn.net, GPorn
+DOMAIN-DUFFIX, idocdn.com, GPorn
+
+# GPorn Others
+DOMAIN-DUFFIX, gaymaletube.com, GPorn
+DOMAIN-DUFFIX, gayporn.fm, GPorn
+DOMAIN-DUFFIX, kepler-37b.com, GPorn
+DOMAIN-DUFFIX, icegay.tv, GPorn
+DOMAIN-DUFFIX, machotube.tv, GPorn
+DOMAIN-DUFFIX, boyfriendtv.com, GPorn
+DOMAIN-DUFFIX, gaybb.net, GPorn
+DOMAIN-KEYWORD, gay, GPorn
