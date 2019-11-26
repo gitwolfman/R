@@ -1,0 +1,149 @@
+# Digital Cert
+DOMAIN-DUFFIX, digicert.com, PROXY
+DOMAIN-DUFFIX, letsencrypt.org, PROXY
+DOMAIN-DUFFIX, digitalcertvalidation.com, PROXY
+DOMAIN-DUFFIX, ocsp.identrust.com, PROXY
+DOMAIN-DUFFIX, ocsp.pki.goog, PROXY
+DOMAIN-DUFFIX, ocsp.sectigo.com, PROXY
+DOMAIN-DUFFIX, ocsp.usertrust.com, PROXY
+DOMAIN-DUFFIX, ocsp.trustasiassl.com, PROXY
+
+# Facebook
+DOMAIN-DUFFIX, cdninstagram.com, PROXY
+DOMAIN-DUFFIX, fb.com, PROXY
+DOMAIN-DUFFIX, fb.me, PROXY
+DOMAIN-DUFFIX, fbaddins.com, PROXY
+DOMAIN-DUFFIX, fbcdn.net, PROXY
+DOMAIN-DUFFIX, fbsbx.com, PROXY
+DOMAIN-DUFFIX, fbworkmail.com, PROXY
+DOMAIN-DUFFIX, instagram.com, PROXY
+DOMAIN-DUFFIX, m.me, PROXY
+DOMAIN-DUFFIX, messenger.com, PROXY
+DOMAIN-DUFFIX, oculus.com, PROXY
+DOMAIN-DUFFIX, oculuscdn.com, PROXY
+DOMAIN-DUFFIX, rocksdb.org, PROXY
+DOMAIN-DUFFIX, whatsapp.com, PROXY
+DOMAIN-DUFFIX, whatsapp.net, PROXY
+domain-keyword, facebook, reject
+
+# Github
+DOMAIN-DUFFIX, git.io, PROXY
+DOMAIN-DUFFIX, github.com, PROXY
+DOMAIN-DUFFIX, github.io, PROXY
+DOMAIN-DUFFIX, githubassets.com, PROXY
+DOMAIN-DUFFIX, githubusercontent.com, PROXY
+domain-keyword, github, PROXY
+
+# Mega
+DOMAIN-DUFFIX, mega.co.nz, PROXY
+DOMAIN-DUFFIX, mega.nz, PROXY
+DOMAIN-DUFFIX, megaupload.com, PROXY
+
+# Reddit
+DOMAIN-DUFFIX, redd.it, PROXY
+DOMAIN-DUFFIX, reddit.com, PROXY
+DOMAIN-DUFFIX, redditmedia.com, PROXY
+DOMAIN-DUFFIX, redditstatic.com, PROXY
+
+# Russia
+DOMAIN-DUFFIX, imgsmail.ru, PROXY
+DOMAIN-DUFFIX, mail.ru, PROXY
+DOMAIN-DUFFIX, yandex.com, PROXY
+DOMAIN-DUFFIX, yandex.net, PROXY
+DOMAIN-DUFFIX, yandex.ru, PROXY
+DOMAIN-DUFFIX, yastat.net, PROXY
+
+# Wiki
+DOMAIN-DUFFIX, wikileaks.org, PROXY
+DOMAIN-DUFFIX, wikimedia.org, PROXY
+DOMAIN-DUFFIX, wikipedia.com, PROXY
+DOMAIN-DUFFIX, wikipedia.org, PROXY
+DOMAIN-DUFFIX, wikiwand.com, PROXY
+
+# Global-Others
+DOMAIN-DUFFIX, 0rz.tw, PROXY
+DOMAIN-DUFFIX, akamai.net, PROXY
+DOMAIN-DUFFIX, akamaihd.net, PROXY
+DOMAIN-DUFFIX, amazon.com, PROXY
+DOMAIN-DUFFIX, amazonaws.com, PROXY
+DOMAIN-DUFFIX, angularjs.org, PROXY
+DOMAIN-DUFFIX, aolcdn.com, PROXY
+DOMAIN-DUFFIX, apkpure.com, PROXY
+DOMAIN-DUFFIX, appledaily.com, PROXY
+DOMAIN-DUFFIX, appshopper.com, PROXY
+DOMAIN-DUFFIX, appspot.com, PROXY
+DOMAIN-DUFFIX, awsstatic.com, PROXY
+DOMAIN-DUFFIX, bbc.com, PROXY
+DOMAIN-DUFFIX, bit.ly, PROXY
+DOMAIN-DUFFIX, bitbucket.org, PROXY
+DOMAIN-DUFFIX, bitcointalk.org, PROXY
+DOMAIN-DUFFIX, bloomberg.com, PROXY
+DOMAIN-DUFFIX, cl.ly, PROXY
+DOMAIN-DUFFIX, cloudflare.com, PROXY
+DOMAIN-DUFFIX, deezer.com, PROXY
+DOMAIN-DUFFIX, dropbox.com, PROXY
+DOMAIN-DUFFIX, duckduckgo.com, PROXY
+DOMAIN-DUFFIX, dzcdn.net, PROXY
+DOMAIN-DUFFIX, evernote.com, PROXY
+DOMAIN-DUFFIX, gravatar.com, PROXY
+DOMAIN-DUFFIX, hockeyapp.net, PROXY
+DOMAIN-DUFFIX, img.ly, PROXY
+DOMAIN-DUFFIX, imgur.com, PROXY
+DOMAIN-DUFFIX, instapaper.com, PROXY
+DOMAIN-DUFFIX, jsdelivr.net, PROXY
+DOMAIN-DUFFIX, livefilestore.com, PROXY
+DOMAIN-DUFFIX, jquery.com, PROXY
+DOMAIN-DUFFIX, mail.com, PROXY
+DOMAIN-DUFFIX, medium.com, PROXY
+DOMAIN-DUFFIX, mobile01.com, PROXY
+DOMAIN-DUFFIX, nflxvideo.net, PROXY
+DOMAIN-DUFFIX, nyt.com, PROXY
+DOMAIN-DUFFIX, nytimes.com, PROXY
+DOMAIN-DUFFIX, pandora.com, PROXY
+DOMAIN-DUFFIX, periscope.tv, PROXY
+DOMAIN-DUFFIX, pinterest.com, PROXY
+DOMAIN-DUFFIX, pixiv.net, PROXY
+DOMAIN-DUFFIX, pscp.tv, PROXY
+DOMAIN-DUFFIX, recaptcha.net, PROXY
+DOMAIN-DUFFIX, sfx.ms, PROXY
+DOMAIN-DUFFIX, sharethis.com, PROXY
+DOMAIN-DUFFIX, shazam.com, PROXY
+DOMAIN-DUFFIX, ssl-images-amazon.com, PROXY
+DOMAIN-DUFFIX, stackoverflow.com, PROXY
+DOMAIN-DUFFIX, thepiratebay.org, PROXY
+DOMAIN-DUFFIX, theverge.com, PROXY
+DOMAIN-DUFFIX, tidal.com, PROXY
+DOMAIN-DUFFIX, time.com, PROXY
+DOMAIN-DUFFIX, timeinc.net, PROXY
+DOMAIN-DUFFIX, twitch.tv, PROXY
+DOMAIN-DUFFIX, vimeo.com, PROXY
+DOMAIN-DUFFIX, vimeocdn.com, PROXY
+DOMAIN-DUFFIX, w3schools.com, PROXY
+DOMAIN-DUFFIX, whoer.net, PROXY
+DOMAIN-DUFFIX, whrq.net, PROXY
+DOMAIN-DUFFIX, wordpress.com, PROXY
+DOMAIN-DUFFIX, wp.com, PROXY
+DOMAIN-DUFFIX, wsj.com, PROXY
+DOMAIN-DUFFIX, wsj.net, PROXY
+DOMAIN-DUFFIX, xda-developers.com, PROXY
+
+# Global-countries
+DOMAIN-DUFFIX, au, PROXY
+DOMAIN-DUFFIX, ca, PROXY
+DOMAIN-DUFFIX, de, PROXY
+DOMAIN-DUFFIX, fr, PROXY
+DOMAIN-DUFFIX, hk, PROXY
+DOMAIN-DUFFIX, id, PROXY
+DOMAIN-DUFFIX, in, PROXY
+DOMAIN-DUFFIX, jp, PROXY
+DOMAIN-DUFFIX, kr, PROXY
+DOMAIN-DUFFIX, my, PROXY
+DOMAIN-DUFFIX, ng, PROXY
+DOMAIN-DUFFIX, nz, PROXY
+DOMAIN-DUFFIX, ph, PROXY
+DOMAIN-DUFFIX, ru, PROXY
+DOMAIN-DUFFIX, th, PROXY
+DOMAIN-DUFFIX, tw, PROXY
+DOMAIN-DUFFIX, uk, PROXY
+DOMAIN-DUFFIX, us, PROXY
+DOMAIN-DUFFIX, vn, PROXY
