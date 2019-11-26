@@ -1,12 +1,27 @@
 # Ads-UA
-user-agent, com.yandex.mobile.metrica.sdk*, reject
-user-agent, FBiOSSDK*, reject
-user-agent, GoogleAnalytics*, reject
-user-agent, iOSWJLoginSDK*, reject
-user-agent, MTOPSDK*, reject
-user-agent, Vungle*, reject
+user-agent, *adsence*, reject
+user-agent, *adsensor*, reject
+user-agent, *adservice*, reject
+user-agent, *adsserving*, reject
+user-agent, *adsystem*, reject
+user-agent, *adwords*, reject
+user-agent, *advertise*, reject
+user-agent, *advertising*, reject
+user-agent, *analysis*, reject
+user-agent, *analytics*, reject
+user-agent, *measure*, reject
+user-agent, *monitor*, reject
+user-agent, *report*, reject
+user-agent, *sensor*, reject
+user-agent, *sdk*, reject
+user-agent, *track*, reject
+user-agent, *tracker*, reject
+user-agent, *tracking*, reject
+user-agent, *traffic*, reject
+user-agent, *trafficjunky*, reject
+user-agent, *otacrashcopier*, reject
 
-# Ads-Keyword
+# Ads-Keyword-1
 domain-keyword, adsence, reject
 domain-keyword, adsensor, reject
 domain-keyword, adservice, reject
@@ -20,11 +35,12 @@ domain-keyword, analytics, reject
 domain-keyword, measure, reject
 domain-keyword, monitor, reject
 domain-keyword, report, reject
+domain-keyword, sensor, reject
 domain-keyword, track, reject
 domain-keyword, tracker, reject
 domain-keyword, tracking, reject
 domain-keyword, traffic, reject
-domain-keyword, trafficjunky, reject
+# Ads-Keyword-2
 domain-keyword, admarvel, reject
 domain-keyword, admaster, reject
 domain-keyword, admob, reject
@@ -53,7 +69,7 @@ domain-keyword, usage, reject
 domain-keyword, wlmonitor, reject
 domain-keyword, zjtoolbar, reject
 
-# Ads-Global
+# Ads-non-CN
 domain-suffix, 42trck.com, reject
 domain-suffix, 71.am, reject
 domain-suffix, ad.daum.net, reject
