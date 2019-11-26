@@ -1,21 +1,35 @@
 # LAN
-DOMAIN-SUFFIX,LOCAL,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
-IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
-IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
-IP-CIDR,192.0.2.0/24,DIRECT,no-resolve
-IP-CIDR,192.88.99.0/24,DIRECT,no-resolve
-IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
-IP-CIDR,198.51.100.0/24,DIRECT,no-resolve
-IP-CIDR,203.0.113.0/24,DIRECT,no-resolve
-IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
-IP-CIDR,255.255.255.255/32,DIRECT,no-resolve
+DOMAIN-SUFFIX, local, DIRECT
+IP-CIDR, 10.0.0.0/8, DIRECT, no-resolve
+IP-CIDR, 100.64.0.0/10, DIRECT, no-resolve
+IP-CIDR, 127.0.0.0/8, DIRECT, no-resolve
+IP-CIDR, 169.254.0.0/16, DIRECT, no-resolve
+IP-CIDR, 172.16.0.0/12, DIRECT, no-resolve
+IP-CIDR, 192.0.0.0/24, DIRECT, no-resolve
+IP-CIDR, 192.0.2.0/24, DIRECT, no-resolve
+IP-CIDR, 192.88.99.0/24, DIRECT, no-resolve
+IP-CIDR, 192.168.0.0/16, DIRECT, no-resolve
+IP-CIDR, 198.18.0.0/15, DIRECT, no-resolve
+IP-CIDR, 198.51.100.0/24, DIRECT, no-resolve
+IP-CIDR, 203.0.113.0/24, DIRECT, no-resolve
+IP-CIDR, 224.0.0.0/4, DIRECT, no-resolve
+IP-CIDR, 255.255.255.255/32, DIRECT, no-resolve
 
-#Apple Ads
+# DNS Foreign
+IP-CIDR, 1.1.1.1/32, PROXY, no-resolve
+IP-CIDR, 1.1.0.0/32, PROXY, no-resolve
+IP-CIDR, 8.8.8.8/32, PROXY, no-resolve
+IP-CIDR, 8.8.4.4/32, PROXY, no-resolve
+IP-CIDR, 208.67.222.222/32, PROXY, no-resolve
+IP-CIDR, 208.67.220.220/32, PROXY, no-resolve
+# DNS Domestic
+IP-CIDR, 114.114.114.114/32, DIRECT, no-resolve
+IP-CIDR, 114.114.115.115/32, DIRECT, no-resolve
+IP-CIDR, 119.28.28.28/32, DIRECT, no-resolve
+IP-CIDR, 223.5.5.5/32, DIRECT, no-resolve
+IP-CIDR, 223.6.6.6/32, DIRECT, no-resolve
+
+# Ads-Apple
 DOMAIN-SUFFIX, ads.internal.unity3d.com, REJECT
 DOMAIN-SUFFIX, ads.prd.ie.internal.unity3d.com, REJECT
 DOMAIN-SUFFIX, crashlytics.com, REJECT
@@ -33,46 +47,39 @@ DOMAIN-SUFFIX, icloud-content.com, Apple
 DOMAIN-SUFFIX, itunes.com, Apple
 DOMAIN-SUFFIX, me.com, Apple
 DOMAIN-SUFFIX, mzstatic.com, Apple
+# Apple Weather
 DOMAIN-SUFFIX, weather.com, Apple
+# Apple Keywords
 DOMAIN-KEYWORD, apple, Apple
 DOMAIN-KEYWORD, icloud, Apple
 DOMAIN-KEYWORD, itunes, Apple
+IP-CIDR, 17.0.0.0/8, Apple, no-resolve
 
-# Octopus
-DOMAIN-SUFFIX, octopus.com.hk, Octopus, force-remote-dns
-DOMAIN-SUFFIX, octopus-cards.com, Octopus, force-remote-dns
-DOMAIN-SUFFIX, octopuscards.com, Octopus, force-remote-dns
-DOMAIN-KEYWORD, octopus, Octopus, force-remote-dns
+# Ads-UA
+# USER-AGENT, *wpsoffice*, REJECT
+USER-AGENT, *adsence*, REJECT
+USER-AGENT, *adsensor*, REJECT
+USER-AGENT, *adservice*, REJECT
+USER-AGENT, *adsserving*, REJECT
+USER-AGENT, *adsystem*, REJECT
+USER-AGENT, *adwords*, REJECT
+USER-AGENT, *advertise*, REJECT
+USER-AGENT, *advertising*, REJECT
+USER-AGENT, *analysis*, REJECT
+USER-AGENT, *analytics*, REJECT
+USER-AGENT, *measure*, REJECT
+USER-AGENT, *monitor*, REJECT
+USER-AGENT, *report*, REJECT
+USER-AGENT, *sensor*, REJECT
+USER-AGENT, *sdk*, REJECT
+USER-AGENT, *track*, REJECT
+USER-AGENT, *tracker*, REJECT
+USER-AGENT, *tracking*, REJECT
+USER-AGENT, *traffic*, REJECT
+USER-AGENT, *trafficjunky*, REJECT
+USER-AGENT, *otacrashcopier*, REJECT
 
-# Spotify
-DOMAIN-SUFFIX, pscdn.co, Spotify, force-remote-dns
-DOMAIN-SUFFIX, scdn.co, Spotify, force-remote-dns
-DOMAIN-SUFFIX, spoti.fi, Spotify, force-remote-dns
-DOMAIN-SUFFIX, spotify.com, Spotify, force-remote-dns
-
-# Telegram
-DOMAIN-SUFFIX, t.me, Telegram, force-remote-dns
-DOMAIN-SUFFIX, tdesktop.com, Telegram, force-remote-dns
-DOMAIN-SUFFIX, tele.me, Telegram, force-remote-dns
-DOMAIN-SUFFIX, telegra.ph, Telegram, force-remote-dns
-DOMAIN-SUFFIX, telegram.me, Telegram, force-remote-dns
-DOMAIN-SUFFIX, telegram.org, Telegram, force-remote-dns
-IP-CIDR, 91.108.4.0/22, Telegram, no-resolve
-IP-CIDR, 91.108.8.0/22, Telegram, no-resolve
-IP-CIDR, 91.108.12.0/22, Telegram, no-resolve
-IP-CIDR, 91.108.16.0/22, Telegram, no-resolve
-IP-CIDR, 91.108.56.0/22, Telegram, no-resolve
-IP-CIDR, 149.154.160.0/20, Telegram, no-resolve
-
-# Ads-Genaral UA
-USER-AGENT, com.yandex.mobile.metrica.sdk*, REJECT
-USER-AGENT, FBiOSSDK*, REJECT
-USER-AGENT, GoogleAnalytics*, REJECT
-USER-AGENT, iOSWJLoginSDK*, REJECT
-USER-AGENT, MTOPSDK*, REJECT
-USER-AGENT, Vungle*, REJECT
-
-# Ads-Genaral Keyword
+# Ads-Keyword-1
 DOMAIN-KEYWORD, adsence, REJECT
 DOMAIN-KEYWORD, adsensor, REJECT
 DOMAIN-KEYWORD, adservice, REJECT
@@ -86,11 +93,13 @@ DOMAIN-KEYWORD, analytics, REJECT
 DOMAIN-KEYWORD, measure, REJECT
 DOMAIN-KEYWORD, monitor, REJECT
 DOMAIN-KEYWORD, report, REJECT
+DOMAIN-KEYWORD, sensor, REJECT
 DOMAIN-KEYWORD, track, REJECT
 DOMAIN-KEYWORD, tracker, REJECT
 DOMAIN-KEYWORD, tracking, REJECT
 DOMAIN-KEYWORD, traffic, REJECT
-DOMAIN-KEYWORD, trafficjunky, REJECT
+
+# Ads-Keyword-2
 DOMAIN-KEYWORD, admarvel, REJECT
 DOMAIN-KEYWORD, admaster, REJECT
 DOMAIN-KEYWORD, admob, REJECT
@@ -119,7 +128,7 @@ DOMAIN-KEYWORD, usage, REJECT
 DOMAIN-KEYWORD, wlmonitor, REJECT
 DOMAIN-KEYWORD, zjtoolbar, REJECT
 
-# Ads-Genaral Global
+# Ads-Foreign
 DOMAIN-SUFFIX, 42trck.com, REJECT
 DOMAIN-SUFFIX, 71.am, REJECT
 DOMAIN-SUFFIX, ad.daum.net, REJECT
@@ -279,8 +288,7 @@ DOMAIN-SUFFIX, webvisor.org, REJECT
 DOMAIN-SUFFIX, yadro.ru, REJECT
 DOMAIN-SUFFIX, yengo.com, REJECT
 DOMAIN-SUFFIX, zedo.com, REJECT
-
-# Ads-Genaral CN
+# Ads-Domestic
 DOMAIN-SUFFIX, 09mk.cn, REJECT
 DOMAIN-SUFFIX, 100peng.com, REJECT
 DOMAIN-SUFFIX, 114la.com, REJECT
@@ -685,8 +693,163 @@ DOMAIN-SUFFIX, zhjfad.com, REJECT
 DOMAIN-SUFFIX, zmlled.cn, REJECT
 DOMAIN-SUFFIX, zqzxz.com, REJECT
 DOMAIN-SUFFIX, zzsx8.com, REJECT
+# Ads-ISP Hijacking
+DOMAIN-SUFFIX, 17gouwuba.com, REJECT
+DOMAIN-SUFFIX, 186078.com, REJECT
+DOMAIN-SUFFIX, 189zj.cn, REJECT
+DOMAIN-SUFFIX, 285680.com, REJECT
+DOMAIN-SUFFIX, 3721zh.com, REJECT
+DOMAIN-SUFFIX, 4336wang.cn, REJECT
+DOMAIN-SUFFIX, 51chumoping.com, REJECT
+DOMAIN-SUFFIX, 51mld.cn, REJECT
+DOMAIN-SUFFIX, 51mypc.cn, REJECT
+DOMAIN-SUFFIX, 58mingri.cn, REJECT
+DOMAIN-SUFFIX, 58mingtian.cn, REJECT
+DOMAIN-SUFFIX, 5vl58stm.com, REJECT
+DOMAIN-SUFFIX, 6d63d3.com, REJECT
+DOMAIN-SUFFIX, 7gg.cc, REJECT
+DOMAIN-SUFFIX, 91veg.com, REJECT
+DOMAIN-SUFFIX, 9s6q.cn, REJECT
+DOMAIN-SUFFIX, adsame.com, REJECT
+DOMAIN-SUFFIX, aiclk.com, REJECT
+DOMAIN-SUFFIX, akuai.top, REJECT
+DOMAIN-SUFFIX, atplay.cn, REJECT
+DOMAIN-SUFFIX, baiwanchuangyi.com, REJECT
+DOMAIN-SUFFIX, beerto.cn, REJECT
+DOMAIN-SUFFIX, beilamusi.com, REJECT
+DOMAIN-SUFFIX, benshiw.net, REJECT
+DOMAIN-SUFFIX, bianxianmao.com, REJECT
+DOMAIN-SUFFIX, bryonypie.com, REJECT
+DOMAIN-SUFFIX, cishantao.com, REJECT
+DOMAIN-SUFFIX, cszlks.com, REJECT
+DOMAIN-SUFFIX, cudaojia.com, REJECT
+DOMAIN-SUFFIX, dafapromo.com, REJECT
+DOMAIN-SUFFIX, daitdai.com, REJECT
+DOMAIN-SUFFIX, dsaeerf.com, REJECT
+DOMAIN-SUFFIX, dugesheying.com, REJECT
+DOMAIN-SUFFIX, dv8c1t.cn, REJECT
+DOMAIN-SUFFIX, echatu.com, REJECT
+DOMAIN-SUFFIX, erdoscs.com, REJECT
+DOMAIN-SUFFIX, fan-yong.com, REJECT
+DOMAIN-SUFFIX, feih.com.cn, REJECT
+DOMAIN-SUFFIX, fjlqqc.com, REJECT
+DOMAIN-SUFFIX, fkku194.com, REJECT
+DOMAIN-SUFFIX, freedrive.cn, REJECT
+DOMAIN-SUFFIX, gclick.cn, REJECT
+DOMAIN-SUFFIX, goufanli100.com, REJECT
+DOMAIN-SUFFIX, goupaoerdai.com, REJECT
+DOMAIN-SUFFIX, gouwubang.com, REJECT
+DOMAIN-SUFFIX, gzxnlk.com, REJECT
+DOMAIN-SUFFIX, haoshengtoys.com, REJECT
+DOMAIN-SUFFIX, hyunke.com, REJECT
+DOMAIN-SUFFIX, ichaosheng.com, REJECT
+DOMAIN-SUFFIX, ishop789.com, REJECT
+DOMAIN-SUFFIX, jdkic.com, REJECT
+DOMAIN-SUFFIX, jiubuhua.com, REJECT
+DOMAIN-SUFFIX, jsncke.com, REJECT
+DOMAIN-SUFFIX, junkucm.com, REJECT
+DOMAIN-SUFFIX, jwg365.cn, REJECT
+DOMAIN-SUFFIX, kawo77.com, REJECT
+DOMAIN-SUFFIX, kualianyingxiao.cn, REJECT
+DOMAIN-SUFFIX, kumihua.com, REJECT
+DOMAIN-SUFFIX, ltheanine.cn, REJECT
+DOMAIN-SUFFIX, maipinshangmao.com, REJECT
+DOMAIN-SUFFIX, minisplat.cn, REJECT
+DOMAIN-SUFFIX, mkitgfs.com, REJECT
+DOMAIN-SUFFIX, mlnbike.com, REJECT
+DOMAIN-SUFFIX, mobjump.com, REJECT
+DOMAIN-SUFFIX, nbkbgd.cn, REJECT
+DOMAIN-SUFFIX, newapi.com, REJECT
+DOMAIN-SUFFIX, pinzhitmall.com, REJECT
+DOMAIN-SUFFIX, poppyta.com, REJECT
+DOMAIN-SUFFIX, qianchuanghr.com, REJECT
+DOMAIN-SUFFIX, qichexin.com, REJECT
+DOMAIN-SUFFIX, qinchugudao.com, REJECT
+DOMAIN-SUFFIX, quanliyouxi.cn, REJECT
+DOMAIN-SUFFIX, qutaobi.com, REJECT
+DOMAIN-SUFFIX, ry51w.cn, REJECT
+DOMAIN-SUFFIX, sg536.cn, REJECT
+DOMAIN-SUFFIX, sifubo.cn, REJECT
+DOMAIN-SUFFIX, sifuce.cn, REJECT
+DOMAIN-SUFFIX, sifuda.cn, REJECT
+DOMAIN-SUFFIX, sifufu.cn, REJECT
+DOMAIN-SUFFIX, sifuge.cn, REJECT
+DOMAIN-SUFFIX, sifugu.cn, REJECT
+DOMAIN-SUFFIX, sifuhe.cn, REJECT
+DOMAIN-SUFFIX, sifuhu.cn, REJECT
+DOMAIN-SUFFIX, sifuji.cn, REJECT
+DOMAIN-SUFFIX, sifuka.cn, REJECT
+DOMAIN-SUFFIX, smgru.net, REJECT
+DOMAIN-SUFFIX, taoggou.com, REJECT
+DOMAIN-SUFFIX, tcxshop.com, REJECT
+DOMAIN-SUFFIX, tjqonline.cn, REJECT
+DOMAIN-SUFFIX, topitme.com, REJECT
+DOMAIN-SUFFIX, tt3sm4.cn, REJECT
+DOMAIN-SUFFIX, tuia.cn, REJECT
+DOMAIN-SUFFIX, tuipenguin.com, REJECT
+DOMAIN-SUFFIX, tuitiger.com, REJECT
+DOMAIN-SUFFIX, websd8.com, REJECT
+DOMAIN-SUFFIX, wsgblw.com, REJECT
+DOMAIN-SUFFIX, wx16999.com, REJECT
+DOMAIN-SUFFIX, xchmai.com, REJECT
+DOMAIN-SUFFIX, xiaohuau.xyz, REJECT
+DOMAIN-SUFFIX, ygyzx.cn, REJECT
+DOMAIN-SUFFIX, yinmong.com, REJECT
+DOMAIN-SUFFIX, yitaopt.com, REJECT
+DOMAIN-SUFFIX, yjqiqi.com, REJECT
+DOMAIN-SUFFIX, yukhj.com, REJECT
+DOMAIN-SUFFIX, zhaozecheng.cn, REJECT
+DOMAIN-SUFFIX, zhenxinet.com, REJECT
+DOMAIN-SUFFIX, zlne800.com, REJECT
+DOMAIN-SUFFIX, zunmi.cn, REJECT
+DOMAIN-SUFFIX, zzd6.com, REJECT
+IP-CIDR, 39.107.15.115/32, REJECT
+IP-CIDR, 47.89.59.182/32, REJECT
+IP-CIDR, 103.49.209.27/32, REJECT
+IP-CIDR, 123.56.152.96/32, REJECT
+# ChinaTelecom
+IP-CIDR, 61.160.200.223/32, REJECT
+IP-CIDR, 61.160.200.242/32, REJECT
+IP-CIDR, 61.160.200.252/32, REJECT
+IP-CIDR, 61.174.50.214/32, REJECT
+IP-CIDR, 111.175.220.163/32, REJECT
+IP-CIDR, 111.175.220.164/32, REJECT
+IP-CIDR, 122.229.8.47/32, REJECT
+IP-CIDR, 122.229.29.89/32, REJECT
+IP-CIDR, 124.232.160.178/32, REJECT
+IP-CIDR, 175.6.223.15/32, REJECT
+IP-CIDR, 183.59.53.237/32, REJECT
+IP-CIDR, 218.93.127.37/32, REJECT
+IP-CIDR, 221.228.17.152/32, REJECT
+IP-CIDR, 221.231.6.79/32, REJECT
+IP-CIDR, 222.186.61.91/32, REJECT
+IP-CIDR, 222.186.61.95/32, REJECT
+IP-CIDR, 222.186.61.96/32, REJECT
+IP-CIDR, 222.186.61.97/32, REJECT
+# ChinaUnicom
+IP-CIDR, 106.75.231.48/32, REJECT
+IP-CIDR, 119.4.249.166/32, REJECT
+IP-CIDR, 220.196.52.141/32, REJECT
+IP-CIDR, 221.6.4.148/32, REJECT
+# ChinaMobile
+IP-CIDR, 114.247.28.96/32, REJECT
+IP-CIDR, 221.179.131.72/32, REJECT
+IP-CIDR, 221.179.140.145/32, REJECT
+# Dr.Peng
+# IP-CIDR, 10.72.25.0/24, REJECT
+IP-CIDR, 115.182.16.79/32, REJECT
+IP-CIDR, 118.144.88.126/32, REJECT
+IP-CIDR, 118.144.88.215/32, REJECT
+IP-CIDR, 118.144.88.216/32, REJECT
+IP-CIDR, 120.76.189.132/32, REJECT
+IP-CIDR, 124.14.21.147/32, REJECT
+IP-CIDR, 124.14.21.151/32, REJECT
+IP-CIDR, 180.166.52.24/32, REJECT
+IP-CIDR, 211.161.101.106/32, REJECT
+IP-CIDR, 220.115.251.25/32, REJECT
+IP-CIDR, 222.73.156.235/32, REJECT
 
-# Ads-App Google
+# Ads-Google
 DOMAIN-SUFFIX, ads.gmodules.com, REJECT
 DOMAIN-SUFFIX, ads.google.com, REJECT
 DOMAIN-SUFFIX, adservice.google.com, REJECT
@@ -699,15 +862,14 @@ DOMAIN-SUFFIX, mobileads.google.com, REJECT
 DOMAIN-SUFFIX, pagead-tpc.l.google.com, REJECT
 DOMAIN-SUFFIX, pagead.google.com, REJECT
 DOMAIN-SUFFIX, pagead.l.google.com, REJECT
-# Ads-App Google 2
+# Ads-Google 2
 DOMAIN-SUFFIX, googleadservices.com, REJECT
 DOMAIN-SUFFIX, googleadsserving.cn, REJECT
 DOMAIN-SUFFIX, google-analytics.com, REJECT
 DOMAIN-SUFFIX, googlesyndication.com, REJECT
 DOMAIN-SUFFIX, googletagmanager.com, REJECT
 DOMAIN-SUFFIX, googletagservices.com, REJECT
-
-# Ads-App Twitter
+# Ads-Twitter
 DOMAIN-SUFFIX, ads.twitter.com, REJECT
 DOMAIN-SUFFIX, syndication.twitter.com, REJECT
 DOMAIN-SUFFIX, syndication-o.twitter.com, REJECT
@@ -717,8 +879,7 @@ DOMAIN-SUFFIX, p.twitter.com, REJECT
 DOMAIN-SUFFIX, ads-twitter.com, REJECT
 DOMAIN-SUFFIX, tellapart.com, REJECT
 DOMAIN-SUFFIX, urls.api.twitter.com, REJECT
-
-# Ads-App Yahoo
+# Ads-Yahoo
 DOMAIN-SUFFIX, ad.wretch.cc, REJECT
 DOMAIN-SUFFIX, ads.yahoo.com, REJECT
 DOMAIN-SUFFIX, adserver.yahoo.com, REJECT
@@ -740,13 +901,11 @@ DOMAIN-SUFFIX, partnerads.ysm.yahoo.com, REJECT
 DOMAIN-SUFFIX, uservoice.com, REJECT
 DOMAIN-SUFFIX, ws.progrss.yahoo.com, REJECT
 DOMAIN-SUFFIX, ybp.yahoo.com, REJECT
-
-# Ads-App Yahoo JP
+# Ads-Yahoo JP
 DOMAIN-SUFFIX, ane.yahoo.co.jp, REJECT
 DOMAIN-SUFFIX, ard.yahoo.co.jp, REJECT
 DOMAIN-SUFFIX, yads.yahoo.co.jp, REJECT
-
-# Ads-App Russia
+# Ads-Russia
 DOMAIN-SUFFIX, ad.mail.ru, REJECT
 DOMAIN-SUFFIX, an.yandex.ru, REJECT
 DOMAIN-SUFFIX, mc.yandex.ru, REJECT
@@ -754,7 +913,58 @@ DOMAIN-SUFFIX, report.appmetrica.yandex.net, REJECT
 DOMAIN-SUFFIX, top-fwz1.mail.ru, REJECT
 DOMAIN-SUFFIX, yandex-sync.rutarget.ru, REJECT
 
-# Ads-App-CN Baidu
+# Ads-360
+DOMAIN-SUFFIX, 3600.com, REJECT
+DOMAIN-SUFFIX, gamebox.360.cn, REJECT
+DOMAIN-SUFFIX, jiagu.360.cn, REJECT
+DOMAIN-SUFFIX, kuaikan.netmon.360safe.com, REJECT
+DOMAIN-SUFFIX, leak.360.cn, REJECT
+DOMAIN-SUFFIX, lianmeng.360.cn, REJECT
+DOMAIN-SUFFIX, pub.se.360.cn, REJECT
+DOMAIN-SUFFIX, s.so.360.cn, REJECT
+DOMAIN-SUFFIX, shouji.360.cn, REJECT
+DOMAIN-SUFFIX, soft.data.weather.360.cn, REJECT
+DOMAIN-SUFFIX, stat.360safe.com, REJECT
+DOMAIN-SUFFIX, stat.m.360.cn, REJECT
+DOMAIN-SUFFIX, update.360safe.com, REJECT
+DOMAIN-SUFFIX, wan.360.cn, REJECT
+# Ads-Ali
+DOMAIN-SUFFIX, acjs.aliyun.com, REJECT
+DOMAIN-SUFFIX, adash-c.m.taobao.com, REJECT
+DOMAIN-SUFFIX, adash-c.ut.taobao.com, REJECT
+DOMAIN-SUFFIX, adashx4yt.m.taobao.com, REJECT
+DOMAIN-SUFFIX, adashxgc.ut.taobao.com, REJECT
+DOMAIN-SUFFIX, afp.alicdn.com, REJECT
+DOMAIN-SUFFIX, ai.m.taobao.com, REJECT
+DOMAIN-SUFFIX, alipaylog.com, REJECT
+DOMAIN-SUFFIX, amdc.alipay.com, REJECT
+DOMAIN-SUFFIX, atanx.alicdn.com, REJECT
+DOMAIN-SUFFIX, atanx2.alicdn.com, REJECT
+DOMAIN-SUFFIX, click.mz.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, fav.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, g.click.taobao.com, REJECT
+DOMAIN-SUFFIX, g.tbcdn.cn, REJECT
+DOMAIN-SUFFIX, gma.alicdn.com, REJECT
+DOMAIN-SUFFIX, gtms.alicdn.com, REJECT
+DOMAIN-SUFFIX, hydra.alibaba.com, REJECT
+DOMAIN-SUFFIX, m.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, pindao.huoban.taobao.com, REJECT
+DOMAIN-SUFFIX, re.m.taobao.com, REJECT
+DOMAIN-SUFFIX, redirect.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, rj.m.taobao.com, REJECT
+DOMAIN-SUFFIX, sdkinit.taobao.com, REJECT
+DOMAIN-SUFFIX, show.re.taobao.com, REJECT
+DOMAIN-SUFFIX, simaba.m.taobao.com, REJECT
+DOMAIN-SUFFIX, simaba.taobao.com, REJECT
+DOMAIN-SUFFIX, srd.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, strip.taobaocdn.com, REJECT
+DOMAIN-SUFFIX, tns.simba.taobao.com, REJECT
+DOMAIN-SUFFIX, tyh.taobao.com, REJECT
+IP-CIDR, 106.14.0.0/15, REJECT
+# Ads-Aloha
+DOMAIN, sensor-data.mrbanana.com, reject
+DOMAIN, aloha-log.enjoymeet.com, reject
+# Ads-Baidu
 DOMAIN-SUFFIX, a.baidu.com, REJECT
 DOMAIN-SUFFIX, ad.duapps.com, REJECT
 DOMAIN-SUFFIX, ad.player.baidu.com, REJECT
@@ -921,120 +1131,43 @@ DOMAIN-SUFFIX, wn.pos.baidu.com, REJECT
 DOMAIN-SUFFIX, xiongzhang.baidu.com, REJECT
 DOMAIN-SUFFIX, znsv.baidu.com, REJECT
 DOMAIN-SUFFIX, zz.bdstatic.com, REJECT
-# Ads-App-CN baidu 2
+# Ads-baidu 2
 DOMAIN-SUFFIX, ashifen.com, REJECT
 DOMAIN-SUFFIX, shifen.com, REJECT
-
-# Ads-App-CN Zhihu
-DOMAIN-SUFFIX, sugar.zhihu.com, REJECT
-DOMAIN-SUFFIX, zhihu-web-analytics.zhihu.com, REJECT
-
-# Ads-App-CN QQ
-DOMAIN-SUFFIX, act.qq.com, REJECT
-DOMAIN-SUFFIX, apis.map.qq.com, REJECT
-DOMAIN-SUFFIX, adsfile.qq.com, REJECT
-DOMAIN-SUFFIX, bugly.qq.com, REJECT
-DOMAIN-SUFFIX, buluo.qq.com, REJECT
-DOMAIN-SUFFIX, e.qq.com, REJECT
-DOMAIN-SUFFIX, gdt.qq.com, REJECT
-DOMAIN-SUFFIX, monitor.qq.com, REJECT
-DOMAIN-SUFFIX, pingma.qq.com, REJECT
-DOMAIN-SUFFIX, pingtcss.qq.com, REJECT
-DOMAIN-SUFFIX, report.qq.com, REJECT
-DOMAIN-SUFFIX, tajs.qq.com, REJECT
-DOMAIN-SUFFIX, tcss.qq.com, REJECT
-DOMAIN-SUFFIX, uu.qq.com, REJECT
-DOMAIN-SUFFIX, ad.qun.qq.com, REJECT
-DOMAIN-SUFFIX, btrace.qq.com, REJECT
-DOMAIN-SUFFIX, mtrace.qq.com, REJECT
-DOMAIN-SUFFIX, trace.qq.com, REJECT
-DOMAIN-SUFFIX, adsmind.tc.qq.com, REJECT
-DOMAIN-SUFFIX, beacon.qq.com, REJECT
-DOMAIN-SUFFIX, bugly.qq.com, REJECT
-DOMAIN-SUFFIX, e.qq.com, REJECT
-DOMAIN-SUFFIX, gdt.qq.com, REJECT
-DOMAIN-SUFFIX, l.qq.com, REJECT
-DOMAIN-SUFFIX, rqd.qq.com, REJECT
-DOMAIN-SUFFIX, oth.eve.mdt.qq.com, REJECT
-DOMAIN-SUFFIX, pgdt.gtimg.com, REJECT
-DOMAIN-SUFFIX, pgdt.gtimg.cn, REJECT
-DOMAIN-SUFFIX, pgdt.ugdtimg.com, REJECT
-DOMAIN-SUFFIX, pingma.qq.com, REJECT
-DOMAIN-SUFFIX, pingtcss.qq.com, REJECT
-DOMAIN-SUFFIX, splashqqlive.gtimg.com, REJECT
-DOMAIN-SUFFIX, ssp.qq.com, REJECT
-DOMAIN-SUFFIX, tajs.qq.com, REJECT
-DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT
-DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT
-
-
-# Ads-App-CN Sina
-DOMAIN-SUFFIX, ad.sina.com.cn, REJECT
-DOMAIN-SUFFIX, adbox.sina.com.cn, REJECT
-DOMAIN-SUFFIX, adimg.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, adm.sina.com.cn, REJECT
-DOMAIN-SUFFIX, alitui.weibo.com.cn, REJECT
-DOMAIN-SUFFIX, biz.weibo.com.cn, REJECT
-DOMAIN-SUFFIX, cre.dp.sina.cn, REJECT
-DOMAIN-SUFFIX, dcads.sina.com.cn, REJECT
-DOMAIN-SUFFIX, dmp.sina.com.cn, REJECT
-DOMAIN-SUFFIX, game.weibo.com.cn, REJECT
-DOMAIN-SUFFIX, gw5.push.mcp.weibo.cn, REJECT
-DOMAIN-SUFFIX, leju.sina.com.cn, REJECT
-DOMAIN-SUFFIX, log.mix.sina.com.cn, REJECT
-DOMAIN-SUFFIX, mobileads.dx.cn, REJECT
-DOMAIN-SUFFIX, newspush.sinajs.cn, REJECT
-DOMAIN-SUFFIX, pay.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, sax.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, sax.sina.com.cn, REJECT
-DOMAIN-SUFFIX, sdkapp.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, sdkapp.uve.weibo.com, REJECT
-DOMAIN-SUFFIX, sdkclick.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, slog.sina.com.cn, REJECT
-DOMAIN-SUFFIX, trends.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, tui.weibo.com, REJECT
-DOMAIN-SUFFIX, u1.img.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, wax.weibo.com.cn, REJECT
-DOMAIN-SUFFIX, wbapp.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, wbapp.uve.weibo.com, REJECT
-DOMAIN-SUFFIX, wbclick.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, wbpctips.mobile.sina.cn, REJECT
-DOMAIN-SUFFIX, zymo.mps.weibo.com, REJECT
-
-# Ads-App-CN Ali
-DOMAIN-SUFFIX, acjs.aliyun.com, REJECT
-DOMAIN-SUFFIX, adash-c.m.taobao.com, REJECT
-DOMAIN-SUFFIX, adash-c.ut.taobao.com, REJECT
-DOMAIN-SUFFIX, adashx4yt.m.taobao.com, REJECT
-DOMAIN-SUFFIX, adashxgc.ut.taobao.com, REJECT
-DOMAIN-SUFFIX, afp.alicdn.com, REJECT
-DOMAIN-SUFFIX, ai.m.taobao.com, REJECT
-DOMAIN-SUFFIX, alipaylog.com, REJECT
-DOMAIN-SUFFIX, amdc.alipay.com, REJECT
-DOMAIN-SUFFIX, atanx.alicdn.com, REJECT
-DOMAIN-SUFFIX, atanx2.alicdn.com, REJECT
-DOMAIN-SUFFIX, click.mz.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, fav.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, g.click.taobao.com, REJECT
-DOMAIN-SUFFIX, g.tbcdn.cn, REJECT
-DOMAIN-SUFFIX, gma.alicdn.com, REJECT
-DOMAIN-SUFFIX, gtms.alicdn.com, REJECT
-DOMAIN-SUFFIX, hydra.alibaba.com, REJECT
-DOMAIN-SUFFIX, m.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, pindao.huoban.taobao.com, REJECT
-DOMAIN-SUFFIX, re.m.taobao.com, REJECT
-DOMAIN-SUFFIX, redirect.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, rj.m.taobao.com, REJECT
-DOMAIN-SUFFIX, sdkinit.taobao.com, REJECT
-DOMAIN-SUFFIX, show.re.taobao.com, REJECT
-DOMAIN-SUFFIX, simaba.m.taobao.com, REJECT
-DOMAIN-SUFFIX, simaba.taobao.com, REJECT
-DOMAIN-SUFFIX, srd.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, strip.taobaocdn.com, REJECT
-DOMAIN-SUFFIX, tns.simba.taobao.com, REJECT
-DOMAIN-SUFFIX, tyh.taobao.com, REJECT
-
-# Ads-App-CN JD
+# Ads-Eleme
+DOMAIN-SUFFIX, app-monitor.ele.me, REJECT
+DOMAIN-SUFFIX, client-api.ele.me, REJECT
+DOMAIN-SUFFIX, grand.ele.me, REJECT
+DOMAIN-SUFFIX, mobile-pubt.ele.me, REJECT
+DOMAIN-SUFFIX, newton-api.ele.me, REJECT
+# Ads-iFeng
+DOMAIN-SUFFIX, deliver.ifeng.com, REJECT
+DOMAIN-SUFFIX, api.newad.ifeng.com, REJECT
+DOMAIN-SUFFIX, ifengad.3g.ifeng.com, REJECT
+# Ads-iQiyi & PPS
+DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
+DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
+DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT
+DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT
+DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT
+DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, meta.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, msg1.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, msg.71.am, REJECT
+DOMAIN-SUFFIX, paopao.iqiyi.com, REJECT
+DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
+DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
+IP-CIDR, 101.227.97.240/32, REJECT
+IP-CIDR, 101.227.200.11/32, REJECT
+IP-CIDR, 101.227.200.28/32, REJECT
+IP-CIDR, 124.192.153.42/32, REJECT
+# Ads-JD
 DOMAIN-SUFFIX, ads.union.jd.com, REJECT
 DOMAIN-SUFFIX, c-nfa.jd.com, REJECT
 DOMAIN-SUFFIX, cps.360buy.com, REJECT
@@ -1043,8 +1176,35 @@ DOMAIN-SUFFIX, jrclick.jd.com, REJECT
 DOMAIN-SUFFIX, jzt.jd.com, REJECT
 DOMAIN-SUFFIX, policy.jd.com, REJECT
 DOMAIN-SUFFIX, stat.m.jd.com, REJECT
-
-# Ads-App-CN 163
+# Ads-Kugou & Kuwo
+DOMAIN-SUFFIX, adserviceretry.kugou.com, REJECT
+DOMAIN-SUFFIX, ads.service.kugou.com, REJECT
+DOMAIN-SUFFIX, adsfile.bssdlbig.kugou.com, REJECT
+DOMAIN-SUFFIX, g.koowo.com, REJECT
+DOMAIN-SUFFIX, kgmobilestat.kugou.com, REJECT
+DOMAIN-SUFFIX, kgmobilestatbak.kugou.com, REJECT
+DOMAIN-SUFFIX, mobilelog.kugou.com, REJECT
+DOMAIN-SUFFIX, mobilead.kuwo.cn, REJECT
+DOMAIN-SUFFIX, rich.kuwo.cn, REJECT
+DOMAIN-SUFFIX, log.kuwo.cn, REJECT
+DOMAIN-SUFFIX, log.stat.kugou.com, REJECT
+DOMAIN-SUFFIX, log.web.kugou.com, REJECT
+DOMAIN-SUFFIX, g.koowo.com, REJECT
+# Ads-Mi
+DOMAIN-SUFFIX, ad.intl.xiaomi.com, REJECT
+DOMAIN-SUFFIX, ad.xiaomi.com, REJECT
+DOMAIN-SUFFIX, admob.xiaomi.com, REJECT
+DOMAIN-SUFFIX, tracking.miui.com, REJECT
+DOMAIN-SUFFIX, adv.sec.intl.miui.com, REJECT
+DOMAIN-SUFFIX, adv.sec.miui.com, REJECT
+DOMAIN-SUFFIX, data.mistat.xiaomi.com, REJECT
+DOMAIN-SUFFIX, tracking.intl.miui.com, REJECT
+# Ads-Moji Tianqi
+DOMAIN-SUFFIX, ad.api.moji.com, REJECT
+DOMAIN-SUFFIX, adlaunch.moji.com, REJECT
+DOMAIN-SUFFIX, ads.mojicdn.com, REJECT
+DOMAIN-SUFFIX, v1.log.moji.com, REJECT
+# Ads-NetEase
 DOMAIN-SUFFIX, a.youdao.com, REJECT
 DOMAIN-SUFFIX, adgeo.163.com, REJECT
 DOMAIN-SUFFIX, analytics.126.net, REJECT
@@ -1084,24 +1244,105 @@ DOMAIN-SUFFIX, union.youdao.com, REJECT
 DOMAIN-SUFFIX, wanproxy.127.net, REJECT
 DOMAIN-SUFFIX, yanxuan.nosdn.127.net, REJECT
 DOMAIN-SUFFIX, ydpushserver.youdao.com, REJECT
-
-# Ads-App-CN 360
-DOMAIN-SUFFIX, 3600.com, REJECT
-DOMAIN-SUFFIX, gamebox.360.cn, REJECT
-DOMAIN-SUFFIX, jiagu.360.cn, REJECT
-DOMAIN-SUFFIX, kuaikan.netmon.360safe.com, REJECT
-DOMAIN-SUFFIX, leak.360.cn, REJECT
-DOMAIN-SUFFIX, lianmeng.360.cn, REJECT
-DOMAIN-SUFFIX, pub.se.360.cn, REJECT
-DOMAIN-SUFFIX, s.so.360.cn, REJECT
-DOMAIN-SUFFIX, shouji.360.cn, REJECT
-DOMAIN-SUFFIX, soft.data.weather.360.cn, REJECT
-DOMAIN-SUFFIX, stat.360safe.com, REJECT
-DOMAIN-SUFFIX, stat.m.360.cn, REJECT
-DOMAIN-SUFFIX, update.360safe.com, REJECT
-DOMAIN-SUFFIX, wan.360.cn, REJECT
-
-# Ads-App-CN Sohu
+# Ads-PConline
+DOMAIN-SUFFIX, ad-analysis.pconline.com.cn, REJECT
+DOMAIN-SUFFIX, iad0ssl.pconline.com.cn, REJECT
+DOMAIN-SUFFIX, imgad0.pconline.com.cn, REJECT
+# Ads-QQ
+DOMAIN-SUFFIX, act.qq.com, REJECT
+DOMAIN-SUFFIX, apis.map.qq.com, REJECT
+DOMAIN-SUFFIX, adsfile.qq.com, REJECT
+DOMAIN-SUFFIX, bugly.qq.com, REJECT
+DOMAIN-SUFFIX, buluo.qq.com, REJECT
+DOMAIN-SUFFIX, e.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, monitor.qq.com, REJECT
+DOMAIN-SUFFIX, pingma.qq.com, REJECT
+DOMAIN-SUFFIX, pingtcss.qq.com, REJECT
+DOMAIN-SUFFIX, report.qq.com, REJECT
+DOMAIN-SUFFIX, tajs.qq.com, REJECT
+DOMAIN-SUFFIX, tcss.qq.com, REJECT
+DOMAIN-SUFFIX, uu.qq.com, REJECT
+DOMAIN-SUFFIX, ad.qun.qq.com, REJECT
+DOMAIN-SUFFIX, btrace.qq.com, REJECT
+DOMAIN-SUFFIX, mtrace.qq.com, REJECT
+DOMAIN-SUFFIX, trace.qq.com, REJECT
+DOMAIN-SUFFIX, adsmind.tc.qq.com, REJECT
+DOMAIN-SUFFIX, beacon.qq.com, REJECT
+DOMAIN-SUFFIX, bugly.qq.com, REJECT
+DOMAIN-SUFFIX, e.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, l.qq.com, REJECT
+DOMAIN-SUFFIX, rqd.qq.com, REJECT
+DOMAIN-SUFFIX, oth.eve.mdt.qq.com, REJECT
+DOMAIN-SUFFIX, pgdt.gtimg.com, REJECT
+DOMAIN-SUFFIX, pgdt.gtimg.cn, REJECT
+DOMAIN-SUFFIX, pgdt.ugdtimg.com, REJECT
+DOMAIN-SUFFIX, pingma.qq.com, REJECT
+DOMAIN-SUFFIX, pingtcss.qq.com, REJECT
+DOMAIN-SUFFIX, splashqqlive.gtimg.com, REJECT
+DOMAIN-SUFFIX, ssp.qq.com, REJECT
+DOMAIN-SUFFIX, tajs.qq.com, REJECT
+DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT
+DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT
+# Ads-QQ Live
+DOMAIN-SUFFIX, aiseet.aa.atianqi.com, REJECT
+DOMAIN-SUFFIX, aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, c.l.qq.com, REJECT
+DOMAIN-SUFFIX, dp3.qq.com, REJECT
+DOMAIN-SUFFIX, livep.l.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, livep.l.qq.com, REJECT
+DOMAIN-SUFFIX, lives.l.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, lives.l.qq.com, REJECT
+DOMAIN-SUFFIX, livew.l.qq.com, REJECT
+DOMAIN-SUFFIX, mcgi.v.qq.com, REJECT
+DOMAIN-SUFFIX, mdevstat.qqlive.qq.com, REJECT
+DOMAIN-SUFFIX, monitor-uu.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, news-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, omgmta1.qq.com, REJECT
+DOMAIN-SUFFIX, otheve.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, othstr.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, p-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, p.l.qq.com, REJECT
+DOMAIN-SUFFIX, sdkconfig.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, t-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-SUFFIX, t.l.qq.com, REJECT
+DOMAIN-SUFFIX, u.l.qq.com, REJECT
+DOMAIN-SUFFIX, vmindhls.tc.qq.com, REJECT
+DOMAIN-SUFFIX, vv.play.aiseet.atianqi.com, REJECT
+# Ads-Sina
+DOMAIN-SUFFIX, ad.sina.com.cn, REJECT
+DOMAIN-SUFFIX, adbox.sina.com.cn, REJECT
+DOMAIN-SUFFIX, adimg.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, adm.sina.com.cn, REJECT
+DOMAIN-SUFFIX, alitui.weibo.com.cn, REJECT
+DOMAIN-SUFFIX, biz.weibo.com.cn, REJECT
+DOMAIN-SUFFIX, cre.dp.sina.cn, REJECT
+DOMAIN-SUFFIX, dcads.sina.com.cn, REJECT
+DOMAIN-SUFFIX, dmp.sina.com.cn, REJECT
+DOMAIN-SUFFIX, game.weibo.com.cn, REJECT
+DOMAIN-SUFFIX, gw5.push.mcp.weibo.cn, REJECT
+DOMAIN-SUFFIX, leju.sina.com.cn, REJECT
+DOMAIN-SUFFIX, log.mix.sina.com.cn, REJECT
+DOMAIN-SUFFIX, mobileads.dx.cn, REJECT
+DOMAIN-SUFFIX, newspush.sinajs.cn, REJECT
+DOMAIN-SUFFIX, pay.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, sax.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, sax.sina.com.cn, REJECT
+DOMAIN-SUFFIX, sdkapp.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, sdkapp.uve.weibo.com, REJECT
+DOMAIN-SUFFIX, sdkclick.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, slog.sina.com.cn, REJECT
+DOMAIN-SUFFIX, trends.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, tui.weibo.com, REJECT
+DOMAIN-SUFFIX, u1.img.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, wax.weibo.com.cn, REJECT
+DOMAIN-SUFFIX, wbapp.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, wbapp.uve.weibo.com, REJECT
+DOMAIN-SUFFIX, wbclick.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, wbpctips.mobile.sina.cn, REJECT
+DOMAIN-SUFFIX, zymo.mps.weibo.com, REJECT
+# Ads-Sohu
 DOMAIN-SUFFIX, 123.sogou.com, REJECT
 DOMAIN-SUFFIX, 123.sogoucdn.com, REJECT
 DOMAIN-SUFFIX, 888.tv.sohu.com, REJECT
@@ -1156,8 +1397,21 @@ DOMAIN-SUFFIX, wan.sohu.com, REJECT
 DOMAIN-SUFFIX, wangmeng.sogou.com, REJECT
 DOMAIN-SUFFIX, wl.hd.sohu.com, REJECT
 DOMAIN-SUFFIX, yule.sohu.com, REJECT
-
-# Ads-App-CN UC
+# Ads-Tianya
+DOMAIN-SUFFIX, 801.tianya.cn, REJECT
+DOMAIN-SUFFIX, 803.tianya.cn, REJECT
+DOMAIN-SUFFIX, 806.tianya.cn, REJECT
+DOMAIN-SUFFIX, 808.tianya.cn, REJECT
+DOMAIN-SUFFIX, bdj.tianya.cn, REJECT
+DOMAIN-SUFFIX, dol.tianya.cn, REJECT
+DOMAIN-SUFFIX, click.tianya.cn, REJECT
+# Ads-Toutiao
+DOMAIN-SUFFIX, ad.toutiao.com, REJECT
+DOMAIN-SUFFIX, sm.toutiao.com, REJECT
+DOMAIN-SUFFIX, dsp.toutiao.com, REJECT
+DOMAIN-SUFFIX, nativeapp.toutiao.com, REJECT
+DOMAIN-SUFFIX, partner.toutiao.com, REJECT
+# Ads-UC
 DOMAIN-SUFFIX, adslot.uc.cn, REJECT
 DOMAIN-SUFFIX, api.mp.uc.cn, REJECT
 DOMAIN-SUFFIX, applog.uc.cn, REJECT
@@ -1176,8 +1430,7 @@ DOMAIN-SUFFIX, u.ucfly.com, REJECT
 DOMAIN-SUFFIX, uc.ucweb.com, REJECT
 DOMAIN-SUFFIX, ucsec.ucweb.com, REJECT
 DOMAIN-SUFFIX, ucsec1.ucweb.com, REJECT
-
-# Ads-App-CN WPS
+# Ads-WPS
 DOMAIN-SUFFIX, ad.docer.wps.cn, REJECT
 DOMAIN-SUFFIX, adm.zookingsoft.com, REJECT
 DOMAIN-SUFFIX, bannera.kingsoft-office-service.com, REJECT
@@ -1205,54 +1458,14 @@ DOMAIN-SUFFIX, push.wps.cn, REJECT
 DOMAIN-SUFFIX, rating6.kingsoft-office-service.com, REJECT
 DOMAIN-SUFFIX, up.wps.kingsoft.com, REJECT
 DOMAIN-SUFFIX, wpsweb-dc.wps.cn, REJECT
-
-# Ads-App-CN iQiyi & PPS
-DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
-DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
-DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
-DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT
-DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT
-DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT
-DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT
-DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT
-DOMAIN-SUFFIX, meta.video.qiyi.com, REJECT
-DOMAIN-SUFFIX, msg1.video.qiyi.com, REJECT
-DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
-DOMAIN-SUFFIX, msg.71.am, REJECT
-DOMAIN-SUFFIX, paopao.iqiyi.com, REJECT
-DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
-DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
-
-# Ads-App-CN QQ Live
-DOMAIN-SUFFIX, aiseet.aa.atianqi.com, REJECT
-DOMAIN-SUFFIX, aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, c.l.qq.com, REJECT
-DOMAIN-SUFFIX, dp3.qq.com, REJECT
-DOMAIN-SUFFIX, livep.l.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, livep.l.qq.com, REJECT
-DOMAIN-SUFFIX, lives.l.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, lives.l.qq.com, REJECT
-DOMAIN-SUFFIX, livew.l.qq.com, REJECT
-DOMAIN-SUFFIX, mcgi.v.qq.com, REJECT
-DOMAIN-SUFFIX, mdevstat.qqlive.qq.com, REJECT
-DOMAIN-SUFFIX, monitor-uu.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, news-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, omgmta1.qq.com, REJECT
-DOMAIN-SUFFIX, otheve.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, othstr.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, p-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, p.l.qq.com, REJECT
-DOMAIN-SUFFIX, sdkconfig.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, t-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-SUFFIX, t.l.qq.com, REJECT
-DOMAIN-SUFFIX, u.l.qq.com, REJECT
-DOMAIN-SUFFIX, vmindhls.tc.qq.com, REJECT
-DOMAIN-SUFFIX, vv.play.aiseet.atianqi.com, REJECT
-
-# Ads-App-CN Youku & Tudou
+# Ads-Ximalaya
+DOMAIN-SUFFIX, ad.ximalaya.com, REJECT
+DOMAIN-SUFFIX, adbs.ximalaya.com, REJECT
+DOMAIN-SUFFIX, adse.ximalaya.com, REJECT
+DOMAIN-SUFFIX, adse.wsa.ximalaya.com, REJECT
+DOMAIN-SUFFIX, adbehavior.wsa.ximalaya.com, REJECT
+DOMAIN-SUFFIX, adsebs.ximalaya.com, REJECT
+# Ads-Youku & Tudou
 DOMAIN-SUFFIX, actives.youku.com, REJECT
 DOMAIN-SUFFIX, ad.api.3g.tudou.com, REJECT
 DOMAIN-SUFFIX, ad.api.3g.youku.com, REJECT
@@ -1302,84 +1515,13 @@ DOMAIN-SUFFIX, wan.youku.com, REJECT
 DOMAIN-SUFFIX, ykatr.youku.com, REJECT
 DOMAIN-SUFFIX, ykrec.youku.com, REJECT
 DOMAIN-SUFFIX, ykrectab).youku.com, REJECT
-
-# Ads-App-CN Tianya
-DOMAIN-SUFFIX, 801.tianya.cn, REJECT
-DOMAIN-SUFFIX, 803.tianya.cn, REJECT
-DOMAIN-SUFFIX, 806.tianya.cn, REJECT
-DOMAIN-SUFFIX, 808.tianya.cn, REJECT
-DOMAIN-SUFFIX, bdj.tianya.cn, REJECT
-DOMAIN-SUFFIX, dol.tianya.cn, REJECT
-DOMAIN-SUFFIX, click.tianya.cn, REJECT
-
-# Ads-App-CN Toutiao
-DOMAIN-SUFFIX, ad.toutiao.com, REJECT
-DOMAIN-SUFFIX, sm.toutiao.com, REJECT
-DOMAIN-SUFFIX, dsp.toutiao.com, REJECT
-DOMAIN-SUFFIX, nativeapp.toutiao.com, REJECT
-DOMAIN-SUFFIX, partner.toutiao.com, REJECT
-
-# Ads-App-CN Eleme
-DOMAIN-SUFFIX, app-monitor.ele.me, REJECT
-DOMAIN-SUFFIX, client-api.ele.me, REJECT
-DOMAIN-SUFFIX, grand.ele.me, REJECT
-DOMAIN-SUFFIX, mobile-pubt.ele.me, REJECT
-DOMAIN-SUFFIX, newton-api.ele.me, REJECT
-
-# Ads-App-CN iFeng
-DOMAIN-SUFFIX, deliver.ifeng.com, REJECT
-domain, api.newad.ifeng.com, REJECT
-domain, ifengad.3g.ifeng.com, REJECT
-
-# Ads-App-CN Kugou & Kuwo
-domain, adserviceretry.kugou.com, REJECT
-domain, ads.service.kugou.com, REJECT
-domain, adsfile.bssdlbig.kugou.com, REJECT
-domain, g.koowo.com, REJECT
-domain, kgmobilestat.kugou.com, REJECT
-domain, kgmobilestatbak.kugou.com, REJECT
-domain, mobilelog.kugou.com, REJECT
-domain, mobilead.kuwo.cn, REJECT
-domain, rich.kuwo.cn, REJECT
-domain, log.kuwo.cn, REJECT
-domain, log.stat.kugou.com, REJECT
-domain, log.web.kugou.com, REJECT
-DOMAIN-SUFFIX, g.koowo.com, REJECT
-
-# Ads-App-CN Mi
-DOMAIN-SUFFIX, ad.intl.xiaomi.com, REJECT
-DOMAIN-SUFFIX, ad.xiaomi.com, REJECT
-DOMAIN-SUFFIX, admob.xiaomi.com, REJECT
-DOMAIN-SUFFIX, tracking.miui.com, REJECT
-domain, adv.sec.intl.miui.com, REJECT
-domain, adv.sec.miui.com, REJECT
-domain, data.mistat.xiaomi.com, REJECT
-domain, tracking.intl.miui.com, REJECT
-
-# Ads-App-CN Moji Tianqi
-domain, ad.api.moji.com, REJECT
-domain, adlaunch.moji.com, REJECT
-domain, ads.mojicdn.com, REJECT
-domain, v1.log.moji.com, REJECT
-
-# Ads-App-CN PConline
-DOMAIN-SUFFIX, ad-analysis.pconline.com.cn, REJECT
-DOMAIN-SUFFIX, iad0ssl.pconline.com.cn, REJECT
-DOMAIN-SUFFIX, imgad0.pconline.com.cn, REJECT
-
-# Ads-App-CN Ximalaya
-domain, ad.ximalaya.com, REJECT
-domain, adbs.ximalaya.com, REJECT
-domain, adse.ximalaya.com, REJECT
-domain, adse.wsa.ximalaya.com, REJECT
-domain, adbehavior.wsa.ximalaya.com, REJECT
-domain, adsebs.ximalaya.com, REJECT
-
-# Ads-App-CN Zol
+# Ads-Zhihu
+DOMAIN-SUFFIX, sugar.zhihu.com, REJECT
+DOMAIN-SUFFIX, zhihu-web-analytics.zhihu.com, REJECT
+# Ads-Zol
 DOMAIN-SUFFIX, apppv.zol.com.cn, REJECT
 DOMAIN-SUFFIX, pvnapp.zol.com.cn, REJECT
-
-# Ads-App-CN Others
+# Ads-Domestic-Others
 DOMAIN-SUFFIX, ad.caiyunapp.com, REJECT
 DOMAIN-SUFFIX, ad.huajiao.com, REJECT
 DOMAIN-SUFFIX, ad.hzyoka.com, REJECT
@@ -1430,18 +1572,24 @@ DOMAIN-SUFFIX, v2.reachmax.cn, REJECT
 DOMAIN-SUFFIX, wmlog.meituan.com, REJECT
 DOMAIN-SUFFIX, xlog-va.byteoversea.com, REJECT
 
-# PROXY
-# PROXY - FRss
+# FRss
 DOMAIN-SUFFIX, bbsah.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, binwiki.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, free-ss.site, FRss, force-remote-dns
 DOMAIN-SUFFIX, hostloc.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, ijjyy.net, FRss, force-remote-dns
 DOMAIN-SUFFIX, liyuans.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, moren.de, FRss, force-remote-dns
+DOMAIN-SUFFIX, shadowsocks.org, FRss, force-remote-dns
+DOMAIN-SUFFIX, ssrshare.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, ssrtool.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, teddysun.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, v2ex.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, v2ray.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, yiyult.com, FRss, force-remote-dns
-
-# PROXY - Google
+# FRss 2
+DOMAIN-SUFFIX, tt1069.com, FRss, force-remote-dns
+# Google
 DOMAIN-SUFFIX, ocsp.pki.goog, Google, force-remote-dns
 DOMAIN-SUFFIX, abc.xyz, Google, force-remote-dns
 DOMAIN-SUFFIX, admin.recaptcha.net, Google, force-remote-dns
@@ -1470,11 +1618,11 @@ DOMAIN-SUFFIX, gmodules.com, Google, force-remote-dns
 DOMAIN-SUFFIX, godoc.org, Google, force-remote-dns
 DOMAIN-SUFFIX, golang.org, Google, force-remote-dns
 DOMAIN-SUFFIX, goo.gl, Google, force-remote-dns
-DOMAIN-SUFFIX, google.com, Google, force-remote-dns
-DOMAIN-SUFFIX, google.com.hk, Google, force-remote-dns
-DOMAIN-SUFFIX, googleapis.com, Google, force-remote-dns
-DOMAIN-SUFFIX, googlevideo.com, Google, force-remote-dns
-DOMAIN-SUFFIX, googleusercontent.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dns.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dns.com.hk, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsapis.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsvideo.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsusercontent.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gstatic.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gv.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gwtproject.org, Google, force-remote-dns
@@ -1499,12 +1647,36 @@ DOMAIN-SUFFIX, youtu.be, Google, force-remote-dns
 DOMAIN-SUFFIX, youtube.com, Google, force-remote-dns
 DOMAIN-SUFFIX, yt.be, Google, force-remote-dns
 DOMAIN-SUFFIX, ytimg.com, Google, force-remote-dns
-DOMAIN-KEYWORD, google, Google, force-remote-dns
+DOMAIN-KEYWORD, Google, force-remote-dns, Google, force-remote-dns
 DOMAIN-KEYWORD, gmail, Google, force-remote-dns
 DOMAIN-KEYWORD, youtube, Google, force-remote-dns
 DOMAIN-KEYWORD, blogspot, Google, force-remote-dns
-
-# PROXY - Twitter
+# Google Addons
+DOMAIN-SUFFIX, softgateon.herokuapp.com, Google, force-remote-dns
+# Octopus
+DOMAIN-SUFFIX, octopus.com.hk, Octopus, force-remote-dns
+DOMAIN-SUFFIX, octopus-cards.com, Octopus, force-remote-dns
+DOMAIN-SUFFIX, octopuscards.com, Octopus, force-remote-dns
+DOMAIN-KEYWORD, octopus, Octopus, force-remote-dns
+# Spotify
+DOMAIN-SUFFIX, pscdn.co, Spotify, force-remote-dns
+DOMAIN-SUFFIX, scdn.co, Spotify, force-remote-dns
+DOMAIN-SUFFIX, spoti.fi, Spotify, force-remote-dns
+DOMAIN-SUFFIX, spotify.com, Spotify, force-remote-dns
+# Telegram
+DOMAIN-SUFFIX, t.me, Telegram, force-remote-dns
+DOMAIN-SUFFIX, tdesktop.com, Telegram, force-remote-dns
+DOMAIN-SUFFIX, tele.me, Telegram, force-remote-dns
+DOMAIN-SUFFIX, telegra.ph, Telegram, force-remote-dns
+DOMAIN-SUFFIX, telegram.me, Telegram, force-remote-dns
+DOMAIN-SUFFIX, telegram.org, Telegram, force-remote-dns
+IP-CIDR, 91.108.4.0/22, Telegram, no-resolve
+IP-CIDR, 91.108.8.0/22, Telegram, no-resolve
+IP-CIDR, 91.108.12.0/22, Telegram, no-resolve
+IP-CIDR, 91.108.16.0/22, Telegram, no-resolve
+IP-CIDR, 91.108.56.0/22, Telegram, no-resolve
+IP-CIDR, 149.154.160.0/20, Telegram, no-resolve
+# Twitter
 DOMAIN-SUFFIX, pscp.tv, Twitter, force-remote-dns
 DOMAIN-SUFFIX, periscope.tv, Twitter, force-remote-dns
 DOMAIN-SUFFIX, t.co, Twitter, force-remote-dns
@@ -1514,275 +1686,165 @@ DOMAIN-SUFFIX, twitpic.com, Twitter, force-remote-dns
 DOMAIN-SUFFIX, twitter.com, Twitter, force-remote-dns
 DOMAIN-SUFFIX, vine.co, Twitter, force-remote-dns
 DOMAIN-KEYWORD, twitter, Twitter, force-remote-dns
-
-# PROXY - Yahoo
+# Yahoo
 DOMAIN-SUFFIX, oath.com, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahoo.com, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahoo.net, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yimg.com, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, ying.com, Yahoo, force-remote-dns
-# PROXY - Yahoo JP
+DOMAIN-SUFFIX, yusercontent.com, Yahoo, force-remote-dns
+# Yahoo JP
 DOMAIN-SUFFIX, storage-yahoo.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahoo.co.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahooapis.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yimg.jp, Yahoo, force-remote-dns
 
-# PROXY - GPorn JP
-DOMAIN-SUFFIX, bravo-japan.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, g-men.co.jp, GPorn, force-remote-dns
-DOMAIN-SUFFIX, bpro.tv, GPorn, force-remote-dns
-DOMAIN-SUFFIX, supermediamall.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, games-video.co.jp, GPorn, force-remote-dns
-DOMAIN-SUFFIX, hunk-ch.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, ko-video.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, mannhouse.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, trance-video.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, vfactory-web.jp, GPorn, force-remote-dns
-# PROXY - GPorn Whites
-DOMAIN-SUFFIX, all-americanheroes.net, GPorn, force-remote-dns
-DOMAIN-SUFFIX, belamionline.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, coltstudiogroup.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, falconstudios.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, kristenbjorn.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, lucaskazan.com, GPorn, force-remote-dns
-# PROXY - GPorn Gayhd.pro
-DOMAIN-SUFFIX, jwpltx.com, reject
-DOMAIN-SUFFIX, gayhd.pro, GPorn, force-remote-dns
-DOMAIN-SUFFIX, hqq.tv, GPorn, force-remote-dns
-DOMAIN-SUFFIX, njhzmxx.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, qpvod.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, sexgayhd.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, iamcdn.net, GPorn, force-remote-dns
-DOMAIN-SUFFIX, idocdn.com, GPorn, force-remote-dns
-# PROXY - GPorn Others
-DOMAIN-SUFFIX, gaymaletube.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, gayporn.fm, GPorn, force-remote-dns
-DOMAIN-SUFFIX, kepler-37b.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, icegay.tv, GPorn, force-remote-dns
-DOMAIN-SUFFIX, machotube.tv, GPorn, force-remote-dns
-DOMAIN-SUFFIX, boyfriendtv.com, GPorn, force-remote-dns
-DOMAIN-SUFFIX, gaybb.net, GPorn, force-remote-dns
-# PROXY - Porn
-DOMAIN-SUFFIX, contentabc.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, etahub.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, pbwstatic.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, phncdn.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, pornhub.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xvideos.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xvideos-cdn.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xhamster.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xhcdn.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, x-art.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xnxx.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, xnxx-cdn.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, statserv.net, Porn, force-remote-dns
-DOMAIN-SUFFIX, playvids.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, redtube.com, Porn, force-remote-dns
-DOMAIN-SUFFIX, rdtcdn.com, Porn, force-remote-dns
-# PROXY - Microsoft
-DOMAIN-SUFFIX, adobedtm.com, MS, force-remote-dns
-DOMAIN-SUFFIX, aspnetcdn.com, MS, force-remote-dns
-DOMAIN-SUFFIX, bing.com, MS, force-remote-dns
-DOMAIN-SUFFIX, gfx.ms, MS, force-remote-dns
-DOMAIN-SUFFIX, live.com, MS, force-remote-dns
-DOMAIN-SUFFIX, microsoft.com, MS, force-remote-dns
-DOMAIN-SUFFIX, microsoftonline.com, MS, force-remote-dns
-DOMAIN-SUFFIX, microsoftonline-p.com, MS, force-remote-dns
-DOMAIN-SUFFIX, microsofttranslator.com, MS, force-remote-dns
-DOMAIN-SUFFIX, msauth.net, MS, force-remote-dns
-DOMAIN-SUFFIX, msecnd.net, MS, force-remote-dns
-DOMAIN-SUFFIX, msedge.net, MS, force-remote-dns
-DOMAIN-SUFFIX, msftauth.net, MS, force-remote-dns
-DOMAIN-SUFFIX, msocdn.com, MS, force-remote-dns
-DOMAIN-SUFFIX, office.com, MS, force-remote-dns
-DOMAIN-SUFFIX, office365.com, MS, force-remote-dns
-DOMAIN-SUFFIX, onenote.com, MS, force-remote-dns
-DOMAIN-SUFFIX, onestore.ms, MS, force-remote-dns
-DOMAIN-SUFFIX, outlook.com, MS, force-remote-dns
-DOMAIN-SUFFIX, skype.com, MS, force-remote-dns
-DOMAIN-SUFFIX, s-microsoft.com, MS, force-remote-dns
-DOMAIN-SUFFIX, svc.ms, MS, force-remote-dns
-DOMAIN-SUFFIX, visualstudio.com, MS, force-remote-dns
-DOMAIN-SUFFIX, windows.com, MS, force-remote-dns
-DOMAIN-SUFFIX, windows.net, MS, force-remote-dns
-DOMAIN-SUFFIX, windowsupdate.com, MS, force-remote-dns
-# PROXY - Microsoft Azure
-DOMAIN-SUFFIX, azureedge.net, MS, force-remote-dns
-DOMAIN-SUFFIX, azurewebsites.net, MS, force-remote-dns
-DOMAIN-SUFFIX, azure-api.net, MS, force-remote-dns
-DOMAIN-SUFFIX, azure.com, MS, force-remote-dns
-DOMAIN-SUFFIX, azure.net, MS, force-remote-dns
-DOMAIN-SUFFIX, msecnd.net, MS, force-remote-dns
-DOMAIN-SUFFIX, liveperson.net, MS, force-remote-dns
-DOMAIN-SUFFIX, lpsnmedia.net, MS, force-remote-dns
-DOMAIN-SUFFIX, xboxlive.com, MS, force-remote-dns
-# PROXY - Microsoft Onedrive
-DOMAIN-SUFFIX, 1drv.com, MS, force-remote-dns
-DOMAIN-SUFFIX, 1drv.ms, MS, force-remote-dns
-DOMAIN-SUFFIX, blob.core.windows.net, MS, force-remote-dns
-DOMAIN-SUFFIX, livefilestore.com, MS, force-remote-dns
-DOMAIN-SUFFIX, onedrive.com, MS, force-remote-dns
-DOMAIN-SUFFIX, sharepoint.com, MS, force-remote-dns
-DOMAIN-SUFFIX, storage.live.com, MS, force-remote-dns
-DOMAIN-SUFFIX, storage.msn.com, MS, force-remote-dns
-DOMAIN-SUFFIX, onedrive.live.com, MS, force-remote-dns
-DOMAIN-SUFFIX, oneclient.sfx.ms, MS, force-remote-dns
+# Digital Cert
+DOMAIN-SUFFIX, digicert.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, letsencrypt.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, digitalcertvalidation.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ocsp.identrust.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ocsp.pki.goog, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ocsp.sectigo.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ocsp.usertrust.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ocsp.trustasiassl.com, PROXY, force-remote-dns
+# Facebook
+DOMAIN-SUFFIX, cdninstagram.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fb.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fb.me, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fbaddins.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fbcdn.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fbsbx.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fbworkmail.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, instagram.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, m.me, PROXY, force-remote-dns
+DOMAIN-SUFFIX, messenger.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, oculus.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, oculuscdn.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, rocksdb.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, whatsapp.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, whatsapp.net, PROXY, force-remote-dns
+domain-keyword, facebook, reject
+# Github
+DOMAIN-SUFFIX, git.io, PROXY, force-remote-dns
+DOMAIN-SUFFIX, github.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, github.io, PROXY, force-remote-dns
+DOMAIN-SUFFIX, githubassets.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, githubusercontent.com, PROXY, force-remote-dns
+domain-keyword, github, PROXY, force-remote-dns
+# Mega
+DOMAIN-SUFFIX, mega.co.nz, PROXY, force-remote-dns
+DOMAIN-SUFFIX, mega.nz, PROXY, force-remote-dns
+DOMAIN-SUFFIX, megaupload.com, PROXY, force-remote-dns
+# Reddit
+DOMAIN-SUFFIX, redd.it, PROXY, force-remote-dns
+DOMAIN-SUFFIX, reddit.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, redditmedia.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, redditstatic.com, PROXY, force-remote-dns
+# Russia
+DOMAIN-SUFFIX, imgsmail.ru, PROXY, force-remote-dns
+DOMAIN-SUFFIX, mail.ru, PROXY, force-remote-dns
+DOMAIN-SUFFIX, yandex.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, yandex.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, yandex.ru, PROXY, force-remote-dns
+DOMAIN-SUFFIX, yastat.net, PROXY, force-remote-dns
+# Wiki
+DOMAIN-SUFFIX, wikileaks.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wikimedia.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wikipedia.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wikipedia.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wikiwand.com, PROXY, force-remote-dns
+# Foreign-Others
+DOMAIN-SUFFIX, 0rz.tw, PROXY, force-remote-dns
+DOMAIN-SUFFIX, akamai.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, akamaihd.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, amazon.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, amazonaws.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, angularjs.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, aolcdn.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, apkpure.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, appledaily.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, appshopper.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, appspot.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, awsstatic.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, bbc.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, bit.ly, PROXY, force-remote-dns
+DOMAIN-SUFFIX, bitbucket.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, bitcointalk.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, bloomberg.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, cl.ly, PROXY, force-remote-dns
+DOMAIN-SUFFIX, cloudflare.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, deezer.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, dropbox.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, duckduckgo.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, dzcdn.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, evernote.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, gravatar.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, hockeyapp.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, img.ly, PROXY, force-remote-dns
+DOMAIN-SUFFIX, imgur.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, instapaper.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, jsdelivr.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, livefilestore.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, jquery.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, mail.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, medium.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, mobile01.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, nflxvideo.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, nyt.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, nytimes.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, pandora.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, periscope.tv, PROXY, force-remote-dns
+DOMAIN-SUFFIX, pinterest.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, pixiv.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, pscp.tv, PROXY, force-remote-dns
+DOMAIN-SUFFIX, recaptcha.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, sfx.ms, PROXY, force-remote-dns
+DOMAIN-SUFFIX, sharethis.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, shazam.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ssl-images-amazon.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, stackoverflow.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, thepiratebay.org, PROXY, force-remote-dns
+DOMAIN-SUFFIX, theverge.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, tidal.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, time.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, timeinc.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, twitch.tv, PROXY, force-remote-dns
+DOMAIN-SUFFIX, vimeo.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, vimeocdn.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, w3schools.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, whoer.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, whrq.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wordpress.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wp.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wsj.com, PROXY, force-remote-dns
+DOMAIN-SUFFIX, wsj.net, PROXY, force-remote-dns
+DOMAIN-SUFFIX, xda-developers.com, PROXY, force-remote-dns
+# Foreign-countries
+DOMAIN-SUFFIX, au, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ca, PROXY, force-remote-dns
+DOMAIN-SUFFIX, de, PROXY, force-remote-dns
+DOMAIN-SUFFIX, fr, PROXY, force-remote-dns
+DOMAIN-SUFFIX, hk, PROXY, force-remote-dns
+DOMAIN-SUFFIX, id, PROXY, force-remote-dns
+DOMAIN-SUFFIX, in, PROXY, force-remote-dns
+DOMAIN-SUFFIX, jp, PROXY, force-remote-dns
+DOMAIN-SUFFIX, kr, PROXY, force-remote-dns
+DOMAIN-SUFFIX, my, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ng, PROXY, force-remote-dns
+DOMAIN-SUFFIX, nz, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ph, PROXY, force-remote-dns
+DOMAIN-SUFFIX, ru, PROXY, force-remote-dns
+DOMAIN-SUFFIX, th, PROXY, force-remote-dns
+DOMAIN-SUFFIX, tw, PROXY, force-remote-dns
+DOMAIN-SUFFIX, uk, PROXY, force-remote-dns
+DOMAIN-SUFFIX, us, PROXY, force-remote-dns
+DOMAIN-SUFFIX, vn, PROXY, force-remote-dns
 
-# PROXY- Digital Cert
-DOMAIN-SUFFIX, digicert.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, letsencrypt.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, digitalcertvalidation.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ocsp.identrust.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ocsp.pki.goog, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ocsp.sectigo.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ocsp.usertrust.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ocsp.trustasiassl.com, Proxy, force-remote-dns
-
-# PROXY- Facebook
-DOMAIN-SUFFIX, cdninstagram.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fb.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fb.me, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fbaddins.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fbcdn.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fbsbx.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fbworkmail.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, instagram.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, m.me, Proxy, force-remote-dns
-DOMAIN-SUFFIX, messenger.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, oculus.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, oculuscdn.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, rocksdb.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, whatsapp.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, whatsapp.net, Proxy, force-remote-dns
-DOMAIN-KWEYWORD, facebook, reject
-
-# PROXY- Github
-DOMAIN-SUFFIX, git.io, Proxy, force-remote-dns
-DOMAIN-SUFFIX, github.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, github.io, Proxy, force-remote-dns
-DOMAIN-SUFFIX, githubassets.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, githubusercontent.com, Proxy, force-remote-dns
-DOMAIN-KWEYWORD, github, Proxy, force-remote-dns
-
-# PROXY- Mega
-DOMAIN-SUFFIX, mega.co.nz, Proxy, force-remote-dns
-DOMAIN-SUFFIX, mega.nz, Proxy, force-remote-dns
-DOMAIN-SUFFIX, megaupload.com, Proxy, force-remote-dns
-
-# PROXY- Reddit
-DOMAIN-SUFFIX, redd.it, Proxy, force-remote-dns
-DOMAIN-SUFFIX, reddit.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, redditmedia.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, redditstatic.com, Proxy, force-remote-dns
-
-# PROXY- Russia
-DOMAIN-SUFFIX, imgsmail.ru, Proxy, force-remote-dns
-DOMAIN-SUFFIX, mail.ru, Proxy, force-remote-dns
-DOMAIN-SUFFIX, yandex.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, yandex.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, yandex.ru, Proxy, force-remote-dns
-DOMAIN-SUFFIX, yastat.net, Proxy, force-remote-dns
-
-# PROXY- Wiki
-DOMAIN-SUFFIX, wikileaks.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wikimedia.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wikipedia.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wikipedia.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wikiwand.com, Proxy, force-remote-dns
-
-# PROXY- Global Others
-DOMAIN-SUFFIX, 0rz.tw, Proxy, force-remote-dns
-DOMAIN-SUFFIX, akamai.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, akamaihd.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, amazon.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, amazonaws.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, angularjs.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, aolcdn.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, apkpure.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, appledaily.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, appshopper.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, appspot.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, awsstatic.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, bbc.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, bit.ly, Proxy, force-remote-dns
-DOMAIN-SUFFIX, bitbucket.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, bitcointalk.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, bloomberg.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, cl.ly, Proxy, force-remote-dns
-DOMAIN-SUFFIX, cloudflare.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, deezer.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, dropbox.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, duckduckgo.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, dzcdn.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, evernote.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, gravatar.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, hockeyapp.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, img.ly, Proxy, force-remote-dns
-DOMAIN-SUFFIX, imgur.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, instapaper.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, jsdelivr.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, livefilestore.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, jquery.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, mail.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, medium.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, mobile01.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, nflxvideo.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, nyt.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, nytimes.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, pandora.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, periscope.tv, Proxy, force-remote-dns
-DOMAIN-SUFFIX, pinterest.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, pixiv.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, pscp.tv, Proxy, force-remote-dns
-DOMAIN-SUFFIX, recaptcha.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, sfx.ms, Proxy, force-remote-dns
-DOMAIN-SUFFIX, sharethis.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, shazam.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ssl-images-amazon.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, stackoverflow.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, thepiratebay.org, Proxy, force-remote-dns
-DOMAIN-SUFFIX, theverge.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, tidal.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, time.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, timeinc.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, twitch.tv, Proxy, force-remote-dns
-DOMAIN-SUFFIX, vimeo.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, vimeocdn.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, w3schools.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, whoer.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, whrq.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wordpress.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wp.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wsj.com, Proxy, force-remote-dns
-DOMAIN-SUFFIX, wsj.net, Proxy, force-remote-dns
-DOMAIN-SUFFIX, xda-developers.com, Proxy, force-remote-dns
-
-# PROXY- Global country
-DOMAIN-SUFFIX, au, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ca, Proxy, force-remote-dns
-DOMAIN-SUFFIX, de, Proxy, force-remote-dns
-DOMAIN-SUFFIX, fr, Proxy, force-remote-dns
-DOMAIN-SUFFIX, hk, Proxy, force-remote-dns
-DOMAIN-SUFFIX, id, Proxy, force-remote-dns
-DOMAIN-SUFFIX, in, Proxy, force-remote-dns
-DOMAIN-SUFFIX, jp, Proxy, force-remote-dns
-DOMAIN-SUFFIX, kr, Proxy, force-remote-dns
-DOMAIN-SUFFIX, my, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ng, Proxy, force-remote-dns
-DOMAIN-SUFFIX, nz, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ph, Proxy, force-remote-dns
-DOMAIN-SUFFIX, ru, Proxy, force-remote-dns
-DOMAIN-SUFFIX, th, Proxy, force-remote-dns
-DOMAIN-SUFFIX, tw, Proxy, force-remote-dns
-DOMAIN-SUFFIX, uk, Proxy, force-remote-dns
-DOMAIN-SUFFIX, us, Proxy, force-remote-dns
-DOMAIN-SUFFIX, vn, Proxy, force-remote-dns
-
-# DIRECT
-# DIRECT - 360
+# 360
 DOMAIN-SUFFIX, qhres.com, DIRECT
 DOMAIN-SUFFIX, qhimg.com, DIRECT
-# DIRECT - alibaba
+# alibaba
 DOMAIN-SUFFIX, alibaba.com, DIRECT
 DOMAIN-SUFFIX, alicdn.com, DIRECT
 DOMAIN-SUFFIX, alikunlun.com, DIRECT
@@ -1799,62 +1861,69 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, youku.com, DIRECT
 DOMAIN-SUFFIX, xiami.com, DIRECT
 DOMAIN-SUFFIX, xiami.net, DIRECT
-# DIRECT - baidu
+# aloha
+DOMAIN, sensor-data.mrbanana.com, reject
+DOMAIN, aloha-log.enjoymeet.com, reject
+DOMAIN-SUFFIX, enjoymeet.com, DIRECT
+DOMAIN-SUFFIX, fengkongcloud.com, DIRECT
+DOMAIN-SUFFIX, mrbanana.com, DIRECT
+DOMAIN-SUFFIX, zego.im, DIRECT
+# baidu
 DOMAIN-SUFFIX, baidu.cn, DIRECT
 DOMAIN-SUFFIX, baidu.com, DIRECT
 DOMAIN-SUFFIX, baidubcr.com, DIRECT
 DOMAIN-SUFFIX, bdstatic.com, DIRECT
 DOMAIN-SUFFIX, yunjiasu-cdn.net, DIRECT
-# DIRECT - bilibili
+# bilibili
 DOMAIN-SUFFIX, acgvideo.com, DIRECT
 DOMAIN-SUFFIX, biliapi.com, DIRECT
 DOMAIN-SUFFIX, biliapi.net, DIRECT
 DOMAIN-SUFFIX, bilibili.com, DIRECT
 DOMAIN-SUFFIX, bilibili.tv, DIRECT
 DOMAIN-SUFFIX, hdslb.com, DIRECT
-# DIRECT - bytedance
+# bytedance
 DOMAIN-SUFFIX, feiliao.com, DIRECT
 DOMAIN-SUFFIX, pstatp.com, DIRECT
 DOMAIN-SUFFIX, snssdk.com, DIRECT
 DOMAIN-SUFFIX, iesdouyin.com, DIRECT
 DOMAIN-SUFFIX, toutiao.com, DIRECT
-# DIRECT - cctv
+# cctv
 DOMAIN-SUFFIX, cctv.com, DIRECT
 DOMAIN-SUFFIX, cctvpic.com, DIRECT
 DOMAIN-SUFFIX, livechina.com, DIRECT
-# DIRECT - didi
+# didi
 DOMAIN-SUFFIX, didialift.com, DIRECT
 DOMAIN-SUFFIX, didiglobal.com, DIRECT
 DOMAIN-SUFFIX, udache.com, DIRECT
-# DIRECT - chinanet
+# chinanet
 DOMAIN-SUFFIX, 21cn.com, DIRECT
-# DIRECT - hunantv
+# hunantv
 DOMAIN-SUFFIX, hitv.com, DIRECT
 DOMAIN-SUFFIX, mgtv.com, DIRECT
-# DIRECT - iqiyi
+# iqiyi
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
 DOMAIN-SUFFIX, 71.am.com, DIRECT
-# DIRECT - jd
+# jd
 DOMAIN-SUFFIX, jd.com, DIRECT
 DOMAIN-SUFFIX, jd.hk, DIRECT
 DOMAIN-SUFFIX, jdpay.com, DIRECT
 DOMAIN-SUFFIX, 360buyimg.com, DIRECT
-# DIRECT - kingsoft
+# kingsoft
 DOMAIN-SUFFIX, iciba.com, DIRECT
 DOMAIN-SUFFIX, ksosoft.com, DIRECT
-# DIRECT - meitu
+# meitu
 DOMAIN-SUFFIX, meitu.com, DIRECT
 DOMAIN-SUFFIX, meitudata.com, DIRECT
 DOMAIN-SUFFIX, meitustat.com, DIRECT
 DOMAIN-SUFFIX, meipai.com, DIRECT
-# DIRECT - mi
+# mi
 DOMAIN-SUFFIX, duokan.com, DIRECT
 DOMAIN-SUFFIX, mi-img.com, DIRECT
 DOMAIN-SUFFIX, miui.com, DIRECT
 DOMAIN-SUFFIX, miwifi.com, DIRECT
 DOMAIN-SUFFIX, xiaomi.com, DIRECT
-# DIRECT - netease
+# netease
 DOMAIN-SUFFIX, 163.com, DIRECT
 DOMAIN-SUFFIX, 126.net, DIRECT
 DOMAIN-SUFFIX, 127.net, DIRECT
@@ -1863,22 +1932,23 @@ DOMAIN-SUFFIX, lofter.com, DIRECT
 DOMAIN-SUFFIX, netease.com, DIRECT
 DOMAIN-SUFFIX, netease.im, DIRECT
 DOMAIN-SUFFIX, ydstatic.com, DIRECT
-# DIRECT - sina
+DOMAIN-SUFFIX, yeah.net, DIRECT
+# sina
 DOMAIN-SUFFIX, sina.com, DIRECT
 DOMAIN-SUFFIX, sinaimg.cn, DIRECT
 DOMAIN-SUFFIX, weibo.cn, DIRECT
 DOMAIN-SUFFIX, weibo.com, DIRECT
 DOMAIN-SUFFIX, weibocdn.com, DIRECT
-# DIRECT - sohu
+# sohu
 DOMAIN-SUFFIX, sohu.com, DIRECT
 DOMAIN-SUFFIX, sohucs.com, DIRECT
 DOMAIN-SUFFIX, sohu-inc.com, DIRECT
 DOMAIN-SUFFIX, v-56.com, DIRECT
-# DIRECT - sogou
+# sogou
 DOMAIN-SUFFIX, sogo.com, DIRECT
 DOMAIN-SUFFIX, sogou.com, DIRECT
 DOMAIN-SUFFIX, sogoucdn.com, DIRECT
-# DIRECT - QQ
+# QQ
 DOMAIN-SUFFIX, gtimg.com, DIRECT
 DOMAIN-SUFFIX, idqqimg.com, DIRECT
 DOMAIN-SUFFIX, igamecj.com, DIRECT
@@ -1889,7 +1959,7 @@ DOMAIN-SUFFIX, tencent.com, DIRECT
 DOMAIN-SUFFIX, tencent-cloud.net, DIRECT
 USER-AGENT, micromessenger%20client, DIRECT
 USER-AGENT, wechat*, DIRECT
-# DIRECT - yyets
+# yyets
 DOMAIN-SUFFIX, jstucdn.com, DIRECT
 DOMAIN-SUFFIX, zimuzu.io, DIRECT
 DOMAIN-SUFFIX, zimuzu.tv, DIRECT
@@ -1898,7 +1968,7 @@ DOMAIN-SUFFIX, zmzapi.com, DIRECT
 DOMAIN-SUFFIX, zmzapi.net, DIRECT
 DOMAIN-SUFFIX, zmzfile.com, DIRECT
 USER-AGENT, yyets*, DIRECT
-# DIRECT - other
+# domestic-other
 DOMAIN-SUFFIX, ctrip.com, DIRECT
 DOMAIN-SUFFIX, douban.com, DIRECT
 DOMAIN-SUFFIX, doubanio.com, DIRECT
@@ -1938,12 +2008,7 @@ DOMAIN-SUFFIX, xmcdn.com, DIRECT
 DOMAIN-SUFFIX, zhihu.com, DIRECT
 DOMAIN-SUFFIX, zhimg.com, DIRECT
 DOMAIN-SUFFIX, zhuihd.com, DIRECT
-
 # Coutry CN
 DOMAIN-SUFFIX, cn, DIRECT
-
 # Geoip CN
-GEOIP, cn, DIRECT
-
-# Final
-FINAL, PROXY
+GEOIP, CN, DIRECT
