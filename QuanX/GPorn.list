@@ -1,7 +1,4 @@
 # GPorn
-# Keyword
-domain-keyword, gay, GPorn
-
 # Official Sites JP
 domain-suffix, bravo-japan.com, GPorn
 domain-suffix, g-men.co.jp, GPorn
@@ -39,3 +36,4 @@ domain-suffix, icegay.tv, GPorn
 domain-suffix, machotube.tv, GPorn
 domain-suffix, boyfriendtv.com, GPorn
 domain-suffix, gaybb.net, GPorn
+domain-keyword, gay, GPorn
