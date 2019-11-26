@@ -1,9 +1,17 @@
 # FRss
 DOMAIN-SUFFIX, bbsah.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, binwiki.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, free-ss.site, FRss, force-remote-dns
 DOMAIN-SUFFIX, hostloc.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, ijjyy.net, FRss, force-remote-dns
 DOMAIN-SUFFIX, liyuans.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, moren.de, FRss, force-remote-dns
+DOMAIN-SUFFIX, shadowsocks.org, FRss, force-remote-dns
+DOMAIN-SUFFIX, ssrshare.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, ssrtool.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, teddysun.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, v2ex.com, FRss, force-remote-dns
+DOMAIN-SUFFIX, v2ray.com, FRss, force-remote-dns
 DOMAIN-SUFFIX, yiyult.com, FRss, force-remote-dns
+# FRss 2
+DOMAIN-SUFFIX, tt1069.com, FRss, force-remote-dns
