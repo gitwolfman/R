@@ -293,7 +293,7 @@ DOMAIN-SUFFIX, yiyult.com, FRss
 # FRss 2
 DOMAIN-SUFFIX, tt1069.com, FRss
 
-# Global-Others
+# Foreign-Others
 DOMAIN-SUFFIX, 0rz.tw, PROXY
 DOMAIN-SUFFIX, akamai.net, PROXY
 DOMAIN-SUFFIX, akamaihd.net, PROXY
@@ -360,7 +360,7 @@ DOMAIN-SUFFIX, wsj.com, PROXY
 DOMAIN-SUFFIX, wsj.net, PROXY
 DOMAIN-SUFFIX, xda-developers.com, PROXY
 
-# Global-countries
+# Foreign-countries
 DOMAIN-SUFFIX, au, PROXY
 DOMAIN-SUFFIX, ca, PROXY
 DOMAIN-SUFFIX, de, PROXY
