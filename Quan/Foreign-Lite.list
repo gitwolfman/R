@@ -60,7 +60,7 @@ DOMAIN-SUFFIX, wikipedia.com, PROXY, force-remote-dns
 DOMAIN-SUFFIX, wikipedia.org, PROXY, force-remote-dns
 DOMAIN-SUFFIX, wikiwand.com, PROXY, force-remote-dns
 
-# Global-Others
+# Foreign-Others
 DOMAIN-SUFFIX, 0rz.tw, PROXY, force-remote-dns
 DOMAIN-SUFFIX, akamai.net, PROXY, force-remote-dns
 DOMAIN-SUFFIX, akamaihd.net, PROXY, force-remote-dns
@@ -127,7 +127,7 @@ DOMAIN-SUFFIX, wsj.com, PROXY, force-remote-dns
 DOMAIN-SUFFIX, wsj.net, PROXY, force-remote-dns
 DOMAIN-SUFFIX, xda-developers.com, PROXY, force-remote-dns
 
-# Global-countries
+# Foreign-countries
 DOMAIN-SUFFIX, au, PROXY, force-remote-dns
 DOMAIN-SUFFIX, ca, PROXY, force-remote-dns
 DOMAIN-SUFFIX, de, PROXY, force-remote-dns
