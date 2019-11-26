@@ -1,0 +1,67 @@
+# Google
+DOMAIN-DUFFIX, ads.gmodules.com, REJECT
+DOMAIN-DUFFIX, ads.google.com, REJECT
+DOMAIN-DUFFIX, adservice.google.com, REJECT
+DOMAIN-DUFFIX, adservice.google.com.hk, REJECT
+DOMAIN-DUFFIX, afd.l.google.com, REJECT
+DOMAIN-DUFFIX, badad.googleplex.com, REJECT
+DOMAIN-DUFFIX, csi.gstatic.com, REJECT
+DOMAIN-DUFFIX, firebaselogging.googleapis.com, REJECT
+DOMAIN-DUFFIX, mobileads.google.com, REJECT
+DOMAIN-DUFFIX, pagead-tpc.l.google.com, REJECT
+DOMAIN-DUFFIX, pagead.google.com, REJECT
+DOMAIN-DUFFIX, pagead.l.google.com, REJECT
+# Google 2
+DOMAIN-DUFFIX, googleadservices.com, REJECT
+DOMAIN-DUFFIX, googleadsserving.cn, REJECT
+DOMAIN-DUFFIX, google-analytics.com, REJECT
+DOMAIN-DUFFIX, googlesyndication.com, REJECT
+DOMAIN-DUFFIX, googletagmanager.com, REJECT
+DOMAIN-DUFFIX, googletagservices.com, REJECT
+
+# Twitter
+DOMAIN-DUFFIX, ads.twitter.com, REJECT
+DOMAIN-DUFFIX, syndication.twitter.com, REJECT
+DOMAIN-DUFFIX, syndication-o.twitter.com, REJECT
+DOMAIN-DUFFIX, analytics.twitter.com, REJECT
+DOMAIN-DUFFIX, scribe.twitter.com, REJECT
+DOMAIN-DUFFIX, p.twitter.com, REJECT
+DOMAIN-DUFFIX, ads-twitter.com, REJECT
+DOMAIN-DUFFIX, tellapart.com, REJECT
+DOMAIN-DUFFIX, urls.api.twitter.com, REJECT
+
+# Yahoo
+DOMAIN-DUFFIX, ad.wretch.cc, REJECT
+DOMAIN-DUFFIX, ads.yahoo.com, REJECT
+DOMAIN-DUFFIX, adserver.yahoo.com, REJECT
+DOMAIN-DUFFIX, adss.yahoo.com, REJECT
+DOMAIN-DUFFIX, analytics.query.yahoo.com, REJECT
+DOMAIN-DUFFIX, analytics.yahoo.com, REJECT
+DOMAIN-DUFFIX, beap-bc.yahoo.com, REJECT
+DOMAIN-DUFFIX, clicks.beap.bc.yahoo.com, REJECT
+DOMAIN-DUFFIX, comet.yahoo.com, REJECT
+DOMAIN-DUFFIX, doubleplay-conf-yql.media.yahoo.com, REJECT
+DOMAIN-DUFFIX, gemini.yahoo.com, REJECT
+DOMAIN-DUFFIX, geo.yahoo.com, REJECT
+DOMAIN-DUFFIX, js-apac-ss.ysm.yahoo.com, REJECT
+DOMAIN-DUFFIX, locdrop.query.yahoo.com, REJECT
+DOMAIN-DUFFIX, m.yap.yahoo.com, REJECT
+DOMAIN-DUFFIX, onepush.query.yahoo.com, REJECT
+DOMAIN-DUFFIX, p3p.yahoo.com, REJECT
+DOMAIN-DUFFIX, partnerads.ysm.yahoo.com, REJECT
+DOMAIN-DUFFIX, uservoice.com, REJECT
+DOMAIN-DUFFIX, ws.progrss.yahoo.com, REJECT
+DOMAIN-DUFFIX, ybp.yahoo.com, REJECT
+
+# Yahoo JP
+DOMAIN-DUFFIX, ane.yahoo.co.jp, REJECT
+DOMAIN-DUFFIX, ard.yahoo.co.jp, REJECT
+DOMAIN-DUFFIX, yads.yahoo.co.jp, REJECT
+
+# Russia
+DOMAIN-DUFFIX, ad.mail.ru, REJECT
+DOMAIN-DUFFIX, an.yandex.ru, REJECT
+DOMAIN-DUFFIX, mc.yandex.ru, REJECT
+DOMAIN-DUFFIX, report.appmetrica.yandex.net, REJECT
+DOMAIN-DUFFIX, top-fwz1.mail.ru, REJECT
+DOMAIN-DUFFIX, yandex-sync.rutarget.ru, REJECT
