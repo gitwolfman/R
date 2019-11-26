@@ -162,4 +162,4 @@ domain-suffix, zhuihd.com, direct
 domain-suffix, cn, direct
 
 # Geoip CN
-geoip, cn, direct
+geoip, CN, direct
