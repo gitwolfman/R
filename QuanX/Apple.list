@@ -1,18 +1,18 @@
 # Apple
-domain-suffix, aaplimg.com, Apple
-domain-suffix, apple.co, Apple
-domain-suffix, apple.com, Apple
-domain-suffix, appstore.com, Apple
-domain-suffix, cdn-apple.com, Apple
-domain-suffix, icloud.com, Apple
-domain-suffix, icloud-content.com, Apple
-domain-suffix, itunes.com, Apple
-domain-suffix, me.com, Apple
-domain-suffix, mzstatic.com, Apple
+DOMAIN-DUFFIX, aaplimg.com, Apple
+DOMAIN-DUFFIX, apple.co, Apple
+DOMAIN-DUFFIX, apple.com, Apple
+DOMAIN-DUFFIX, appstore.com, Apple
+DOMAIN-DUFFIX, cdn-apple.com, Apple
+DOMAIN-DUFFIX, icloud.com, Apple
+DOMAIN-DUFFIX, icloud-content.com, Apple
+DOMAIN-DUFFIX, itunes.com, Apple
+DOMAIN-DUFFIX, me.com, Apple
+DOMAIN-DUFFIX, mzstatic.com, Apple
 # Weather
-domain-suffix, weather.com, Apple
+DOMAIN-DUFFIX, weather.com, Apple
 # Apple Keywords
-domain-keyword, apple, Apple
-domain-keyword, icloud, Apple
-domain-keyword, itunes, Apple
-ip-cidr, 17.0.0.0/8, Apple
+DOMAIN-KEYWORD, apple, Apple
+DOMAIN-KEYWORD, icloud, Apple
+DOMAIN-KEYWORD, itunes, Apple
+IP-CIDR, 17.0.0.0/8, Apple
