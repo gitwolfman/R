@@ -1,4 +1,5 @@
 # Ads-UA
+USER-AGENT, *wpsoffice*, REJECT
 USER-AGENT, *adsence*, REJECT
 USER-AGENT, *adsensor*, REJECT
 USER-AGENT, *adservice*, REJECT
