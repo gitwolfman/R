@@ -1,6 +1,10 @@
+# Porn
+DOMAIN-SUFFIX, avgle.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, cdn15.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, contentabc.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, etahub.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, pbwstatic.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, phcdn.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, phncdn.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, pornhub.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, xvideos.com, Porn, force-remote-dns
@@ -14,3 +18,4 @@ DOMAIN-SUFFIX, statserv.net, Porn, force-remote-dns
 DOMAIN-SUFFIX, playvids.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, redtube.com, Porn, force-remote-dns
 DOMAIN-SUFFIX, rdtcdn.com, Porn, force-remote-dns
+DOMAIN-KEYWORD, porn, Porn, force-remote-dns
