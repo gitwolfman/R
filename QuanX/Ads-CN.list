@@ -1,3 +1,98 @@
+# 163
+DOMAIN-DUFFIX, a.youdao.com, REJECT
+DOMAIN-DUFFIX, adgeo.163.com, REJECT
+DOMAIN-DUFFIX, analytics.126.net, REJECT
+DOMAIN-DUFFIX, bobo.163.com, REJECT
+DOMAIN-DUFFIX, c.youdao.com, REJECT
+DOMAIN-DUFFIX, clkservice.youdao.com, REJECT
+DOMAIN-DUFFIX, conv.youdao.com, REJECT
+DOMAIN-DUFFIX, dsp.youdao.com, REJECT
+DOMAIN-DUFFIX, dsp-impr2.youdao.com, REJECT
+DOMAIN-DUFFIX, fa.163.com, REJECT
+DOMAIN-DUFFIX, g.163.com, REJECT
+DOMAIN-DUFFIX, g1.163.com, REJECT
+DOMAIN-DUFFIX, gb.163.com, REJECT
+DOMAIN-DUFFIX, gorgon.youdao.com, REJECT
+DOMAIN-DUFFIX, haitaoad.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, iadmat.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, iadmatvideo.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, img1.126.net, REJECT
+DOMAIN-DUFFIX, img2.126.net, REJECT
+DOMAIN-DUFFIX, ir.mail.126.com, REJECT
+DOMAIN-DUFFIX, ir.mail.yeah.net, REJECT
+DOMAIN-DUFFIX, ip.ws.126.net, REJECT
+DOMAIN-DUFFIX, mimg.126.net, REJECT
+DOMAIN-DUFFIX, nc004x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, nc045x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, nex.163.com, REJECT
+DOMAIN-DUFFIX, oimagea2.ydstatic.com, REJECT
+DOMAIN-DUFFIX, pagechoice.net, REJECT
+DOMAIN-DUFFIX, prom.gome.com.cn, REJECT
+DOMAIN-DUFFIX, push.126.net, REJECT
+DOMAIN-DUFFIX, qt002x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, rlogs.youdao.com, REJECT
+DOMAIN-DUFFIX, static.flv.uuzuonline.com, REJECT
+DOMAIN-DUFFIX, tb060x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, tb104x.corp.youdao.com, REJECT
+DOMAIN-DUFFIX, union.youdao.com, REJECT
+DOMAIN-DUFFIX, wanproxy.127.net, REJECT
+DOMAIN-DUFFIX, yanxuan.nosdn.127.net, REJECT
+DOMAIN-DUFFIX, ydpushserver.youdao.com, REJECT
+
+# 360
+DOMAIN-DUFFIX, 3600.com, REJECT
+DOMAIN-DUFFIX, gamebox.360.cn, REJECT
+DOMAIN-DUFFIX, jiagu.360.cn, REJECT
+DOMAIN-DUFFIX, kuaikan.netmon.360safe.com, REJECT
+DOMAIN-DUFFIX, leak.360.cn, REJECT
+DOMAIN-DUFFIX, lianmeng.360.cn, REJECT
+DOMAIN-DUFFIX, pub.se.360.cn, REJECT
+DOMAIN-DUFFIX, s.so.360.cn, REJECT
+DOMAIN-DUFFIX, shouji.360.cn, REJECT
+DOMAIN-DUFFIX, soft.data.weather.360.cn, REJECT
+DOMAIN-DUFFIX, stat.360safe.com, REJECT
+DOMAIN-DUFFIX, stat.m.360.cn, REJECT
+DOMAIN-DUFFIX, update.360safe.com, REJECT
+DOMAIN-DUFFIX, wan.360.cn, REJECT
+
+# Ali
+DOMAIN-DUFFIX, acjs.aliyun.com, REJECT
+DOMAIN-DUFFIX, adash-c.m.taobao.com, REJECT
+DOMAIN-DUFFIX, adash-c.ut.taobao.com, REJECT
+DOMAIN-DUFFIX, adashx4yt.m.taobao.com, REJECT
+DOMAIN-DUFFIX, adashxgc.ut.taobao.com, REJECT
+DOMAIN-DUFFIX, afp.alicdn.com, REJECT
+DOMAIN-DUFFIX, ai.m.taobao.com, REJECT
+DOMAIN-DUFFIX, alipaylog.com, REJECT
+DOMAIN-DUFFIX, amdc.alipay.com, REJECT
+DOMAIN-DUFFIX, atanx.alicdn.com, REJECT
+DOMAIN-DUFFIX, atanx2.alicdn.com, REJECT
+DOMAIN-DUFFIX, click.mz.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, fav.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, g.click.taobao.com, REJECT
+DOMAIN-DUFFIX, g.tbcdn.cn, REJECT
+DOMAIN-DUFFIX, gma.alicdn.com, REJECT
+DOMAIN-DUFFIX, gtms.alicdn.com, REJECT
+DOMAIN-DUFFIX, hydra.alibaba.com, REJECT
+DOMAIN-DUFFIX, m.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, pindao.huoban.taobao.com, REJECT
+DOMAIN-DUFFIX, re.m.taobao.com, REJECT
+DOMAIN-DUFFIX, redirect.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, rj.m.taobao.com, REJECT
+DOMAIN-DUFFIX, sdkinit.taobao.com, REJECT
+DOMAIN-DUFFIX, show.re.taobao.com, REJECT
+DOMAIN-DUFFIX, simaba.m.taobao.com, REJECT
+DOMAIN-DUFFIX, simaba.taobao.com, REJECT
+DOMAIN-DUFFIX, srd.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, strip.taobaocdn.com, REJECT
+DOMAIN-DUFFIX, tns.simba.taobao.com, REJECT
+DOMAIN-DUFFIX, tyh.taobao.com, REJECT
+IP-CIDR, 106.14.0.0/15, REJECT
+
+# Aloha
+DOMAIN, sensor-data.mrbanana.com, reject
+DOMAIN, aloha-log.enjoymeet.com, reject
+
 # Baidu
 DOMAIN-DUFFIX, a.baidu.com, REJECT
 DOMAIN-DUFFIX, ad.duapps.com, REJECT
@@ -169,9 +264,87 @@ DOMAIN-DUFFIX, zz.bdstatic.com, REJECT
 DOMAIN-DUFFIX, ashifen.com, REJECT
 DOMAIN-DUFFIX, shifen.com, REJECT
 
-# Zhihu
-DOMAIN-DUFFIX, sugar.zhihu.com, REJECT
-DOMAIN-DUFFIX, zhihu-web-analytics.zhihu.com, REJECT
+# Eleme
+DOMAIN-DUFFIX, app-monitor.ele.me, REJECT
+DOMAIN-DUFFIX, client-api.ele.me, REJECT
+DOMAIN-DUFFIX, grand.ele.me, REJECT
+DOMAIN-DUFFIX, mobile-pubt.ele.me, REJECT
+DOMAIN-DUFFIX, newton-api.ele.me, REJECT
+
+# iFeng
+DOMAIN-DUFFIX, deliver.ifeng.com, REJECT
+DOMAIN-DUFFIX, api.newad.ifeng.com, REJECT
+DOMAIN-DUFFIX, ifengad.3g.ifeng.com, REJECT
+
+# iQiyi & PPS
+DOMAIN-DUFFIX, ad.m.iqiyi.com, REJECT
+DOMAIN-DUFFIX, afp.iqiyi.com, REJECT
+DOMAIN-DUFFIX, c.uaa.iqiyi.com, REJECT
+DOMAIN-DUFFIX, cloudpush.iqiyi.com, REJECT
+DOMAIN-DUFFIX, cm.passport.iqiyi.com, REJECT
+DOMAIN-DUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN-DUFFIX, emoticon.sns.iqiyi.com, REJECT
+DOMAIN-DUFFIX, gamecenter.iqiyi.com, REJECT
+DOMAIN-DUFFIX, hotchat-im.iqiyi.com, REJECT
+DOMAIN-DUFFIX, ifacelog.iqiyi.com, REJECT
+DOMAIN-DUFFIX, mbdlog.iqiyi.com, REJECT
+DOMAIN-DUFFIX, meta.video.qiyi.com, REJECT
+DOMAIN-DUFFIX, msg1.video.qiyi.com, REJECT
+DOMAIN-DUFFIX, msg2.video.qiyi.com, REJECT
+DOMAIN-DUFFIX, msg.71.am, REJECT
+DOMAIN-DUFFIX, paopao.iqiyi.com, REJECT
+DOMAIN-DUFFIX, policy.video.iqiyi.com, REJECT
+DOMAIN-DUFFIX, yuedu.iqiyi.com, REJECT
+IP-CIDR, 101.227.97.240/32, REJECT
+IP-CIDR, 101.227.200.11/32, REJECT
+IP-CIDR, 101.227.200.28/32, REJECT
+IP-CIDR, 124.192.153.42/32, REJECT
+
+# JD
+DOMAIN-DUFFIX, ads.union.jd.com, REJECT
+DOMAIN-DUFFIX, c-nfa.jd.com, REJECT
+DOMAIN-DUFFIX, cps.360buy.com, REJECT
+DOMAIN-DUFFIX, img-x.jd.com, REJECT
+DOMAIN-DUFFIX, jrclick.jd.com, REJECT
+DOMAIN-DUFFIX, jzt.jd.com, REJECT
+DOMAIN-DUFFIX, policy.jd.com, REJECT
+DOMAIN-DUFFIX, stat.m.jd.com, REJECT
+
+# Kugou & Kuwo
+DOMAIN-DUFFIX, adserviceretry.kugou.com, REJECT
+DOMAIN-DUFFIX, ads.service.kugou.com, REJECT
+DOMAIN-DUFFIX, adsfile.bssdlbig.kugou.com, REJECT
+DOMAIN-DUFFIX, g.koowo.com, REJECT
+DOMAIN-DUFFIX, kgmobilestat.kugou.com, REJECT
+DOMAIN-DUFFIX, kgmobilestatbak.kugou.com, REJECT
+DOMAIN-DUFFIX, mobilelog.kugou.com, REJECT
+DOMAIN-DUFFIX, mobilead.kuwo.cn, REJECT
+DOMAIN-DUFFIX, rich.kuwo.cn, REJECT
+DOMAIN-DUFFIX, log.kuwo.cn, REJECT
+DOMAIN-DUFFIX, log.stat.kugou.com, REJECT
+DOMAIN-DUFFIX, log.web.kugou.com, REJECT
+DOMAIN-DUFFIX, g.koowo.com, REJECT
+
+# Mi
+DOMAIN-DUFFIX, ad.intl.xiaomi.com, REJECT
+DOMAIN-DUFFIX, ad.xiaomi.com, REJECT
+DOMAIN-DUFFIX, admob.xiaomi.com, REJECT
+DOMAIN-DUFFIX, tracking.miui.com, REJECT
+DOMAIN-DUFFIX, adv.sec.intl.miui.com, REJECT
+DOMAIN-DUFFIX, adv.sec.miui.com, REJECT
+DOMAIN-DUFFIX, data.mistat.xiaomi.com, REJECT
+DOMAIN-DUFFIX, tracking.intl.miui.com, REJECT
+
+# Moji Tianqi
+DOMAIN-DUFFIX, ad.api.moji.com, REJECT
+DOMAIN-DUFFIX, adlaunch.moji.com, REJECT
+DOMAIN-DUFFIX, ads.mojicdn.com, REJECT
+DOMAIN-DUFFIX, v1.log.moji.com, REJECT
+
+# PConline
+DOMAIN-DUFFIX, ad-analysis.pconline.com.cn, REJECT
+DOMAIN-DUFFIX, iad0ssl.pconline.com.cn, REJECT
+DOMAIN-DUFFIX, imgad0.pconline.com.cn, REJECT
 
 # QQ
 DOMAIN-DUFFIX, act.qq.com, REJECT
@@ -211,6 +384,32 @@ DOMAIN-DUFFIX, tajs.qq.com, REJECT
 DOMAIN-DUFFIX, wxsnsdy.wxs.qq.com, REJECT
 DOMAIN-DUFFIX, wxsnsdythumb.wxs.qq.com, REJECT
 
+# QQ Live
+DOMAIN-DUFFIX, aiseet.aa.atianqi.com, REJECT
+DOMAIN-DUFFIX, aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, c.l.qq.com, REJECT
+DOMAIN-DUFFIX, dp3.qq.com, REJECT
+DOMAIN-DUFFIX, livep.l.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, livep.l.qq.com, REJECT
+DOMAIN-DUFFIX, lives.l.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, lives.l.qq.com, REJECT
+DOMAIN-DUFFIX, livew.l.qq.com, REJECT
+DOMAIN-DUFFIX, mcgi.v.qq.com, REJECT
+DOMAIN-DUFFIX, mdevstat.qqlive.qq.com, REJECT
+DOMAIN-DUFFIX, monitor-uu.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, news-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, omgmta1.qq.com, REJECT
+DOMAIN-DUFFIX, otheve.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, othstr.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, p-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, p.l.qq.com, REJECT
+DOMAIN-DUFFIX, sdkconfig.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, t-l.play.aiseet.atianqi.com, REJECT
+DOMAIN-DUFFIX, t.l.qq.com, REJECT
+DOMAIN-DUFFIX, u.l.qq.com, REJECT
+DOMAIN-DUFFIX, vmindhls.tc.qq.com, REJECT
+DOMAIN-DUFFIX, vv.play.aiseet.atianqi.com, REJECT
+
 # Sina
 DOMAIN-DUFFIX, ad.sina.com.cn, REJECT
 DOMAIN-DUFFIX, adbox.sina.com.cn, REJECT
@@ -243,107 +442,6 @@ DOMAIN-DUFFIX, wbapp.uve.weibo.com, REJECT
 DOMAIN-DUFFIX, wbclick.mobile.sina.cn, REJECT
 DOMAIN-DUFFIX, wbpctips.mobile.sina.cn, REJECT
 DOMAIN-DUFFIX, zymo.mps.weibo.com, REJECT
-
-# Ali
-DOMAIN-DUFFIX, acjs.aliyun.com, REJECT
-DOMAIN-DUFFIX, adash-c.m.taobao.com, REJECT
-DOMAIN-DUFFIX, adash-c.ut.taobao.com, REJECT
-DOMAIN-DUFFIX, adashx4yt.m.taobao.com, REJECT
-DOMAIN-DUFFIX, adashxgc.ut.taobao.com, REJECT
-DOMAIN-DUFFIX, afp.alicdn.com, REJECT
-DOMAIN-DUFFIX, ai.m.taobao.com, REJECT
-DOMAIN-DUFFIX, alipaylog.com, REJECT
-DOMAIN-DUFFIX, amdc.alipay.com, REJECT
-DOMAIN-DUFFIX, atanx.alicdn.com, REJECT
-DOMAIN-DUFFIX, atanx2.alicdn.com, REJECT
-DOMAIN-DUFFIX, click.mz.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, fav.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, g.click.taobao.com, REJECT
-DOMAIN-DUFFIX, g.tbcdn.cn, REJECT
-DOMAIN-DUFFIX, gma.alicdn.com, REJECT
-DOMAIN-DUFFIX, gtms.alicdn.com, REJECT
-DOMAIN-DUFFIX, hydra.alibaba.com, REJECT
-DOMAIN-DUFFIX, m.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, pindao.huoban.taobao.com, REJECT
-DOMAIN-DUFFIX, re.m.taobao.com, REJECT
-DOMAIN-DUFFIX, redirect.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, rj.m.taobao.com, REJECT
-DOMAIN-DUFFIX, sdkinit.taobao.com, REJECT
-DOMAIN-DUFFIX, show.re.taobao.com, REJECT
-DOMAIN-DUFFIX, simaba.m.taobao.com, REJECT
-DOMAIN-DUFFIX, simaba.taobao.com, REJECT
-DOMAIN-DUFFIX, srd.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, strip.taobaocdn.com, REJECT
-DOMAIN-DUFFIX, tns.simba.taobao.com, REJECT
-DOMAIN-DUFFIX, tyh.taobao.com, REJECT
-IP-CIDR, 106.14.0.0/15, REJECT
-
-# JD
-DOMAIN-DUFFIX, ads.union.jd.com, REJECT
-DOMAIN-DUFFIX, c-nfa.jd.com, REJECT
-DOMAIN-DUFFIX, cps.360buy.com, REJECT
-DOMAIN-DUFFIX, img-x.jd.com, REJECT
-DOMAIN-DUFFIX, jrclick.jd.com, REJECT
-DOMAIN-DUFFIX, jzt.jd.com, REJECT
-DOMAIN-DUFFIX, policy.jd.com, REJECT
-DOMAIN-DUFFIX, stat.m.jd.com, REJECT
-
-# 163
-DOMAIN-DUFFIX, a.youdao.com, REJECT
-DOMAIN-DUFFIX, adgeo.163.com, REJECT
-DOMAIN-DUFFIX, analytics.126.net, REJECT
-DOMAIN-DUFFIX, bobo.163.com, REJECT
-DOMAIN-DUFFIX, c.youdao.com, REJECT
-DOMAIN-DUFFIX, clkservice.youdao.com, REJECT
-DOMAIN-DUFFIX, conv.youdao.com, REJECT
-DOMAIN-DUFFIX, dsp.youdao.com, REJECT
-DOMAIN-DUFFIX, dsp-impr2.youdao.com, REJECT
-DOMAIN-DUFFIX, fa.163.com, REJECT
-DOMAIN-DUFFIX, g.163.com, REJECT
-DOMAIN-DUFFIX, g1.163.com, REJECT
-DOMAIN-DUFFIX, gb.163.com, REJECT
-DOMAIN-DUFFIX, gorgon.youdao.com, REJECT
-DOMAIN-DUFFIX, haitaoad.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, iadmat.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, iadmatvideo.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, img1.126.net, REJECT
-DOMAIN-DUFFIX, img2.126.net, REJECT
-DOMAIN-DUFFIX, ir.mail.126.com, REJECT
-DOMAIN-DUFFIX, ir.mail.yeah.net, REJECT
-DOMAIN-DUFFIX, ip.ws.126.net, REJECT
-DOMAIN-DUFFIX, mimg.126.net, REJECT
-DOMAIN-DUFFIX, nc004x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, nc045x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, nex.163.com, REJECT
-DOMAIN-DUFFIX, oimagea2.ydstatic.com, REJECT
-DOMAIN-DUFFIX, pagechoice.net, REJECT
-DOMAIN-DUFFIX, prom.gome.com.cn, REJECT
-DOMAIN-DUFFIX, push.126.net, REJECT
-DOMAIN-DUFFIX, qt002x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, rlogs.youdao.com, REJECT
-DOMAIN-DUFFIX, static.flv.uuzuonline.com, REJECT
-DOMAIN-DUFFIX, tb060x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, tb104x.corp.youdao.com, REJECT
-DOMAIN-DUFFIX, union.youdao.com, REJECT
-DOMAIN-DUFFIX, wanproxy.127.net, REJECT
-DOMAIN-DUFFIX, yanxuan.nosdn.127.net, REJECT
-DOMAIN-DUFFIX, ydpushserver.youdao.com, REJECT
-
-# 360
-DOMAIN-DUFFIX, 3600.com, REJECT
-DOMAIN-DUFFIX, gamebox.360.cn, REJECT
-DOMAIN-DUFFIX, jiagu.360.cn, REJECT
-DOMAIN-DUFFIX, kuaikan.netmon.360safe.com, REJECT
-DOMAIN-DUFFIX, leak.360.cn, REJECT
-DOMAIN-DUFFIX, lianmeng.360.cn, REJECT
-DOMAIN-DUFFIX, pub.se.360.cn, REJECT
-DOMAIN-DUFFIX, s.so.360.cn, REJECT
-DOMAIN-DUFFIX, shouji.360.cn, REJECT
-DOMAIN-DUFFIX, soft.data.weather.360.cn, REJECT
-DOMAIN-DUFFIX, stat.360safe.com, REJECT
-DOMAIN-DUFFIX, stat.m.360.cn, REJECT
-DOMAIN-DUFFIX, update.360safe.com, REJECT
-DOMAIN-DUFFIX, wan.360.cn, REJECT
 
 # Sohu
 DOMAIN-DUFFIX, 123.sogou.com, REJECT
@@ -401,6 +499,22 @@ DOMAIN-DUFFIX, wangmeng.sogou.com, REJECT
 DOMAIN-DUFFIX, wl.hd.sohu.com, REJECT
 DOMAIN-DUFFIX, yule.sohu.com, REJECT
 
+# Tianya
+DOMAIN-DUFFIX, 801.tianya.cn, REJECT
+DOMAIN-DUFFIX, 803.tianya.cn, REJECT
+DOMAIN-DUFFIX, 806.tianya.cn, REJECT
+DOMAIN-DUFFIX, 808.tianya.cn, REJECT
+DOMAIN-DUFFIX, bdj.tianya.cn, REJECT
+DOMAIN-DUFFIX, dol.tianya.cn, REJECT
+DOMAIN-DUFFIX, click.tianya.cn, REJECT
+
+# Toutiao
+DOMAIN-DUFFIX, ad.toutiao.com, REJECT
+DOMAIN-DUFFIX, sm.toutiao.com, REJECT
+DOMAIN-DUFFIX, dsp.toutiao.com, REJECT
+DOMAIN-DUFFIX, nativeapp.toutiao.com, REJECT
+DOMAIN-DUFFIX, partner.toutiao.com, REJECT
+
 # UC
 DOMAIN-DUFFIX, adslot.uc.cn, REJECT
 DOMAIN-DUFFIX, api.mp.uc.cn, REJECT
@@ -420,6 +534,7 @@ DOMAIN-DUFFIX, u.ucfly.com, REJECT
 DOMAIN-DUFFIX, uc.ucweb.com, REJECT
 DOMAIN-DUFFIX, ucsec.ucweb.com, REJECT
 DOMAIN-DUFFIX, ucsec1.ucweb.com, REJECT
+
 
 # WPS
 DOMAIN-DUFFIX, ad.docer.wps.cn, REJECT
@@ -450,55 +565,13 @@ DOMAIN-DUFFIX, rating6.kingsoft-office-service.com, REJECT
 DOMAIN-DUFFIX, up.wps.kingsoft.com, REJECT
 DOMAIN-DUFFIX, wpsweb-dc.wps.cn, REJECT
 
-# iQiyi & PPS
-DOMAIN-DUFFIX, ad.m.iqiyi.com, REJECT
-DOMAIN-DUFFIX, afp.iqiyi.com, REJECT
-DOMAIN-DUFFIX, c.uaa.iqiyi.com, REJECT
-DOMAIN-DUFFIX, cloudpush.iqiyi.com, REJECT
-DOMAIN-DUFFIX, cm.passport.iqiyi.com, REJECT
-DOMAIN-DUFFIX, cupid.iqiyi.com, REJECT
-DOMAIN-DUFFIX, emoticon.sns.iqiyi.com, REJECT
-DOMAIN-DUFFIX, gamecenter.iqiyi.com, REJECT
-DOMAIN-DUFFIX, hotchat-im.iqiyi.com, REJECT
-DOMAIN-DUFFIX, ifacelog.iqiyi.com, REJECT
-DOMAIN-DUFFIX, mbdlog.iqiyi.com, REJECT
-DOMAIN-DUFFIX, meta.video.qiyi.com, REJECT
-DOMAIN-DUFFIX, msg1.video.qiyi.com, REJECT
-DOMAIN-DUFFIX, msg2.video.qiyi.com, REJECT
-DOMAIN-DUFFIX, msg.71.am, REJECT
-DOMAIN-DUFFIX, paopao.iqiyi.com, REJECT
-DOMAIN-DUFFIX, policy.video.iqiyi.com, REJECT
-DOMAIN-DUFFIX, yuedu.iqiyi.com, REJECT
-IP-CIDR, 101.227.97.240/32, REJECT
-IP-CIDR, 101.227.200.11/32, REJECT
-IP-CIDR, 101.227.200.28/32, REJECT
-IP-CIDR, 124.192.153.42/32, REJECT
-
-# QQ Live
-DOMAIN-DUFFIX, aiseet.aa.atianqi.com, REJECT
-DOMAIN-DUFFIX, aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, c.l.qq.com, REJECT
-DOMAIN-DUFFIX, dp3.qq.com, REJECT
-DOMAIN-DUFFIX, livep.l.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, livep.l.qq.com, REJECT
-DOMAIN-DUFFIX, lives.l.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, lives.l.qq.com, REJECT
-DOMAIN-DUFFIX, livew.l.qq.com, REJECT
-DOMAIN-DUFFIX, mcgi.v.qq.com, REJECT
-DOMAIN-DUFFIX, mdevstat.qqlive.qq.com, REJECT
-DOMAIN-DUFFIX, monitor-uu.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, news-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, omgmta1.qq.com, REJECT
-DOMAIN-DUFFIX, otheve.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, othstr.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, p-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, p.l.qq.com, REJECT
-DOMAIN-DUFFIX, sdkconfig.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, t-l.play.aiseet.atianqi.com, REJECT
-DOMAIN-DUFFIX, t.l.qq.com, REJECT
-DOMAIN-DUFFIX, u.l.qq.com, REJECT
-DOMAIN-DUFFIX, vmindhls.tc.qq.com, REJECT
-DOMAIN-DUFFIX, vv.play.aiseet.atianqi.com, REJECT
+# Ximalaya
+DOMAIN-DUFFIX, ad.ximalaya.com, REJECT
+DOMAIN-DUFFIX, adbs.ximalaya.com, REJECT
+DOMAIN-DUFFIX, adse.ximalaya.com, REJECT
+DOMAIN-DUFFIX, adse.wsa.ximalaya.com, REJECT
+DOMAIN-DUFFIX, adbehavior.wsa.ximalaya.com, REJECT
+DOMAIN-DUFFIX, adsebs.ximalaya.com, REJECT
 
 # Youku & Tudou
 DOMAIN-DUFFIX, actives.youku.com, REJECT
@@ -551,77 +624,9 @@ DOMAIN-DUFFIX, ykatr.youku.com, REJECT
 DOMAIN-DUFFIX, ykrec.youku.com, REJECT
 DOMAIN-DUFFIX, ykrectab).youku.com, REJECT
 
-# Tianya
-DOMAIN-DUFFIX, 801.tianya.cn, REJECT
-DOMAIN-DUFFIX, 803.tianya.cn, REJECT
-DOMAIN-DUFFIX, 806.tianya.cn, REJECT
-DOMAIN-DUFFIX, 808.tianya.cn, REJECT
-DOMAIN-DUFFIX, bdj.tianya.cn, REJECT
-DOMAIN-DUFFIX, dol.tianya.cn, REJECT
-DOMAIN-DUFFIX, click.tianya.cn, REJECT
-
-# Toutiao
-DOMAIN-DUFFIX, ad.toutiao.com, REJECT
-DOMAIN-DUFFIX, sm.toutiao.com, REJECT
-DOMAIN-DUFFIX, dsp.toutiao.com, REJECT
-DOMAIN-DUFFIX, nativeapp.toutiao.com, REJECT
-DOMAIN-DUFFIX, partner.toutiao.com, REJECT
-
-# Eleme
-DOMAIN-DUFFIX, app-monitor.ele.me, REJECT
-DOMAIN-DUFFIX, client-api.ele.me, REJECT
-DOMAIN-DUFFIX, grand.ele.me, REJECT
-DOMAIN-DUFFIX, mobile-pubt.ele.me, REJECT
-DOMAIN-DUFFIX, newton-api.ele.me, REJECT
-
-# iFeng
-DOMAIN-DUFFIX, deliver.ifeng.com, REJECT
-DOMAIN-DUFFIX, api.newad.ifeng.com, REJECT
-DOMAIN-DUFFIX, ifengad.3g.ifeng.com, REJECT
-
-# Kugou & Kuwo
-DOMAIN-DUFFIX, adserviceretry.kugou.com, REJECT
-DOMAIN-DUFFIX, ads.service.kugou.com, REJECT
-DOMAIN-DUFFIX, adsfile.bssdlbig.kugou.com, REJECT
-DOMAIN-DUFFIX, g.koowo.com, REJECT
-DOMAIN-DUFFIX, kgmobilestat.kugou.com, REJECT
-DOMAIN-DUFFIX, kgmobilestatbak.kugou.com, REJECT
-DOMAIN-DUFFIX, mobilelog.kugou.com, REJECT
-DOMAIN-DUFFIX, mobilead.kuwo.cn, REJECT
-DOMAIN-DUFFIX, rich.kuwo.cn, REJECT
-DOMAIN-DUFFIX, log.kuwo.cn, REJECT
-DOMAIN-DUFFIX, log.stat.kugou.com, REJECT
-DOMAIN-DUFFIX, log.web.kugou.com, REJECT
-DOMAIN-DUFFIX, g.koowo.com, REJECT
-
-# Mi
-DOMAIN-DUFFIX, ad.intl.xiaomi.com, REJECT
-DOMAIN-DUFFIX, ad.xiaomi.com, REJECT
-DOMAIN-DUFFIX, admob.xiaomi.com, REJECT
-DOMAIN-DUFFIX, tracking.miui.com, REJECT
-DOMAIN-DUFFIX, adv.sec.intl.miui.com, REJECT
-DOMAIN-DUFFIX, adv.sec.miui.com, REJECT
-DOMAIN-DUFFIX, data.mistat.xiaomi.com, REJECT
-DOMAIN-DUFFIX, tracking.intl.miui.com, REJECT
-
-# Moji Tianqi
-DOMAIN-DUFFIX, ad.api.moji.com, REJECT
-DOMAIN-DUFFIX, adlaunch.moji.com, REJECT
-DOMAIN-DUFFIX, ads.mojicdn.com, REJECT
-DOMAIN-DUFFIX, v1.log.moji.com, REJECT
-
-# PConline
-DOMAIN-DUFFIX, ad-analysis.pconline.com.cn, REJECT
-DOMAIN-DUFFIX, iad0ssl.pconline.com.cn, REJECT
-DOMAIN-DUFFIX, imgad0.pconline.com.cn, REJECT
-
-# Ximalaya
-DOMAIN-DUFFIX, ad.ximalaya.com, REJECT
-DOMAIN-DUFFIX, adbs.ximalaya.com, REJECT
-DOMAIN-DUFFIX, adse.ximalaya.com, REJECT
-DOMAIN-DUFFIX, adse.wsa.ximalaya.com, REJECT
-DOMAIN-DUFFIX, adbehavior.wsa.ximalaya.com, REJECT
-DOMAIN-DUFFIX, adsebs.ximalaya.com, REJECT
+# Zhihu
+DOMAIN-DUFFIX, sugar.zhihu.com, REJECT
+DOMAIN-DUFFIX, zhihu-web-analytics.zhihu.com, REJECT
 
 # Zol
 DOMAIN-DUFFIX, apppv.zol.com.cn, REJECT
