@@ -1658,6 +1658,65 @@ DOMAIN-SUFFIX, octopus.com.hk, Octopus, force-remote-dns
 DOMAIN-SUFFIX, octopus-cards.com, Octopus, force-remote-dns
 DOMAIN-SUFFIX, octopuscards.com, Octopus, force-remote-dns
 DOMAIN-KEYWORD, octopus, Octopus, force-remote-dns
+# Porn(G) Official-JP
+DOMAIN-SUFFIX, bravo-japan.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, g-men.co.jp, GPorn, force-remote-dns
+DOMAIN-SUFFIX, bpro.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, supermediamall.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, games-video.co.jp, GPorn, force-remote-dns
+DOMAIN-SUFFIX, hunk-ch.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, ko-video.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, mannhouse.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, trance-video.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, vfactory-web.jp, GPorn, force-remote-dns
+# Porn(G) Official-Whites
+DOMAIN-SUFFIX, all-americanheroes.net, GPorn, force-remote-dns
+DOMAIN-SUFFIX, belamionline.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, coltstudiogroup.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, falconstudios.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, kristenbjorn.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, lucaskazan.com, GPorn, force-remote-dns
+# Porn(G) Gayhd.pro
+DOMAIN-SUFFIX, jwpltx.com, reject
+DOMAIN-SUFFIX, gayhd.pro, GPorn, force-remote-dns
+DOMAIN-SUFFIX, hqq.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, njhzmxx.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, qpvod.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, sexgayhd.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, iamcdn.net, GPorn, force-remote-dns
+DOMAIN-SUFFIX, idocdn.com, GPorn, force-remote-dns
+# Porn(G) Others
+DOMAIN-SUFFIX, bearboxxx.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, ppvnetworks.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, gaymaletube.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, gayporn.fm, GPorn, force-remote-dns
+DOMAIN-SUFFIX, kepler-37b.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, icegay.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, machotube.tv, GPorn, force-remote-dns
+DOMAIN-SUFFIX, boyfriendtv.com, GPorn, force-remote-dns
+DOMAIN-SUFFIX, gaybb.net, GPorn, force-remote-dns
+DOMAIN-KEYWORD, gay, GPorn, force-remote-dns
+# Porn
+DOMAIN-SUFFIX, avgle.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, cdn15.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, contentabc.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, etahub.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, pbwstatic.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, phcdn.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, phncdn.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, pornhub.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xvideos.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xvideos-cdn.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xhamster.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xhcdn.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, x-art.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xnxx.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, xnxx-cdn.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, statserv.net, Porn, force-remote-dns
+DOMAIN-SUFFIX, playvids.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, redtube.com, Porn, force-remote-dns
+DOMAIN-SUFFIX, rdtcdn.com, Porn, force-remote-dns
+DOMAIN-KEYWORD, porn, Porn, force-remote-dns
 # Spotify
 DOMAIN-SUFFIX, pscdn.co, Spotify, force-remote-dns
 DOMAIN-SUFFIX, scdn.co, Spotify, force-remote-dns
@@ -2009,3 +2068,6 @@ DOMAIN-SUFFIX, zhuihd.com, DIRECT
 DOMAIN-SUFFIX, cn, DIRECT
 # Geoip CN
 GEOIP, CN, DIRECT
+
+# Final
+FINAL,PROXY
