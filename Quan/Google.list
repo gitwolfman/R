@@ -1,62 +1,64 @@
 # Google
-DOMAIN-SUFFIX, ocsp.pki.goog, Google
-DOMAIN-SUFFIX, abc.xyz, Google
-DOMAIN-SUFFIX, admin.recaptcha.net, Google
-DOMAIN-SUFFIX, ampproject.org, Google
-DOMAIN-SUFFIX, android.com, Google
-DOMAIN-SUFFIX, androidify.com, Google
-DOMAIN-SUFFIX, autodraw.com, Google
-DOMAIN-SUFFIX, blogger.com, Google
-DOMAIN-SUFFIX, blogspot.com, Google
-DOMAIN-SUFFIX, capitalg.com, Google
-DOMAIN-SUFFIX, certificate-transparency.org, Google
-DOMAIN-SUFFIX, chrome.com, Google
-DOMAIN-SUFFIX, chromeexperiments.com, Google
-DOMAIN-SUFFIX, chromestatus.com, Google
-DOMAIN-SUFFIX, chromium.org, Google
-DOMAIN-SUFFIX, creativelab5.com, Google
-DOMAIN-SUFFIX, debug.com, Google
-DOMAIN-SUFFIX, deepmind.com, Google
-DOMAIN-SUFFIX, dialogflow.com, Google
-DOMAIN-SUFFIX, g.co, Google
-DOMAIN-SUFFIX, getmdl.io, Google
-DOMAIN-SUFFIX, getoutline.org, Google
-DOMAIN-SUFFIX, ggpht.com, Google
-DOMAIN-SUFFIX, gmail.com, Google
-DOMAIN-SUFFIX, gmodules.com, Google
-DOMAIN-SUFFIX, godoc.org, Google
-DOMAIN-SUFFIX, golang.org, Google
-DOMAIN-SUFFIX, goo.gl, Google
-DOMAIN-SUFFIX, google.com, Google
-DOMAIN-SUFFIX, google.com.hk, Google
-DOMAIN-SUFFIX, googleapis.com, Google
-DOMAIN-SUFFIX, googlevideo.com, Google
-DOMAIN-SUFFIX, googleusercontent.com, Google
-DOMAIN-SUFFIX, gstatic.com, Google
-DOMAIN-SUFFIX, gv.com, Google
-DOMAIN-SUFFIX, gwtproject.org, Google
-DOMAIN-SUFFIX, itasoftware.com, Google
-DOMAIN-SUFFIX, madewithcode.com, Google
-DOMAIN-SUFFIX, material.io, Google
-DOMAIN-SUFFIX, polymer-project.org, Google
-DOMAIN-SUFFIX, recaptcha.net, Google
-DOMAIN-SUFFIX, shattered.io, Google
-DOMAIN-SUFFIX, synergyse.com, Google
-DOMAIN-SUFFIX, tensorflow.org, Google
-DOMAIN-SUFFIX, tfhub.dev, Google
-DOMAIN-SUFFIX, tiltbrush.com, Google
-DOMAIN-SUFFIX, waveprotocol.org, Google
-DOMAIN-SUFFIX, waymo.com, Google
-DOMAIN-SUFFIX, webmproject.org, Google
-DOMAIN-SUFFIX, webrtc.org, Google
-DOMAIN-SUFFIX, whatbrowser.org, Google
-DOMAIN-SUFFIX, widevine.com, Google
-DOMAIN-SUFFIX, x.company, Google
-DOMAIN-SUFFIX, youtu.be, Google
-DOMAIN-SUFFIX, youtube.com, Google
-DOMAIN-SUFFIX, yt.be, Google
-DOMAIN-SUFFIX, ytimg.com, Google
-DOMAIN-KEYWORD, google, Google
-DOMAIN-KEYWORD, gmail, Google
-DOMAIN-KEYWORD, youtube, Google
-DOMAIN-KEYWORD, blogspot, Google
+DOMAIN-SUFFIX, ocsp.pki.goog, Google, force-remote-dns
+DOMAIN-SUFFIX, abc.xyz, Google, force-remote-dns
+DOMAIN-SUFFIX, admin.recaptcha.net, Google, force-remote-dns
+DOMAIN-SUFFIX, ampproject.org, Google, force-remote-dns
+DOMAIN-SUFFIX, android.com, Google, force-remote-dns
+DOMAIN-SUFFIX, androidify.com, Google, force-remote-dns
+DOMAIN-SUFFIX, autodraw.com, Google, force-remote-dns
+DOMAIN-SUFFIX, blogger.com, Google, force-remote-dns
+DOMAIN-SUFFIX, blogspot.com, Google, force-remote-dns
+DOMAIN-SUFFIX, capitalg.com, Google, force-remote-dns
+DOMAIN-SUFFIX, certificate-transparency.org, Google, force-remote-dns
+DOMAIN-SUFFIX, chrome.com, Google, force-remote-dns
+DOMAIN-SUFFIX, chromeexperiments.com, Google, force-remote-dns
+DOMAIN-SUFFIX, chromestatus.com, Google, force-remote-dns
+DOMAIN-SUFFIX, chromium.org, Google, force-remote-dns
+DOMAIN-SUFFIX, creativelab5.com, Google, force-remote-dns
+DOMAIN-SUFFIX, debug.com, Google, force-remote-dns
+DOMAIN-SUFFIX, deepmind.com, Google, force-remote-dns
+DOMAIN-SUFFIX, dialogflow.com, Google, force-remote-dns
+DOMAIN-SUFFIX, g.co, Google, force-remote-dns
+DOMAIN-SUFFIX, getmdl.io, Google, force-remote-dns
+DOMAIN-SUFFIX, getoutline.org, Google, force-remote-dns
+DOMAIN-SUFFIX, ggpht.com, Google, force-remote-dns
+DOMAIN-SUFFIX, gmail.com, Google, force-remote-dns
+DOMAIN-SUFFIX, gmodules.com, Google, force-remote-dns
+DOMAIN-SUFFIX, godoc.org, Google, force-remote-dns
+DOMAIN-SUFFIX, golang.org, Google, force-remote-dns
+DOMAIN-SUFFIX, goo.gl, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dns.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dns.com.hk, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsapis.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsvideo.com, Google, force-remote-dns
+DOMAIN-SUFFIX, Google, force-remote-dnsusercontent.com, Google, force-remote-dns
+DOMAIN-SUFFIX, gstatic.com, Google, force-remote-dns
+DOMAIN-SUFFIX, gv.com, Google, force-remote-dns
+DOMAIN-SUFFIX, gwtproject.org, Google, force-remote-dns
+DOMAIN-SUFFIX, itasoftware.com, Google, force-remote-dns
+DOMAIN-SUFFIX, madewithcode.com, Google, force-remote-dns
+DOMAIN-SUFFIX, material.io, Google, force-remote-dns
+DOMAIN-SUFFIX, polymer-project.org, Google, force-remote-dns
+DOMAIN-SUFFIX, recaptcha.net, Google, force-remote-dns
+DOMAIN-SUFFIX, shattered.io, Google, force-remote-dns
+DOMAIN-SUFFIX, synergyse.com, Google, force-remote-dns
+DOMAIN-SUFFIX, tensorflow.org, Google, force-remote-dns
+DOMAIN-SUFFIX, tfhub.dev, Google, force-remote-dns
+DOMAIN-SUFFIX, tiltbrush.com, Google, force-remote-dns
+DOMAIN-SUFFIX, waveprotocol.org, Google, force-remote-dns
+DOMAIN-SUFFIX, waymo.com, Google, force-remote-dns
+DOMAIN-SUFFIX, webmproject.org, Google, force-remote-dns
+DOMAIN-SUFFIX, webrtc.org, Google, force-remote-dns
+DOMAIN-SUFFIX, whatbrowser.org, Google, force-remote-dns
+DOMAIN-SUFFIX, widevine.com, Google, force-remote-dns
+DOMAIN-SUFFIX, x.company, Google, force-remote-dns
+DOMAIN-SUFFIX, youtu.be, Google, force-remote-dns
+DOMAIN-SUFFIX, youtube.com, Google, force-remote-dns
+DOMAIN-SUFFIX, yt.be, Google, force-remote-dns
+DOMAIN-SUFFIX, ytimg.com, Google, force-remote-dns
+DOMAIN-KEYWORD, Google, force-remote-dns, Google, force-remote-dns
+DOMAIN-KEYWORD, gmail, Google, force-remote-dns
+DOMAIN-KEYWORD, youtube, Google, force-remote-dns
+DOMAIN-KEYWORD, blogspot, Google, force-remote-dns
+# Addons
+DOMAIN-SUFFIX, softgateon.herokuapp.com, Google, force-remote-dns
