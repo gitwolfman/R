@@ -151,6 +151,7 @@ DOMAIN-DUFFIX, onedrive.live.com, PROXY
 DOMAIN-DUFFIX, oneclient.sfx.ms, PROXY
 
 # Porn
+DOMAIN-DUFFIX, avgle.com, PROXY
 DOMAIN-DUFFIX, contentabc.com, PROXY
 DOMAIN-DUFFIX, etahub.com, PROXY
 DOMAIN-DUFFIX, pbwstatic.com, PROXY
@@ -169,7 +170,7 @@ DOMAIN-DUFFIX, playvids.com, PROXY
 DOMAIN-DUFFIX, redtube.com, PROXY
 DOMAIN-DUFFIX, rdtcdn.com, PROXY
 DOMAIN-KEYWORD, porn, PROXY
-# GPorn Official-JP
+# Porn(G) Official-JP
 DOMAIN-DUFFIX, bravo-japan.com, PROXY
 DOMAIN-DUFFIX, g-men.co.jp, PROXY
 DOMAIN-DUFFIX, bpro.tv, PROXY
@@ -180,14 +181,14 @@ DOMAIN-DUFFIX, ko-video.com, PROXY
 DOMAIN-DUFFIX, mannhouse.com, PROXY
 DOMAIN-DUFFIX, trance-video.com, PROXY
 DOMAIN-DUFFIX, vfactory-web.jp, PROXY
-# GPorn Official-Whites
+# Porn(G) Official-Whites
 DOMAIN-DUFFIX, all-americanheroes.net, PROXY
 DOMAIN-DUFFIX, belamionline.com, PROXY
 DOMAIN-DUFFIX, coltstudiogroup.com, PROXY
 DOMAIN-DUFFIX, falconstudios.com, PROXY
 DOMAIN-DUFFIX, kristenbjorn.com, PROXY
 DOMAIN-DUFFIX, lucaskazan.com, PROXY
-# GPorn Gayhd.pro
+# Porn(G) Gayhd.pro
 DOMAIN-DUFFIX, jwpltx.com, reject
 DOMAIN-DUFFIX, gayhd.pro, PROXY
 DOMAIN-DUFFIX, hqq.tv, PROXY
@@ -196,7 +197,9 @@ DOMAIN-DUFFIX, qpvod.com, PROXY
 DOMAIN-DUFFIX, sexgayhd.com, PROXY
 DOMAIN-DUFFIX, iamcdn.net, PROXY
 DOMAIN-DUFFIX, idocdn.com, PROXY
-# GPorn Others
+# Porn(G) Others
+DOMAIN-DUFFIX, bearboxxx.com, PROXY
+DOMAIN-DUFFIX, ppvnetworks.com, PROXY
 DOMAIN-DUFFIX, gaymaletube.com, PROXY
 DOMAIN-DUFFIX, gayporn.fm, PROXY
 DOMAIN-DUFFIX, kepler-37b.com, PROXY
