@@ -1,4 +1,4 @@
-# Microsoft
+#Microsoft
 DOMAIN-SUFFIX, adobedtm.com, MS, force-remote-dns
 DOMAIN-SUFFIX, aspnetcdn.com, MS, force-remote-dns
 DOMAIN-SUFFIX, bing.com, MS, force-remote-dns
@@ -25,7 +25,7 @@ DOMAIN-SUFFIX, visualstudio.com, MS, force-remote-dns
 DOMAIN-SUFFIX, windows.com, MS, force-remote-dns
 DOMAIN-SUFFIX, windows.net, MS, force-remote-dns
 DOMAIN-SUFFIX, windowsupdate.com, MS, force-remote-dns
-# Microsoft Azure
+#Microsoft Azure
 DOMAIN-SUFFIX, azureedge.net, MS, force-remote-dns
 DOMAIN-SUFFIX, azurewebsites.net, MS, force-remote-dns
 DOMAIN-SUFFIX, azure-api.net, MS, force-remote-dns
@@ -35,7 +35,7 @@ DOMAIN-SUFFIX, msecnd.net, MS, force-remote-dns
 DOMAIN-SUFFIX, liveperson.net, MS, force-remote-dns
 DOMAIN-SUFFIX, lpsnmedia.net, MS, force-remote-dns
 DOMAIN-SUFFIX, xboxlive.com, MS, force-remote-dns
-# Microsoft Onedrive
+#Microsoft Onedrive
 DOMAIN-SUFFIX, 1drv.com, MS, force-remote-dns
 DOMAIN-SUFFIX, 1drv.ms, MS, force-remote-dns
 DOMAIN-SUFFIX, blob.core.windows.net, MS, force-remote-dns
