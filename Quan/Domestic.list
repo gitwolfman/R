@@ -21,8 +21,6 @@ DOMAIN-SUFFIX, xiami.com, DIRECT
 DOMAIN-SUFFIX, xiami.net, DIRECT
 
 # Aloha
-DOMAIN, sensor-data.mrbanana.com, reject
-DOMAIN, aloha-log.enjoymeet.com, reject
 DOMAIN-SUFFIX, enjoymeet.com, DIRECT
 DOMAIN-SUFFIX, fengkongcloud.com, DIRECT
 DOMAIN-SUFFIX, mrbanana.com, DIRECT
