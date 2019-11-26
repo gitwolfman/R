@@ -275,6 +275,24 @@ DOMAIN-DUFFIX, yahoo.co.jp, PROXY
 DOMAIN-DUFFIX, yahooapis.jp, PROXY
 DOMAIN-DUFFIX, yimg.jp, PROXY
 
+# FRss
+DOMAIN-DUFFIX, bbsah.com, FRss
+DOMAIN-DUFFIX, binwiki.com, FRss
+DOMAIN-DUFFIX, free-ss.site, FRss
+DOMAIN-DUFFIX, hostloc.com, FRss
+DOMAIN-DUFFIX, ijjyy.net, FRss
+DOMAIN-DUFFIX, liyuans.com, FRss
+DOMAIN-DUFFIX, moren.de, FRss
+DOMAIN-DUFFIX, shadowsocks.org, FRss
+DOMAIN-DUFFIX, ssrshare.com, FRss
+DOMAIN-DUFFIX, ssrtool.com, FRss
+DOMAIN-DUFFIX, teddysun.com, FRss
+DOMAIN-DUFFIX, v2ex.com, FRss
+DOMAIN-DUFFIX, v2ray.com, FRss
+DOMAIN-DUFFIX, yiyult.com, FRss
+# FRss 2
+DOMAIN-DUFFIX, tt1069.com, FRss
+
 # Global-Others
 DOMAIN-DUFFIX, 0rz.tw, PROXY
 DOMAIN-DUFFIX, akamai.net, PROXY
