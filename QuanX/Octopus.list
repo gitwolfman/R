@@ -1,5 +1,5 @@
 # Octopus
-domain-suffix, octopus.com.hk, Octopus
-domain-suffix, octopus-cards.com, Octopus
-domain-suffix, octopuscards.com, Octopus
-domain-keyword, octopus, Octopus
+DOMAIN-DUFFIX, octopus.com.hk, Octopus
+DOMAIN-DUFFIX, octopus-cards.com, Octopus
+DOMAIN-DUFFIX, octopuscards.com, Octopus
+DOMAIN-KEYWORD, octopus, Octopus
