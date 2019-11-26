@@ -1,10 +1,10 @@
 # Twitter
-DOMAIN-DUFFIX, pscp.tv, Twitter
-DOMAIN-DUFFIX, periscope.tv, Twitter
-DOMAIN-DUFFIX, t.co, Twitter
-DOMAIN-DUFFIX, twimg.co, Twitter
-DOMAIN-DUFFIX, twimg.com, Twitter
-DOMAIN-DUFFIX, twitpic.com, Twitter
-DOMAIN-DUFFIX, twitter.com, Twitter
-DOMAIN-DUFFIX, vine.co, Twitter
+DOMAIN-SUFFIX, pscp.tv, Twitter
+DOMAIN-SUFFIX, periscope.tv, Twitter
+DOMAIN-SUFFIX, t.co, Twitter
+DOMAIN-SUFFIX, twimg.co, Twitter
+DOMAIN-SUFFIX, twimg.com, Twitter
+DOMAIN-SUFFIX, twitpic.com, Twitter
+DOMAIN-SUFFIX, twitter.com, Twitter
+DOMAIN-SUFFIX, vine.co, Twitter
 DOMAIN-KEYWORD, twitter, Twitter
