@@ -1,7 +1,7 @@
 # Apple
-DOMAIN-DUFFIX, ads.internal.unity3d.com, REJECT
-DOMAIN-DUFFIX, ads.prd.ie.internal.unity3d.com, REJECT
-DOMAIN-DUFFIX, crashlytics.com, REJECT
-DOMAIN-DUFFIX, iadsdk.apple.com, REJECT
-DOMAIN-DUFFIX, iphonesubmissions.apple.com, REJECT
-DOMAIN-DUFFIX, unityads.unity3d.com, REJECT
+DOMAIN-SUFFIX, ads.internal.unity3d.com, REJECT
+DOMAIN-SUFFIX, ads.prd.ie.internal.unity3d.com, REJECT
+DOMAIN-SUFFIX, crashlytics.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN-SUFFIX, iphonesubmissions.apple.com, REJECT
+DOMAIN-SUFFIX, unityads.unity3d.com, REJECT
