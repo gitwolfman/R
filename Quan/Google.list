@@ -27,11 +27,11 @@ DOMAIN-SUFFIX, gmodules.com, Google, force-remote-dns
 DOMAIN-SUFFIX, godoc.org, Google, force-remote-dns
 DOMAIN-SUFFIX, golang.org, Google, force-remote-dns
 DOMAIN-SUFFIX, goo.gl, Google, force-remote-dns
-DOMAIN-SUFFIX, Google, force-remote-dns.com, Google, force-remote-dns
-DOMAIN-SUFFIX, Google, force-remote-dns.com.hk, Google, force-remote-dns
-DOMAIN-SUFFIX, Google, force-remote-dnsapis.com, Google, force-remote-dns
-DOMAIN-SUFFIX, Google, force-remote-dnsvideo.com, Google, force-remote-dns
-DOMAIN-SUFFIX, Google, force-remote-dnsusercontent.com, Google, force-remote-dns
+DOMAIN-SUFFIX, google.com, Google, force-remote-dns
+DOMAIN-SUFFIX, google.com.hk, Google, force-remote-dns
+DOMAIN-SUFFIX, googleapis.com, Google, force-remote-dns
+DOMAIN-SUFFIX, googlevideo.com, Google, force-remote-dns
+DOMAIN-SUFFIX, googleusercontent.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gstatic.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gv.com, Google, force-remote-dns
 DOMAIN-SUFFIX, gwtproject.org, Google, force-remote-dns
@@ -56,7 +56,7 @@ DOMAIN-SUFFIX, youtu.be, Google, force-remote-dns
 DOMAIN-SUFFIX, youtube.com, Google, force-remote-dns
 DOMAIN-SUFFIX, yt.be, Google, force-remote-dns
 DOMAIN-SUFFIX, ytimg.com, Google, force-remote-dns
-DOMAIN-KEYWORD, Google, force-remote-dns, Google, force-remote-dns
+DOMAIN-KEYWORD, google, Google, force-remote-dns
 DOMAIN-KEYWORD, gmail, Google, force-remote-dns
 DOMAIN-KEYWORD, youtube, Google, force-remote-dns
 DOMAIN-KEYWORD, blogspot, Google, force-remote-dns
