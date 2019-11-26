@@ -1,18 +1,18 @@
 # FRss
-DOMAIN-DUFFIX, bbsah.com, FRss
-DOMAIN-DUFFIX, binwiki.com, FRss
-DOMAIN-DUFFIX, free-ss.site, FRss
-DOMAIN-DUFFIX, hostloc.com, FRss
-DOMAIN-DUFFIX, ijjyy.net, FRss
-DOMAIN-DUFFIX, liyuans.com, FRss
-DOMAIN-DUFFIX, moren.de, FRss
-DOMAIN-DUFFIX, shadowsocks.org, FRss
-DOMAIN-DUFFIX, ssrshare.com, FRss
-DOMAIN-DUFFIX, ssrtool.com, FRss
-DOMAIN-DUFFIX, teddysun.com, FRss
-DOMAIN-DUFFIX, v2ex.com, FRss
-DOMAIN-DUFFIX, v2ray.com, FRss
-DOMAIN-DUFFIX, yiyult.com, FRss
+DOMAIN-SUFFIX, bbsah.com, FRss
+DOMAIN-SUFFIX, binwiki.com, FRss
+DOMAIN-SUFFIX, free-ss.site, FRss
+DOMAIN-SUFFIX, hostloc.com, FRss
+DOMAIN-SUFFIX, ijjyy.net, FRss
+DOMAIN-SUFFIX, liyuans.com, FRss
+DOMAIN-SUFFIX, moren.de, FRss
+DOMAIN-SUFFIX, shadowsocks.org, FRss
+DOMAIN-SUFFIX, ssrshare.com, FRss
+DOMAIN-SUFFIX, ssrtool.com, FRss
+DOMAIN-SUFFIX, teddysun.com, FRss
+DOMAIN-SUFFIX, v2ex.com, FRss
+DOMAIN-SUFFIX, v2ray.com, FRss
+DOMAIN-SUFFIX, yiyult.com, FRss
 
 # FRss 2
-DOMAIN-DUFFIX, tt1069.com, FRss
+DOMAIN-SUFFIX, tt1069.com, FRss
