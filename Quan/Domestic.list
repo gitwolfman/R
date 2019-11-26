@@ -1,6 +1,7 @@
 # 360
 DOMAIN-SUFFIX, qhres.com, DIRECT
 DOMAIN-SUFFIX, qhimg.com, DIRECT
+
 # alibaba
 DOMAIN-SUFFIX, alibaba.com, DIRECT
 DOMAIN-SUFFIX, alicdn.com, DIRECT
@@ -18,6 +19,15 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, youku.com, DIRECT
 DOMAIN-SUFFIX, xiami.com, DIRECT
 DOMAIN-SUFFIX, xiami.net, DIRECT
+
+# Aloha
+DOMAIN, sensor-data.mrbanana.com, reject
+DOMAIN, aloha-log.enjoymeet.com, reject
+DOMAIN-SUFFIX, enjoymeet.com, DIRECT
+DOMAIN-SUFFIX, fengkongcloud.com, DIRECT
+DOMAIN-SUFFIX, mrbanana.com, DIRECT
+DOMAIN-SUFFIX, zego.im, DIRECT
+
 # baidu
 DOMAIN-SUFFIX, baidu.cn, DIRECT
 DOMAIN-SUFFIX, baidu.com, DIRECT
@@ -31,48 +41,59 @@ DOMAIN-SUFFIX, biliapi.net, DIRECT
 DOMAIN-SUFFIX, bilibili.com, DIRECT
 DOMAIN-SUFFIX, bilibili.tv, DIRECT
 DOMAIN-SUFFIX, hdslb.com, DIRECT
+
 # bytedance
 DOMAIN-SUFFIX, feiliao.com, DIRECT
 DOMAIN-SUFFIX, pstatp.com, DIRECT
 DOMAIN-SUFFIX, snssdk.com, DIRECT
 DOMAIN-SUFFIX, iesdouyin.com, DIRECT
 DOMAIN-SUFFIX, toutiao.com, DIRECT
+
 # cctv
 DOMAIN-SUFFIX, cctv.com, DIRECT
 DOMAIN-SUFFIX, cctvpic.com, DIRECT
 DOMAIN-SUFFIX, livechina.com, DIRECT
+
 # didi
 DOMAIN-SUFFIX, didialift.com, DIRECT
 DOMAIN-SUFFIX, didiglobal.com, DIRECT
 DOMAIN-SUFFIX, udache.com, DIRECT
+
 # chinanet
 DOMAIN-SUFFIX, 21cn.com, DIRECT
+
 # hunantv
 DOMAIN-SUFFIX, hitv.com, DIRECT
 DOMAIN-SUFFIX, mgtv.com, DIRECT
+
 # iqiyi
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
 DOMAIN-SUFFIX, 71.am.com, DIRECT
+
 # jd
 DOMAIN-SUFFIX, jd.com, DIRECT
 DOMAIN-SUFFIX, jd.hk, DIRECT
 DOMAIN-SUFFIX, jdpay.com, DIRECT
 DOMAIN-SUFFIX, 360buyimg.com, DIRECT
+
 # kingsoft
 DOMAIN-SUFFIX, iciba.com, DIRECT
 DOMAIN-SUFFIX, ksosoft.com, DIRECT
+
 # meitu
 DOMAIN-SUFFIX, meitu.com, DIRECT
 DOMAIN-SUFFIX, meitudata.com, DIRECT
 DOMAIN-SUFFIX, meitustat.com, DIRECT
 DOMAIN-SUFFIX, meipai.com, DIRECT
+
 # mi
 DOMAIN-SUFFIX, duokan.com, DIRECT
 DOMAIN-SUFFIX, mi-img.com, DIRECT
 DOMAIN-SUFFIX, miui.com, DIRECT
 DOMAIN-SUFFIX, miwifi.com, DIRECT
 DOMAIN-SUFFIX, xiaomi.com, DIRECT
+
 # netease
 DOMAIN-SUFFIX, 163.com, DIRECT
 DOMAIN-SUFFIX, 126.net, DIRECT
@@ -82,21 +103,26 @@ DOMAIN-SUFFIX, lofter.com, DIRECT
 DOMAIN-SUFFIX, netease.com, DIRECT
 DOMAIN-SUFFIX, netease.im, DIRECT
 DOMAIN-SUFFIX, ydstatic.com, DIRECT
+DOMAIN-SUFFIX, yeah.net, DIRECT
+
 # sina
 DOMAIN-SUFFIX, sina.com, DIRECT
 DOMAIN-SUFFIX, sinaimg.cn, DIRECT
 DOMAIN-SUFFIX, weibo.cn, DIRECT
 DOMAIN-SUFFIX, weibo.com, DIRECT
 DOMAIN-SUFFIX, weibocdn.com, DIRECT
+
 # sohu
 DOMAIN-SUFFIX, sohu.com, DIRECT
 DOMAIN-SUFFIX, sohucs.com, DIRECT
 DOMAIN-SUFFIX, sohu-inc.com, DIRECT
 DOMAIN-SUFFIX, v-56.com, DIRECT
+
 # sogou
 DOMAIN-SUFFIX, sogo.com, DIRECT
 DOMAIN-SUFFIX, sogou.com, DIRECT
 DOMAIN-SUFFIX, sogoucdn.com, DIRECT
+
 # QQ
 DOMAIN-SUFFIX, gtimg.com, DIRECT
 DOMAIN-SUFFIX, idqqimg.com, DIRECT
@@ -106,8 +132,9 @@ DOMAIN-SUFFIX, myqcloud.com, DIRECT
 DOMAIN-SUFFIX, qq.com, DIRECT
 DOMAIN-SUFFIX, tencent.com, DIRECT
 DOMAIN-SUFFIX, tencent-cloud.net, DIRECT
-user-agent, micromessenger%20client, DIRECT
-user-agent, wechat*, DIRECT
+USER-AGENT, micromessenger%20client, DIRECT
+USER-AGENT, wechat*, DIRECT
+
 # yyets
 DOMAIN-SUFFIX, jstucdn.com, DIRECT
 DOMAIN-SUFFIX, zimuzu.io, DIRECT
@@ -116,7 +143,8 @@ DOMAIN-SUFFIX, zmz2019.com, DIRECT
 DOMAIN-SUFFIX, zmzapi.com, DIRECT
 DOMAIN-SUFFIX, zmzapi.net, DIRECT
 DOMAIN-SUFFIX, zmzfile.com, DIRECT
-user-agent, yyets*, DIRECT
+USER-AGENT, yyets*, DIRECT
+
 # other
 DOMAIN-SUFFIX, ctrip.com, DIRECT
 DOMAIN-SUFFIX, douban.com, DIRECT
@@ -162,4 +190,4 @@ DOMAIN-SUFFIX, zhuihd.com, DIRECT
 DOMAIN-SUFFIX, cn, DIRECT
 
 # Geoip CN
-GEOIP, cn, DIRECT
+GEOIP, CN, DIRECT
