@@ -1,7 +1,8 @@
 # GPorn
+# Keyword
+domain-keyword, gay, GPorn
 
-# Official Sites
-# JP
+# Official Sites JP
 domain-suffix, bravo-japan.com, GPorn
 domain-suffix, g-men.co.jp, GPorn
 domain-suffix, bpro.tv, GPorn
@@ -12,7 +13,7 @@ domain-suffix, ko-video.com, GPorn
 domain-suffix, mannhouse.com, GPorn
 domain-suffix, trance-video.com, GPorn
 domain-suffix, vfactory-web.jp, GPorn
-# Whites
+# Official Sites Whites
 domain-suffix, all-americanheroes.net, GPorn
 domain-suffix, belamionline.com, GPorn
 domain-suffix, coltstudiogroup.com, GPorn
