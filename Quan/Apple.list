@@ -11,7 +11,8 @@ DOMAIN-SUFFIX, me.com, Apple
 DOMAIN-SUFFIX, mzstatic.com, Apple
 # Weather
 DOMAIN-SUFFIX, weather.com, Apple
-# AppleKeywords
+# Apple Keywords
 DOMAIN-KEYWORD, apple, Apple
 DOMAIN-KEYWORD, icloud, Apple
 DOMAIN-KEYWORD, itunes, Apple
+IP-CIDR, 17.0.0.0/8, Apple
