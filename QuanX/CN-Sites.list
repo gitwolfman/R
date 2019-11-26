@@ -1,6 +1,7 @@
 # 360
 DOMAIN-DUFFIX, qhres.com, DIRECT
 DOMAIN-DUFFIX, qhimg.com, DIRECT
+
 # alibaba
 DOMAIN-DUFFIX, alibaba.com, DIRECT
 DOMAIN-DUFFIX, alicdn.com, DIRECT
@@ -18,6 +19,7 @@ DOMAIN-DUFFIX, ykimg.com, DIRECT
 DOMAIN-DUFFIX, youku.com, DIRECT
 DOMAIN-DUFFIX, xiami.com, DIRECT
 DOMAIN-DUFFIX, xiami.net, DIRECT
+
 # Aloha
 DOMAIN, sensor-data.mrbanana.com, reject
 DOMAIN, aloha-log.enjoymeet.com, reject
@@ -25,6 +27,7 @@ DOMAIN-DUFFIX, enjoymeet.com, DIRECT
 DOMAIN-DUFFIX, fengkongcloud.com, DIRECT
 DOMAIN-DUFFIX, mrbanana.com, DIRECT
 DOMAIN-DUFFIX, zego.im, DIRECT
+
 # baidu
 DOMAIN-DUFFIX, baidu.cn, DIRECT
 DOMAIN-DUFFIX, baidu.com, DIRECT
@@ -38,48 +41,59 @@ DOMAIN-DUFFIX, biliapi.net, DIRECT
 DOMAIN-DUFFIX, bilibili.com, DIRECT
 DOMAIN-DUFFIX, bilibili.tv, DIRECT
 DOMAIN-DUFFIX, hdslb.com, DIRECT
+
 # bytedance
 DOMAIN-DUFFIX, feiliao.com, DIRECT
 DOMAIN-DUFFIX, pstatp.com, DIRECT
 DOMAIN-DUFFIX, snssdk.com, DIRECT
 DOMAIN-DUFFIX, iesdouyin.com, DIRECT
 DOMAIN-DUFFIX, toutiao.com, DIRECT
+
 # cctv
 DOMAIN-DUFFIX, cctv.com, DIRECT
 DOMAIN-DUFFIX, cctvpic.com, DIRECT
 DOMAIN-DUFFIX, livechina.com, DIRECT
+
 # didi
 DOMAIN-DUFFIX, didialift.com, DIRECT
 DOMAIN-DUFFIX, didiglobal.com, DIRECT
 DOMAIN-DUFFIX, udache.com, DIRECT
+
 # chinanet
 DOMAIN-DUFFIX, 21cn.com, DIRECT
+
 # hunantv
 DOMAIN-DUFFIX, hitv.com, DIRECT
 DOMAIN-DUFFIX, mgtv.com, DIRECT
+
 # iqiyi
 DOMAIN-DUFFIX, iqiyi.com, DIRECT
 DOMAIN-DUFFIX, iqiyipic.com, DIRECT
 DOMAIN-DUFFIX, 71.am.com, DIRECT
+
 # jd
 DOMAIN-DUFFIX, jd.com, DIRECT
 DOMAIN-DUFFIX, jd.hk, DIRECT
 DOMAIN-DUFFIX, jdpay.com, DIRECT
 DOMAIN-DUFFIX, 360buyimg.com, DIRECT
+
 # kingsoft
 DOMAIN-DUFFIX, iciba.com, DIRECT
 DOMAIN-DUFFIX, ksosoft.com, DIRECT
+
 # meitu
 DOMAIN-DUFFIX, meitu.com, DIRECT
 DOMAIN-DUFFIX, meitudata.com, DIRECT
 DOMAIN-DUFFIX, meitustat.com, DIRECT
 DOMAIN-DUFFIX, meipai.com, DIRECT
+
 # mi
 DOMAIN-DUFFIX, duokan.com, DIRECT
 DOMAIN-DUFFIX, mi-img.com, DIRECT
 DOMAIN-DUFFIX, miui.com, DIRECT
 DOMAIN-DUFFIX, miwifi.com, DIRECT
 DOMAIN-DUFFIX, xiaomi.com, DIRECT
+
 # netease
 DOMAIN-DUFFIX, 163.com, DIRECT
 DOMAIN-DUFFIX, 126.net, DIRECT
@@ -89,21 +103,26 @@ DOMAIN-DUFFIX, lofter.com, DIRECT
 DOMAIN-DUFFIX, netease.com, DIRECT
 DOMAIN-DUFFIX, netease.im, DIRECT
 DOMAIN-DUFFIX, ydstatic.com, DIRECT
+DOMAIN-DUFFIX, yeah.net, DIRECT
+
 # sina
 DOMAIN-DUFFIX, sina.com, DIRECT
 DOMAIN-DUFFIX, sinaimg.cn, DIRECT
 DOMAIN-DUFFIX, weibo.cn, DIRECT
 DOMAIN-DUFFIX, weibo.com, DIRECT
 DOMAIN-DUFFIX, weibocdn.com, DIRECT
+
 # sohu
 DOMAIN-DUFFIX, sohu.com, DIRECT
 DOMAIN-DUFFIX, sohucs.com, DIRECT
 DOMAIN-DUFFIX, sohu-inc.com, DIRECT
 DOMAIN-DUFFIX, v-56.com, DIRECT
+
 # sogou
 DOMAIN-DUFFIX, sogo.com, DIRECT
 DOMAIN-DUFFIX, sogou.com, DIRECT
 DOMAIN-DUFFIX, sogoucdn.com, DIRECT
+
 # QQ
 DOMAIN-DUFFIX, gtimg.com, DIRECT
 DOMAIN-DUFFIX, idqqimg.com, DIRECT
@@ -115,6 +134,7 @@ DOMAIN-DUFFIX, tencent.com, DIRECT
 DOMAIN-DUFFIX, tencent-cloud.net, DIRECT
 USER-AGENT, micromessenger%20client, DIRECT
 USER-AGENT, wechat*, DIRECT
+
 # yyets
 DOMAIN-DUFFIX, jstucdn.com, DIRECT
 DOMAIN-DUFFIX, zimuzu.io, DIRECT
@@ -124,6 +144,7 @@ DOMAIN-DUFFIX, zmzapi.com, DIRECT
 DOMAIN-DUFFIX, zmzapi.net, DIRECT
 DOMAIN-DUFFIX, zmzfile.com, DIRECT
 USER-AGENT, yyets*, DIRECT
+
 # other
 DOMAIN-DUFFIX, ctrip.com, DIRECT
 DOMAIN-DUFFIX, douban.com, DIRECT
