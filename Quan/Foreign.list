@@ -270,10 +270,12 @@ DOMAIN-SUFFIX, ying.com, PROXY, force-remote-dns
 DOMAIN-SUFFIX, yusercontent.com, PROXY, force-remote-dns
 
 # Yahoo JP
-DOMAIN-SUFFIX, storage-yahoo.jp, PROXY, force-remote-dns
-DOMAIN-SUFFIX, yahoo.co.jp, PROXY, force-remote-dns
-DOMAIN-SUFFIX, yahooapis.jp, PROXY, force-remote-dns
-DOMAIN-SUFFIX, yimg.jp, PROXY, force-remote-dns
+DOMAIN-SUFFIX, d2-apps.net, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, storage-yahoo.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahoo.co.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yahooapis.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yimg.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yjtag.jp, Yahoo, force-remote-dns
 
 # FRss
 DOMAIN-SUFFIX, bbsah.com, FRss
