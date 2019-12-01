@@ -7,7 +7,9 @@ DOMAIN-SUFFIX, ying.com, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yusercontent.com, Yahoo, force-remote-dns
 
 # Yahoo JP
+DOMAIN-SUFFIX, d2-apps.net, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, storage-yahoo.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahoo.co.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yahooapis.jp, Yahoo, force-remote-dns
 DOMAIN-SUFFIX, yimg.jp, Yahoo, force-remote-dns
+DOMAIN-SUFFIX, yjtag.jp, Yahoo, force-remote-dns
