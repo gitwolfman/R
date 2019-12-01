@@ -270,10 +270,12 @@ DOMAIN-SUFFIX, ying.com, PROXY
 DOMAIN-SUFFIX, yusercontent.com, PROXY
 
 # Yahoo JP
+DOMAIN-SUFFIX, d2-apps.net, PROXY
 DOMAIN-SUFFIX, storage-yahoo.jp, PROXY
 DOMAIN-SUFFIX, yahoo.co.jp, PROXY
 DOMAIN-SUFFIX, yahooapis.jp, PROXY
 DOMAIN-SUFFIX, yimg.jp, PROXY
+DOMAIN-SUFFIX, yjtag.jp, PROXY
 
 # FRss
 DOMAIN-SUFFIX, bbsah.com, FRss
